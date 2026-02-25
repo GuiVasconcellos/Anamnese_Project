@@ -1,0 +1,1927 @@
+ 
+ 
+ 
+ 
+Maria Aparecida Barone Teixeira 
+Carlos Osvaldo Teixeira 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ROTEIRO DE HISTÓRIA CLÍNICA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FACULDADE SÃO LEOPOLDO MANDIC  
+2024 
+Coordenação 
+ 
+Maria Aparecida Barone Teixeira 
+ 
+  
+Colaboradores 
+ 
+Carlos Osvaldo Teixeira 
+Fabiana Vilarinho de Souza 
+Jiviane Beatriz Cunha Barreto da Silva 
+José Augusto Vasconcellos Neto 
+Karla de Almeida Lins Ronconi 
+Marcos Aurélio Teixeira 
+Pompeu Tomé Ribeiro de Campos 
+Sidney Aparecido Brandão 
+Valéria Correia Almeida 
+ 
+ 
+ 
+ 
+ 
+ 
+ROTEIRO DE HISTÓRIA CLÍNICA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FACULDADE SÃO LEOPOLDO MANDIC  
+ 
+©2024, Faculdade São Leopoldo Mandic 
+Todos os direitos reservados e protegidos pela Lei 9.610 de 19/2/1998. 
+ 
+ 
+ 
+ 
+ 
+ISBN 978-65-86718-64-5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ficha Catalográfica elaborada pela Biblioteca São Leopoldo Mandic  
+“Prof. Dr. Cid Santos Gesteira”  
+ 
+ 
+R843  
+ 
+Roteiro de história clínica/Maria Aparecida Barone, coordenadora. – 
+Campinas: Faculdade São Leopoldo Mandic, 2024. 
+ 
+ 79f.  
+ 
+ISBN: 978-65-86718-64-5 
+ 
+ 
+  1. Medicina. 2. História clínica. 3. Roteiro. I. Teixeira, Maria 
+Aparecida Barone. II. Título. 
+  
+ 
+ 
+Roteiro de História Clínica
+(Guia para o Estudante de Medicina)
+Disciplina de Semiologia / Medicina / São Leopoldo Mandic
+Edição 2024 Ů Versão 1.0
+Conteúdo
+I Anamnese 3
+1 IdentiĄcação ( ■❞ ) 4
+2 QD 5
+3 HPMA 6
+4 ISDA 8
+4.1 Sintomas gerais . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+4.2 Pele e fâneros . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+4.3 Cabeça . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+4.3.1 Olhos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+4.3.2 Nariz . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+4.3.3 Ouvidos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+4.3.4 Boca . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+4.3.5 Garganta . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+4.4 Pescoço . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+4.5 Tórax e Aparelhos Cardio e Respiratório . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+4.5.1 Manifestações comuns aos dois sistemas . . . . . . . . . . . . . . . . . . . . . . . . . 13
+4.5.2 Manifestações respiratórias . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+4.5.3 Manifestações cardiovasculares . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+4.6 Abdome e Aparelho Digestório . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+4.7 Aparelho Gênito-Urinário . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+4.7.1 Urinário . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+4.7.2 Reprodutor feminino . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+4.7.3 Reprodutor masculino . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+4.7.4 Mamas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+4.8 Sistema Nervoso . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+4.9 Saúde mental / psiquismo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+4.10 Sistema Osteo-Articular e Muscular . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+4.11 Sistema Endócrino . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+4.12 Sistemas Imunológico e Linfohematopoético . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+5 Antecedentes 22
+5.1 Antecedentes Pessoais . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+5.1.1 Antecedentes mórbidos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+5.1.2 Hábitos de vida . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+5.1.3 Condições de vida . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+5.1.4 Antecedentes epidemiológicos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+5.1.5 Vacinação . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+5.1.6 Medicamentos de uso regular ou contínuo . . . . . . . . . . . . . . . . . . . . . . . . 23
+5.2 Antecedentes Familiares . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+6 Observações 24
+1
+CONTEÚDO 2
+II Exame Físico ( ❊❋ ) 25
+7 EF geral 26
+7.1 Avaliação do Estado Geral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+7.2 Dados Vitais . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+7.3 Dados Antropométricos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+7.4 Avaliação do Estado de Hidratação . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+7.5 Avaliação do Estado de Nutrição . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+7.6 Fácies, Atitude, Postura . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+7.7 Pele, Mucosas e Anexos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+7.7.1 Mucosas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+7.7.2 Pele . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+7.7.3 Hipoderme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+7.7.4 Anexos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+7.8 Linfonodos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+8 EF especial 30
+8.1 Cabeça . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+8.1.1 Crânio . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+8.1.2 Couro cabeludo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+8.1.3 Cabelos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+8.1.4 Olhos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+8.1.5 Nariz . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+8.1.6 Aparelho Auditivo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+8.1.7 Seios da face e Mastóide . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+8.1.8 Boca . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+8.2 Pescoço . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+8.3 Exame Físico do Tórax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+8.3.1 Exame Físico do Aparelho Respiratório . . . . . . . . . . . . . . . . . . . . . . . . . 34
+8.3.2 Exame Físico do Aparelho Cardiovascular . . . . . . . . . . . . . . . . . . . . . . . . 35
+8.4 Exame Físico do Abdome . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+8.4.1 Abdome . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+8.4.2 Fígado . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+8.4.3 Vesícula Biliar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+8.4.4 Baço . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+8.4.5 Rins . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+8.4.6 Aorta . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+8.5 Exame Neurológico . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+8.5.1 Exame do estado mental e comunicação verbal . . . . . . . . . . . . . . . . . . . . . 40
+8.5.2 Motricidade e reĆexos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+8.5.3 Equilíbrio, Marcha, Coordenação . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+8.5.4 Sensibilidade . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+8.5.5 Nervos cranianos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+8.5.6 Sinais meníngeos e radiculares . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+8.6 Aparelho Locomotor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+8.6.1 Exame articular . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+8.6.2 Esqueleto axial . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+8.6.3 Esqueleto apendicular . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+III Hipóteses Diagnósticas ( ❍❉ ) 46
+IV Exames complementares ( ❊①s ) 48
+V Plano terapêutico 50
+VI Prognóstico 52
+Parte I
+Anamnese
+3
+Capítulo 1
+IdentiĄcação ( ■❞ )
+◦ Nome / Nome social:
+◦ Idade / Data de nascimento:
+◦ Sexo / Gênero:
+◦ ◦Sexo biológico:
+◦ ◦Identidade de gênero:
+◦ Raça / Cor / Etnia:
+◦ Naturalidade:
+◦ Nacionalidade:
+◦ Procedência:
+◦ ◦Próxima:
+◦ ◦Remota:
+◦ Religião:
+◦ ProĄssão: (A caracterização detalhada do trabalho vai nos antecedentes pessoais, condições de
+vida.)
+◦ Estado Civil:
+◦ Escolaridade:
+◦ IdentiĄcação dos proĄssionais ou estudantes responsáveis pelo atendimento:
+4
+Capítulo 2
+Queixa principal e sua duração ( ◗❉ )
+Apresentação sumária do principal sintoma e sua duração (o principal sintoma que fez o paciente pro-
+curar o médico). Usar palavras do próprio paciente entre aspas. Deve ser o sintoma que mais incomoda,
+o que é mais importante para o paciente, e faz o paciente procurar o médico. Nem sempre o motivo da
+procura é um sintoma, nesse caso anotar o motivo da procura. (O aluno deve considerar a referência
+temporal em relação ao momento da chegada do paciente ao hospital ou serviço de saúde.)
+5
+Capítulo 3
+História Pregressa da Moléstia
+Atual (❍P▼❆ )
+Descrição pormenorizada e cronológica dos sintomas da doença atual e sua evolução. Incluir , quando
+relevante, o passado mórbido do aparelho comprometido e a repercussão sobre o estado geral (disposição,
+capacidade de trabalho, perda de peso e estado psíquico, entre outros). Organizar em parágrafos, de
+maneira cronológica, tentando evidenciar a associação temporal entre sintomas. Negar os principais
+sintomas relacionados com o aparelho comprometido. Como caracterizar todo e qualquer sintoma? Veja
+o esquema de análise abaixo, que pode ser aplicado, com algumas modiĄcações, acréscimos ou subtrações,
+a todo e qualquer sintoma.
+◦ Histórico do sintoma:
+◦ ◦Começo:
+◦◦ ◦Circunstâncias do aparecimento / desencadeantes dos primeiros sintomas:
+{ antecedentes relevantes; o que o paciente fazia na hora ou logo antes; acontecimentos
+relevantes, no momento ou logo antes; fatores ambientais; atividades pessoais; reações
+emocionais; consumo de comidas, medicamentos, outros produtos; exposição a produtos
+químicos; viagens recentes; outras circunstancias que podem contribuir para a doença
+}
+◦◦ ◦Momento do início de cada sintoma acompanhante:
+◦◦ ◦Outras pessoas com sintomas semelhantes:
+◦◦ ◦Já havia sentido isso antes?: (Episódios similares no passado.)
+◦ ◦Padrões temporais (cronologia):
+◦◦ ◦Modo de início:
+{ insidioso ou sutil; súbito ou brusco }
+◦◦ ◦Modo de progressão ou ritmo:
+{ contínuo; progressivo ou gradativo }
+{ descontínuo; em crises }
+◦◦ ◦Períodos:
+◦ ◦ ◦ ◦Períodos de crise:
+◦ ◦ ◦ ◦Períodos assintomáticos:
+◦ ◦ ◦ ◦Períodos de semelhança ou dissemelhança: (Mudanças no caráter do sintoma,
+que surgem na evolução da doença ou da história, que podem indicar o surgimento de
+complicações.)
+◦◦ ◦Cronologia das crises ou episódios:
+◦ ◦ ◦ ◦Duração:
+◦ ◦ ◦ ◦Curso:
+◦ ◦ ◦ ◦Periodicidade:
+◦ ◦ ◦ ◦Frequência:
+◦ ◦ ◦ ◦Término:
+◦ Caracterização do sintoma:
+◦ ◦Qualidade ou analogia:
+◦ ◦Tipo ou ClassiĄcação:
+◦ ◦TopograĄa / Localização / Irradiação / Propagação:
+6
+CAPÍTULO 3. HPMA 7
+◦ ◦Gravidade / Intensidade / Quantidade:
+◦ Consequências ou repercussão da doença ou do sintoma:
+◦ ◦Emagrecimento:
+◦ ◦Prejuízo funcional:
+◦ ◦Perda de capacidades habituais, de função ou movimento:
+◦◦ ◦Prejuízo na execução de tarefas de trabalho:
+◦◦ ◦Prejuízo na realização das atividades da vida diária:
+◦ ◦Repercussão emocional:
+{ angústia; ansiedade; melancolia; anedonia }
+◦ Sintomas e manifestações associadas:
+◦ ◦Outros sintomas e sua relação com o sintoma principal:
+◦ ◦Evolução ou modiĄcações com o tempo:
+◦ Fatores / ModiĄcadores:
+◦ ◦Efeito:
+{ fatores precipitantes; fatores de piora ou agravantes; fatores de melhora ou atenuantes }
+◦ ◦Natureza dos fatores:
+{ uso prévio de drogas e medicamentos; fatores ambientais, temperatura, umidade; esforço
+físico; atividades pessoais; reações emocionais, emoções; posições; gestação; outras cir-
+cunstâncias
+}
+◦ ◦Relação com funções Ąsiológicas e com o ciclo circadiano:
+{ alimentação; apetite; deambulação; evacuação; menstruação; micção; postura; sono }
+◦ Tentativas de tratamento:
+◦ ◦Medicamentos utilizados e ainda em uso:
+◦ ◦Tratamentos alternativos:
+Capítulo 4
+Interrogatório sobre os Sintomas
+dos Demais Aparelhos ( ■❙❉❆ )
+Interrogatório sobre todos os aparelhos cujos dados obtidos não se relacionam com a doença atual ou
+com a evolução da HPMA. Sempre que presente, um sintoma deve ser caracterizado da melhor maneira
+possível (duração, intensidade, frequência, circunstâncias, relação com funções orgânicas, associação
+com outros sintomas, etc.).
+4.1 Sintomas gerais
+◦ Dor:
+◦ ◦Localização:
+◦◦ ◦Sede:
+◦◦ ◦Extensão: (área abrangida pela dor)
+◦◦ ◦Irradiação:
+◦ ◦Tipo / Qualidade / Caráter:
+{ latejante; em aperto; em peso; em pontada; em agulhada; em queimação; em cólica }
+◦ ◦Intensidade:
+{ leve; moderada; grave }
+◦ ◦Fenômenos e/ou fatores:
+◦◦ ◦Que desencadeiam:
+◦◦ ◦Que agravam ou pioram:
+◦◦ ◦Que melhoram ou atenuam:
+◦ ◦Manifestações que acompanham:
+◦ ◦Horário / Duração / Evolução:
+◦ ◦Períodos de semelhança ou dissemelhança:
+◦ Febre:
+◦ ◦Intensidade:
+◦ ◦Duração:
+◦ ◦Início:
+{ insidioso; súbito }
+◦ ◦Padrões de febre: (Horário, evolução, curva térmica, periodicidade)
+{ intermitente (terçã / quartã); remitente; ondulante / recorrente }
+{ matutina; vespertina; noturna }
+◦ ◦Sintomas associados:
+◦◦ ◦Que precedem:
+◦◦ ◦Que acompanham:
+◦◦ ◦Que sucedem:
+◦◦ ◦Por exemplo:
+{ calafrios; sudorese; mialgia; boca seca }
+8
+CAPÍTULO 4. ISDA 9
+◦ ◦Fase de defervescência:
+{ em ŞliseŤ (lentamente) (resolução lenta); em ŞcriseŤ (abruptamente) (resolução abrupta) }
+◦ ◦Uso de medicamentos para febre: (por quanto tempo permanece sem febre após tomar me-
+dicamento?)
+◦ Edema:
+◦ ◦Localização:
+◦ ◦Extensão:
+◦ ◦Consistência:
+{ mole; duro }
+◦ ◦Horário de aparecimento ou piora:
+◦ ◦Fatores de melhora ou piora:
+◦ ◦Perda da função:
+◦ ◦Presença de sintomas Ćogísticos:
+{ dor; calor; rubor }
+◦ Mudança no peso:
+{ ganho; perda }
+{ relacionado com ingesta; não relacionado com ingesta }
+◦ ◦QuantiĄcar:
+◦ ◦Em quanto tempo:
+◦ Quedas:
+◦ Outros sintomas gerais:
+{ astenia (= fadiga); prostração; adinamia }
+{ apatia }
+{ inapetência (= hiporexia); anorexia; intolerância alimentar }
+{ alteração de comportamento; alteração do sono }
+4.2 Pele e fâneros
+◦ Alteração da temperatura:
+◦ ◦Qual alteração:
+◦ ◦Localização:
+◦ ◦Sintomas associados:
+◦ Coloração alterada:
+◦ ◦Cor: (vide também cianose e icterícia.)
+◦ ◦Localização:
+◦ ◦Sintomas associados:
+◦ Alterações da piliĄcação:
+{ alopecia; hirsutismo }
+◦ ◦Distribuição alterada em relação ao gênero:
+◦ Alterações das unhas:
+◦ ◦Coloração / Manchas:
+◦ ◦Espessura:
+◦ ◦Irregularidade:
+◦ Alterações de sensibilidade:
+◦ ◦Sensações anormais (ou parestésicas): (formigamento, dormência, ardência, frio, calor , co-
+michão, agulhadas, peso, compressão)
+(vide também interrogatório neurológico )
+◦ Prurido:
+CAPÍTULO 4. ISDA 10
+◦ ◦Duração / Evolução:
+◦ ◦Localização:
+◦ ◦Sintomas associados:
+◦ Umidade da pele:
+{ pele seca; pele oleosa }
+◦ Alterações da sudorese:
+{ anidrose; hipo-hidrose; hiperidrose }
+{ localizada; generalizada }
+◦ Lesões:
+◦ ◦Tipo:
+{ bolha; nódulo; mancha; outras }
+◦ ◦Localização:
+◦ ◦Tamanho:
+◦ ◦Odor:
+◦ ◦Característica das bordas:
+◦ ◦Espessura:
+◦ ◦ConĆuência:
+◦ ◦Discromia:
+◦ ◦Hiperemia associada:
+◦ ◦Presença de secreção:
+◦ ◦Sensibilidade:
+◦ Tatuagens e “piercings” :
+◦ ◦Condições de realização:
+4.3 Cabeça
+◦ Cefaleia:
+◦ ◦Vide características gerais da dor :
+◦ ◦Aura: (sintomas precedentes à dor)
+4.3.1 Olhos
+◦ Acuidade visual:
+{ amaurose; uso de lentes corretivas? (caracterizar) }
+◦ Diplopia:
+{ mono-ocular; bi-ocular horizontal; bi-ocular vertical }
+◦ Alteração de campo visual:
+{ hemianopsia; quadrantopsia }
+◦ Escotomas:
+◦ Moscas volantes:
+◦ Dor ocular: (vide características da dor )
+◦ Prurido:
+◦ Olho seco / xeroftalmia:
+◦ Lacrimejamento:
+◦ Fotofobia:
+◦ Hiperemia conjuntival:
+CAPÍTULO 4. ISDA 11
+◦ Alterações do globo ocular:
+{ exoftalmo; endoftalmo }
+◦ Sintomas relacionados às pálpebras:
+◦ ◦Edema palpebral: (vide características gerais do edema )
+◦ ◦Sintomas inĆamatórios:
+◦ ◦Ptose:
+◦ ◦Lagoftalmo:
+4.3.2 Nariz
+◦ Olfação:
+{ anosmia; hiposmia; hiperosmia; cacosmia; fantosmia }
+◦ Dor: (vide características da dor )
+◦ Epistaxe: (sangramento nasal)
+◦ ◦Volume:
+◦ ◦Frequência:
+◦ ◦Duração:
+◦ ◦Fator desencadeante:
+◦ ◦Sintomas que acompanham:
+◦ ◦Lateralidade:
+◦ Coriza / rinorreia:
+◦ ◦Cor:
+◦ ◦Odor:
+◦ ◦Viscosidade:
+◦ ◦Frequência:
+◦ ◦Fator desencadeante:
+◦ ◦Sintomas que acompanham:
+◦ ◦Lateralidade:
+◦ Obstrução:
+◦ ◦Duração:
+◦ ◦Horário:
+◦ ◦Fator desencadeante:
+◦ ◦Sintomas que acompanham:
+◦ ◦Lateralidade:
+◦ Espirros:
+◦ ◦Salvas:
+◦ ◦Duração da crise:
+◦ ◦Frequência:
+◦ ◦Horário:
+◦ ◦Fator desencadeante:
+◦ ◦Sintomas que acompanham:
+◦ Prurido:
+◦ ◦Duração:
+◦ ◦Frequência:
+◦ ◦Horário:
+◦ ◦Fator desencadeante:
+◦ ◦Sintomas que acompanham:
+CAPÍTULO 4. ISDA 12
+4.3.3 Ouvidos
+◦ Acuidade auditiva:
+◦ ◦Alteração:
+{ hipoacusia; surdez; hiperacusia }
+◦ ◦Lateralidade:
+{ direita; esquerda; bilateral }
+◦ ◦Início / Evolução:
+{ insidioso; súbito }
+◦ Dor: (vide características da dor )
+◦ Otorreia:
+◦ ◦Cor:
+◦ ◦Odor:
+◦ ◦Viscosidade:
+◦ ◦Frequência:
+◦ ◦Fator desencadeante:
+◦ ◦Sintomas que acompanham:
+◦ ◦Lateralidade:
+◦ Acúfenos / Zumbidos / Tinido:
+◦ ◦Lateralidade:
+◦ ◦Horário:
+◦ ◦Duração:
+◦ ◦Fator desencadeante:
+◦ ◦Sintomas que acompanham:
+◦ Descamação:
+◦ ◦Lateralidade:
+◦ ◦Fator desencadeante:
+◦ ◦Duração:
+◦ ◦Sintomas que acompanham:
+◦ Prurido:
+◦ ◦Lateralidade:
+◦ ◦Fator desencadeante:
+◦ ◦Duração:
+◦ ◦Sintomas que acompanham:
+◦ Otorragia: (sangramento auditivo)
+◦ ◦Volume:
+◦ ◦Frequência:
+◦ ◦Duração:
+◦ ◦Fator desencadeante:
+◦ ◦Sintomas que acompanham:
+◦ ◦Lateralidade:
+CAPÍTULO 4. ISDA 13
+4.3.4 Boca
+◦ Dentição:
+◦ ◦Uso de prótese:
+◦ Gustação / Paladar:
+{ diferenciada; disgeusia; ageusia }
+◦ Sintomas das Gengivas, Mucosas, Lábios, Língua:
+◦ Salivação:
+{ sialorreia ou ptialismo; sialoquiese }
+4.3.5 Garganta
+(Abrange faringe e laringe.)
+◦ Rouquidão / Disfonia: (a disfonia também pode estar relacionada ao aparelho neurológico)
+◦ Afonia: (este sintoma também pode estar relacionado ao aparelho neurológico)
+◦ Odinofagia: (este sintoma também pode estar relacionado ao aparelho digestório)
+◦ Disfagia: (este sintoma também pode estar relacionado ao aparelho digestório ou neurológico)
+4.4 Pescoço
+◦ Aumento de volume:
+◦ Proeminência da musculatura:
+◦ Pulsação vascular:
+◦ Nódulos:
+◦ Dor: (vide características da dor )
+4.5 Tórax e Aparelhos Cardio e Respiratório
+4.5.1 Manifestações comuns aos dois sistemas
+◦ Dor torácica: (vide características gerais da dor )
+◦ Cianose: (vide também coloração da pele )
+◦ Dispneia:
+◦ ◦Fatores desencadeantes:
+{ esforço; decúbito; alérgenos; frio; outros }
+◦ ◦Início:
+{ súbito; lento; progressivo; crises }
+◦ ◦Evolução ou progressão:
+◦ ◦Horário de aparecimento:
+◦ ◦Duração das crises:
+◦ ◦Se há intervalos com melhora, caracterizar:
+◦ ◦Sintomas associados:
+{ chiado; roncos; tosse; catarro; palpitação }
+◦ ◦Dispneia de esforço:
+{ grandes; médios; pequenos }
+◦ ◦Dispneia em repouso:
+◦ ◦Ortopneia: (dispneia que melhora com a posição ortostática)
+◦ ◦Dispneia paroxística noturna:
+CAPÍTULO 4. ISDA 14
+4.5.2 Manifestações respiratórias
+◦ Tosse:
+◦ ◦Característica:
+{ seca; produtiva }
+◦ ◦Intensidade:
+◦ ◦Frequência dos acessos:
+◦ ◦Duração dos acessos:
+◦ ◦Horário de aparecimento:
+◦ ◦Sintomas associados:
+{ expectoração; dispneia; chiado; febre }
+◦ Expectoração:
+◦ ◦Características físicas: (e sua evolução)
+◦◦ ◦Quantidade:
+◦◦ ◦Cor:
+◦◦ ◦Odor:
+◦◦ ◦Viscosidade:
+◦ ◦Escarro hemoptoico:
+◦ ◦Hemoptise:
+◦ ◦Vômica:
+◦ ◦InĆuência da posição:
+◦ ◦Horário:
+◦ ◦Duração:
+◦ Chiadeira:
+◦ ◦Frequência:
+◦ ◦Duração dos episódios:
+◦ ◦Fatores desencadeantes:
+4.5.3 Manifestações cardiovasculares
+◦ Palpitações:
+◦ Edema: (vide tópico Edema nos sintomas gerais )
+◦ Claudicação intermitente:
+◦ Histórico da pressão arterial sistêmica:
+4.6 Abdome e Aparelho Digestório
+(A caracterização da dieta e dos hábitos alimentares pode ser feita nos antecedentes pessoais, condições
+de vida. Se relevante para caracterização das queixas digestivas, trazer essa caracterização para este
+aparelho.)
+◦ Alterações do apetite:
+{ polifagia; bulimia; inapetência; picacismo }
+◦ Disfagia:
+◦ Odinofagia:
+◦ Dor retro-esternal: (Vide as características da dor .)
+◦ Dor abdominal: (Vide as características da dor .)
+(Atentar especialmente para localização nas regiões abdominais e relação com ingestão de alimen-
+tos.)
+◦ Náuseas:
+CAPÍTULO 4. ISDA 15
+◦ ◦Relação ou não com as refeições:
+◦ Vômitos:
+◦ ◦Cor:
+◦ ◦Sabor:
+◦ ◦Odor:
+◦ ◦Quantidade:
+◦ ◦Composição física:
+{ hematêmese; fecais; fecaloides; Ćuídos biliosos; com ou sem restos alimentares }
+◦ ◦Relação com as refeições:
+◦◦ ◦Com relação com as refeições:
+{ imediato (até meia hora); precoce (de 30 a 120 min); tardio (mais de 2h); de estase (após
+6h) }
+◦◦ ◦Sem relação com as refeições:
+{ vômito em jato; vômito por reĆexo víscero-visceral }
+◦ Soluços:
+◦ Eructação:
+◦ Regurgitação:
+◦ Empachamento:
+◦ Pirose: (o mesmo que azia; não confundir com queimação retro-esternal)
+◦ Hábito intestinal:
+◦ ◦Frequência:
+◦ ◦Sintomas associados:
+◦◦ ◦Puxo / Tenesmo:
+◦◦ ◦Constipação intestinal:
+◦ ◦Fezes:
+◦◦ ◦Forma:
+{ normal (cilíndrica); cíbalos; Ąta }
+◦◦ ◦Consistência:
+◦◦ ◦Cor:
+◦◦ ◦Odor característico:
+◦ ◦Diarreia:
+◦ ◦Disenteria: (diarreia com sangue e/ou muco e/ou pus)
+◦ Prurido anal:
+◦ Dor anal: (vide características da dor )
+◦ Sangramento digestivo:
+◦ ◦Melena:
+◦ ◦Enterorragia: (evacuação de sangue vivo)
+◦ ◦Hematoquezia: (laivos de sangue nas fezes)
+◦ Flatulência:
+◦ Colúria:
+CAPÍTULO 4. ISDA 16
+4.7 Aparelho Gênito-Urinário
+4.7.1 Urinário
+◦ Hábito urinário:
+◦ ◦Frequência:
+◦ Urina:
+◦ ◦Cor:
+◦ ◦Odor:
+◦ ◦Quantidade:
+{ poliúria; polaciúria; oligúria; anúria }
+◦ ◦Hematúria:
+◦ ◦Proteinúria:
+◦ Dor:
+{ cólica; disúria; estrangúria }
+◦ Nictúria:
+◦ Incontinência urinária:
+{ espontânea; de esforço }
+◦ Urgência miccional:
+◦ Retenção Urinária:
+◦ Alterações do jato urinário:
+◦ ◦Jato fraco ou diminuído:
+◦ ◦Gotejamento terminal:
+◦ ◦Hesitação: (diĄculdade para iniciar a micção)
+◦ ◦Intermitência da micção:
+4.7.2 Reprodutor feminino
+◦ Pubarca:
+◦ Telarca:
+◦ Menarca:
+◦ Coitarca:
+◦ Menstruação: Caracterizar o ciclo quanto a:
+◦ ◦Regularidade:
+◦ ◦Duração:
+◦ ◦Aspecto do sangramento:
+◦ ◦Quantidade:
+{ hipermenorreia; oligomenorreia; amenorreia }
+◦ ◦Sintomas que acompanham:
+◦◦ ◦Dismenorreia:
+◦◦ ◦Tensão pré-menstrual:
+◦◦ ◦Cefaleia:
+◦ ◦Data da última menstruação:
+◦ Fogachos:
+◦ Menopausa: (última menstruação, com mais de um ano de amenorreia)
+◦ ◦Faz uso de terapia de reposição hormonal?:
+◦ Leucorreia:
+CAPÍTULO 4. ISDA 17
+◦ ◦Volume:
+◦ ◦Cor:
+◦ ◦Odor:
+◦ ◦Duração:
+◦ ◦Prurido:
+◦ ◦Período:
+◦ Lesões vulvares:
+◦ Vida sexual ativa:
+◦ ◦Há quantos anos:
+◦ ◦Quantos parceiros:
+◦ ◦Homo ou heterossexuais:
+◦ ◦Uso de método contraceptivo:
+◦ ◦Preservativo:
+◦ ◦Frequência:
+◦ ◦Libido:
+◦ Relações sexuais:
+◦ ◦Dispareunia:
+◦ ◦Grau de satisfação:
+◦ ◦Orgasmo:
+◦ Antecedentes obstétricos:
+◦ ◦Paridade:
+◦◦ ◦Gestações:
+{ partos normais; prematuros; cesáreas; abortos }
+◦◦ ◦Fórmula obstétrica: ● ❴ P ❴ ❈ ❴ ❆ ❴ ❋❱ ❴
+◦ ◦Complicações apresentadas durante as gestações:
+4.7.3 Reprodutor masculino
+◦ Corrimento uretral:
+◦ Alterações na bolsa escrotal e testículos:
+{ aumento de volume; nódulos; dor }
+◦ Alterações no pênis:
+{ lesões; curvatura; dor }
+◦ Vida sexual:
+◦ ◦Há quantos anos?:
+◦ ◦Frequência:
+◦ ◦Quantos parceiros:
+◦ ◦Homo ou heterossexuais:
+◦ ◦Libido:
+◦ ◦Ereção:
+{ impotência; priapismo }
+◦ ◦Orgasmo:
+{ ejaculação precoce }
+◦ ◦Uso de preservativo:
+CAPÍTULO 4. ISDA 18
+4.7.4 Mamas
+◦ Mastalgia: (vide características da dor)
+◦ Alterações no mamilo:
+◦ ◦Galactorreia:
+◦ Secreções:
+◦ ◦Lado:
+{ direito; esquerdo }
+◦ ◦Aspecto:
+◦◦ ◦Cor:
+◦◦ ◦Odor:
+◦◦ ◦Viscosidade:
+◦ ◦Fator desencadeante:
+◦ ◦Sintomas que acompanham:
+◦ ◦Frequência:
+◦ ◦Aparecimento:
+{ espontâneo; por expressão }
+◦ Nódulos:
+◦ ◦Tamanho:
+◦ ◦Localização:
+◦ ◦Consistência:
+◦ ◦Sensibilidade:
+◦ ◦Alterações na pele:
+{ retração; rugosidade; Ąstulização; ulceração }
+◦ Amamentações: (só para mulheres)
+◦ Ginecomastia: (só para homens)
+4.8 Sistema Nervoso
+◦ Alterações da Memória:
+◦ Alterações de Comportamento:
+◦ Alterações de Humor:
+◦ Alterações da Fala: (alterações da fala também podem ser sintomas da garganta)
+.
+◦ Alterações do Movimento:
+◦ ◦Alterações da Força Muscular (ŞparalisiasŤ): (monoŰ, hemiŰ, paraŰ, tetraŰ)
+◦◦ ◦Paresias:
+◦◦ ◦Plegias:
+◦ ◦Alterações da Coordenação Motora:
+◦ ◦Alterações do Equilíbrio:
+◦ ◦Movimentos Involuntários: (por exemplo: tremores, tiques, etc)
+.
+◦ Alterações de sensibilidade:
+{ hipoestesia; hiperestesia; parestesia }.
+◦ Crises Epilépticas (ŞconvulsõesŤ): (obter relato detalhado dos acompanhantes)
+◦ ◦Fatores desencadeantes:
+{ luzes; privação sono; hipoglicemia; alterações metabólicas }
+CAPÍTULO 4. ISDA 19
+◦ ◦Início:
+{ bilateral; unilateral }
+◦ ◦Localização:
+◦◦ ◦Segmentos do corpo:
+◦ ◦Percepção:
+{ perceptiva (com consciência); disperceptiva (sem consciência) }
+◦ ◦Sintomas motores:
+{ simétrica; assimétrica }
+{ tônus; contração }
+◦ ◦Sintomas não motores:
+{ ausência }
+◦ ◦Frequência das crises:
+◦◦ ◦Data da última crise:
+◦ ◦Duração das crises:
+◦ ◦Sintomas associados durante as crises:
+◦◦ ◦Autonômicos:
+{ liberação esĄncteriana; palpitação; rubor; pilo-ereção }
+◦ ◦Fase de recuperação:
+◦◦ ◦Duração:
+◦◦ ◦Sintomas associados após a crise:
+{ confusão }
+◦ ◦Medicamentos de uso crônico:
+◦◦ ◦Medicamentos que já usou:
+◦◦ ◦Medicamento em uso atual:
+◦◦ ◦Regularidade no uso:
+.
+◦ Síncope e pré-síncope (lipotimia): (obter relato detalhado dos acompanhantes)
+◦ ◦Perda ou alteração de consciência?:
+◦ ◦Início:
+{ súbito; com pródromos }
+◦ ◦Duração:
+◦ ◦Frequência:
+◦ ◦Fatores desencadeantes:
+◦◦ ◦Alteração da postura corporal:
+◦◦ ◦Relação com outros fenômenos Ąsiológicos:
+{ tosse; micção; evacuação; riso }
+◦ ◦Sintomas associados:
+{ alteração equilíbrio; palpitações; náuseas; vômitos; liberação de esfíncteres; mioclonias; con-
+fusão mental; queda }
+◦ ◦Recuperação:
+{ rápida; lenta; com período confusional }
+◦ Tontura: (Şcabeça vaziaŤ, atordoamento, estonteamento, atrapalhação da visão)
+◦ ◦Descrição nas palavras do paciente:
+◦ ◦Relação com a postura corporal:
+◦ Vertigem: (sensação rotatória)
+◦ ◦Característica:
+{ vertigem subjetiva (o paciente gira); vertigem objetiva (as coisas giram) }
+◦ ◦Início:
+{ súbito; lento }
+◦ ◦Horário e evolução:
+CAPÍTULO 4. ISDA 20
+◦◦ ◦Duração:
+{ segundos; minutos; horas; dias; semanas }
+{ intermitente }
+◦◦ ◦Nº de vezes que ocorre ao dia:
+◦ ◦Intensidade:
+◦ ◦Fatores desencadeantes:
+◦◦ ◦Alimentos:
+◦◦ ◦Movimentos da cabeça:
+◦◦ ◦Uso de medicamentos:
+◦ ◦Manifestações acompanhantes:
+{ náuseas; vômitos; diaforese; diplopia; incoordenação; hipoacusia; tinito; nistagmo; queda; al-
+teração de consciência }
+4.9 Saúde mental / psiquismo
+(Colocar-se sempre disponível para ouvir o paciente.)
+◦ Falta de interesse ou prazer:
+◦ ◦Para realizar tarefas habituais:
+◦ ◦Para realizar passatempos:
+◦ Perda do desejo ou prazer para a atividade sexual:.
+◦ Sentimento de desesperança:
+◦ Sensação de vazio:
+◦ Pessimismo:
+◦ Choro fácil:.
+◦ Alteração do sono: (vide Şsintomas geraisŤ )
+◦ Alteração do apetite: (vide Şaparelho digestórioŤ )
+◦ ◦Compulsão alimentar:
+◦ Alterações da afetividade:.
+◦ DiĄculdade de concentração:
+◦ Pensamentos indesejados:
+◦ Pensar na morte:
+◦ Ideação de suicídio:
+◦ Sentimento de culpa, inutilidade ou desamparo:
+◦ Falta de conĄança: (baixa auto-estima).
+◦ Preocupação exagerada:
+◦ Medo inexplicável:
+◦ Inquietação:
+◦ Impulsividade:
+◦ Irritabilidade:.
+◦ Duração dos sintomas:
+{ menos de 2 semanas; entre 2 e 4 semanas; mais de 4 semanas }.
+◦ Tratamentos psíquicos:
+◦ ◦Uso de medicações psicoativas:
+◦ ◦Psicoterapias:
+◦ Internações psiquiátricas recentes:
+CAPÍTULO 4. ISDA 21
+4.10 Sistema Osteo-Articular e Muscular
+◦ Dor:
+◦ ◦Características gerais da dor: (Vide ŞdorŤ , em sintomas gerais.)
+(Além das características gerais, especiĄcar os quesitos a seguir .)
+◦ ◦Localização da dor:
+{ articular; ossea; muscular }
+◦ ◦Padrão de localização da dor articular:
+{ monoarticular; poliarticular; oligoarticular }
+◦ ◦Padrão de evolução da dor articular:
+{ aditiva simétrica; aditiva não simétrica; recorrente; migratória }
+◦ ◦Ritmo da dor:
+{ inĆamatório; mecânico }
+◦ Deformidades:
+◦ Alteração funcional:
+◦ ◦Limitação da locomoção / movimento:
+◦ ◦Rigidez matinal:
+{ fugaz; duradoura }
+◦ Sintomas inĆamatórios: (Vide Şsintomas ĆogísticosŤ em sintomas gerais.)
+4.11 Sistema Endócrino
+Atentar para as doenças crônicas deste aparelho. Quando o paciente as referir , caracterizar aqui.
+4.12 Sistemas Imunológico e Linfohematopoético
+Linfonodos: quando o paciente os referir , perguntar sobre: tamanho, localização, número, evolução,
+sensibilidade e sintomas acompanhantes (tais como febre, sudorese noturna, emagrecimento).
+Atentar para as doenças crônicas destes sistemas. Quando o paciente as referir , caracterizar aqui.
+Capítulo 5
+Antecedentes
+5.1 Antecedentes Pessoais
+5.1.1 Antecedentes mórbidos
+(Só as doenças passadas. As doenças em atividade, que são chamadas de comorbidades, devem ser
+registradas no IDA de cada aparelho.)
+◦ Doenças da infância:
+◦ Alergias:
+◦ Doenças do passado e traumatismos: (Episódios resolvidos sem sequelas, comentar aqui. Se
+houver sequelas com sintomas, caracterizar nos respectivos aparelhos.)
+◦ Internações prévias:
+◦ Cirurgias:
+◦ Infecções sexualmente transmissíveis:
+◦ Procedimentos estéticos:
+◦ Quimioterapia ou radioterapia:
+◦ Transfusões sanguíneas:
+5.1.2 Hábitos de vida
+◦ Tabagismo:
+◦ Etilismo:
+◦ Drogas ilícitas:
+◦ Atividade física:
+5.1.3 Condições de vida
+◦ Tipo de trabalho, atividades exercidas, riscos proĄssionais:
+◦ Remuneração: (em relação ao salário mínimo)
+◦ Alimentação: (hábitos alimentares)
+◦ ◦Horários:
+◦ ◦Qualidade:
+◦ ◦Quantidade:
+◦ Habitação:
+{ alvenaria; barro; madeira }
+◦ Condições sanitárias:
+◦ ◦Água:
+◦ ◦Esgoto:
+◦ Contato com animais domésticos:
+22
+CAPÍTULO 5. ANTECEDENTES 23
+5.1.4 Antecedentes epidemiológicos
+◦ Chagas:
+◦ Esquistossomose:
+5.1.5 Vacinação
+(Vacinas relevantes conforme a faixa etária do paciente.)
+5.1.6 Medicamentos de uso regular ou contínuo
+Listar os medicamentos em uso contínuo ou regular conforme as doenças em atividade descritas no in-
+terrogatório dos demais aparelhos. Essa lista especiĄca doses e horários, para facilitar a conciliação
+medicamentosa. Anotar adesão ou regularidade no uso de cada medicamento; por exemplo, perguntar
+pelo uso recente (hoje, ontem, anteontem, etc); comparar doses prescritas com doses efetivamente utiliza-
+das. Perguntar também por medicamentos não prescritos, medicamentos de venda livre, Ątoterápicos e
+terapias alternativas. Conferir a Şsacolinha dos remédiosŤ do paciente.
+5.2 Antecedentes Familiares
+◦ Referir ou negar doenças de incidência múltipla na família, tais como:
+◦ ◦Diabetes Mellitus:
+◦ ◦Hipertensão Arterial Sistêmica:
+◦ ◦Dislipidemia:
+◦ ◦Neoplasias:
+◦ ◦Tuberculose:
+◦ ◦Hanseníase:
+◦ ◦Outras: (doenças genéticas, . . . )
+◦ Causa de morte dos indivíduos da família: (Anotar também a idade do falecimento.)
+Capítulo 6
+Observações
+(Estas observações não são obrigatórias.)
+◦ Referir o grau de conĄança ou qualidade que os dados merecem:
+◦ ◦Grau de conĄança da informação:
+◦ ◦Circunstâncias peculiares da entrevista:
+24
+Parte II
+Exame Físico ( ❊❋ )
+25
+Capítulo 7
+Exame Físico Geral ( ❊❋● )
+7.1 Avaliação do Estado Geral
+◦ EG:
+{ Bom; Regular; Mau }
+7.2 Dados Vitais
+◦ Temperatura: (°C)
+◦ Pressão arterial: (mmHg)
+◦ Frequência Cardíaca: (bpm)
+◦ Frequência Respiratória: (irpm)
+7.3 Dados Antropométricos
+◦ Tipo físico:
+{ mediolíneo; longilíneo; brevilíneo }
+◦ Peso: (Kg)
+◦ Altura: (m)
+◦ Índice de massa corpórea (IMC): ( Kg / m 2 )
+(Outras medidas de utilidade especíĄca, por exemplo: cintura ou circunferência abdominal, pregas cu-
+tâneas, etc.)
+7.4 Avaliação do Estado de Hidratação
+I. Parâmetros:
+◦ Pele:
+◦ ◦Turgor:
+◦ ◦Umidade:
+◦ ◦Elasticidade:
+◦ Mucosa oral:
+◦ Umidade / Salivação:
+◦ Língua:
+◦ ◦Veias sublinguais:
+{ túrgidas; colabadas }
+◦ Olhos:
+◦ ◦Globo ocular:
+{ olhos encovados }
+26
+CAPÍTULO 7. EF GERAL 27
+◦ ◦Lacrimejamento:
+◦ Pressão arterial e pressão de pulso:
+◦ Variação do peso:
+II. Avaliação:
+◦ Estado de hidratação:
+{ hidratado }
+{ desidratação leve; desidratação moderada; desidratação grave }
+7.5 Avaliação do Estado de Nutrição
+I. Parâmetros:
+◦ Peso: (referências: mínimo, normal, máximo)
+◦ ◦Peso habitual:
+◦ ◦Peso atual:
+◦ Altura:
+◦ Pele e fâneros:
+◦ Musculatura:
+◦ Panículo adiposo: (pregas cutâneas)
+◦ Edema: (Vide também ŞedemaŤ no EF da hipoderme.)
+II. Avaliação:
+◦ Estado de nutrição:
+{ bom; regular; mau }
+7.6 Fácies, Atitude, Postura
+◦ Fácies:
+{ normal; de dor }
+{ ansiosa; preocupada; desconĄada; depressiva }
+{ desidratada; caquética; hipocrática }
+{ lua cheia; hipertireoidea; hipotireoidea; esclerodérmica; pletórica }
+{ paralisia facial; parkinsoniana }
+◦ Atitude:
+{ ativa normal; ativa forçada; passiva }
+(Se ativa forçada:)
+{ voluntária; involuntária (opistótono) }
+(Se ativa forçada voluntária:)
+{ genopeitoral; cocóras; antálgica; ortopneica }
+◦ Decúbito preferencial na doença:
+{ dorsal ou supino; ventral ou prono; lateral direito ou esquerdo }
+7.7 Pele, Mucosas e Anexos
+Esta seção pode ser parte do exame físico geral ou parte do exame físico especial, quando se chamaria
+Şexame dermatológicoŤ, com algumas diferenças de enfoque, profundidade e prioridade.
+7.7.1 Mucosas
+◦ Cor / Coloração:
+{ corado; descorado }
+{ cianose; icterícia; coloração anormal }
+◦ Umidade:
+◦ Pigmentação anormal:
+◦ Presença de lesões: (descrever)
+CAPÍTULO 7. EF GERAL 28
+7.7.2 Pele
+◦ Cor / Coloração:
+{ corado; descorado }
+{ cianose; icterícia; coloração anormal }
+◦ Elasticidade:
+◦ Umidade:
+◦ Temperatura:
+◦ Sensibilidade: (Vide também EF neurológico.)
+◦ Textura da superfície da pele:
+{ lisa; rugosa ou enrugada; pergaminácea }
+◦ Espessura:
+Lesões de pele
+◦ Tamanho / Extensão:
+◦ Forma:
+◦ Superfície:
+◦ ◦Cor:
+◦ ◦Plana:
+{ regular; irregular }
+◦ ◦Elevação:
+◦ ◦Escavação / Ulceração:
+◦ Características das bordas:
+◦ ◦Regularidade:
+◦ ◦Contornos:
+◦ Descamação:
+◦ Sensibilidade:
+◦ ◦Dor:
+◦ ◦Alteração da sensibilidade:
+7.7.3 Hipoderme
+(Tecido celular subcutâneo.)
+◦ Quantidade:
+{ escasso; normal; abundante }
+◦ Edema:
+◦ ◦localização:
+◦ ◦intensidade:
+◦ ◦extensão:
+◦ ◦consistência:
+{ depressível; duro }
+◦ ◦temperatura:
+◦ ◦sensibilidade:
+◦ ◦simetria:
+◦ ◦lesões de pele:
+{ hiperemia; bolhas; úlceras; exulcerações; crostas }
+◦ Circulação colateral:
+◦ ◦Localização:
+◦ ◦Tipo:
+{ cava superior; cava inferior; porta; tronco braquiocefálico }
+◦ ◦Sentido:
+CAPÍTULO 7. EF GERAL 29
+7.7.4 Anexos
+Pelos
+(Avaliar a piliĄcação conforme sexo, raça e idade. Descrever cabelos em Şcouro cabeludoŤ no exame físico
+especial da cabeça.)
+◦ Quantidade:
+◦ Distribuição:
+◦ Coloração:
+Unhas
+◦ Cor:
+◦ Forma:
+◦ Consistência:
+{ elástica; quebradiça; amolecida }
+◦ Espessura:
+◦ Implantação:
+◦ Superfície:
+7.8 Linfonodos
+◦ Localização das cadeias:
+{ sub-occipital; retroauricular / periauricular; cervical anterior; cervical posterior; sub-mandibular; sub-
+-mentoniana; supra-clavicular; axilar; epitroclear; inguinal; poplíteo }
+◦ Características à palpação:
+◦ ◦Localização:
+◦ ◦Número:
+◦ ◦Tamanho:
+◦ ◦Forma:
+◦ ◦Consistência:
+{ Ąbroelástica; endurecido; amolecido }
+◦ ◦Sensibilidade:
+{ dor à palpação; indolor à palpação }
+◦ ◦Coalescência:
+◦ ◦Mobilidade em relação:
+◦◦ ◦Planos superĄciais:
+◦◦ ◦Planos profundos:
+◦ ◦Alterações da pele:
+◦◦ ◦Fistulização:
+◦◦ ◦Hiperemia:
+◦◦ ◦Calor local:
+Capítulo 8
+Exame Físico Especial ( ❊❋❊ )
+8.1 Cabeça
+8.1.1 Crânio
+◦ Simetria:
+◦ Exostose:
+◦ Pontos dolorosos:
+◦ Deformidades:
+8.1.2 Couro cabeludo
+◦ Descamações:
+◦ Cicatrizes:
+◦ Parasitas:
+◦ Oleosidade:
+8.1.3 Cabelos
+◦ Consistência:
+◦ Coloração:
+{ normal; anormal }
+◦ Oleosidade:
+◦ Espessura:
+◦ Alopecia:
+◦ ◦Localização:
+{ generalizada; localizada }
+8.1.4 Olhos
+Sobrancelhas
+◦ Madarose:
+◦ Parasitas:
+◦ Descamação:
+30
+CAPÍTULO 8. EF ESPECIAL 31
+Pálpebras
+◦ Ptose:
+◦ Lagoftalmo:
+◦ Edema:
+◦ InĆamação:
+◦ Xantelasma:
+◦ Simbléfaro: (aderência entre pálpebra e globo ocular)
+◦ Exantema heliotrópico:
+Globo ocular
+◦ Exoftalmia (ou proptose):
+◦ Enoftalmia:
+◦ Estrabismo:
+◦ Nistagmo: (Veja nistagmo no exame neurológico.)
+Conjuntiva
+◦ Cor:
+◦ Umidade: (Veja avaliação do estado de hidratação , no exame físico geral.)
+◦ Hemorragia:
+Esclera e íris
+◦ Coloração:
+◦ Alterações da forma:
+◦ Alterações do tamanho: (Vide também anisocoria no exame neurológico do nervo ótico.)
+8.1.5 Nariz
+◦ Deformações:
+◦ Coriza:
+◦ ◦Coloração:
+◦ ◦Viscosidade:
+◦ Batimento das asas do nariz:
+8.1.6 Aparelho Auditivo
+◦ Deformações dos pavilhões:
+◦ Otorragia:
+◦ Otorreia:
+◦ Membrana timpânica:
+◦ ◦Coloração:
+◦ ◦Brilho:
+◦ ◦Abaulamentos:
+◦ ◦Retrações:
+◦ ◦Orifícios:
+◦ Condutos:
+◦ ◦Cerúmen:
+◦ ◦Hiperemia:
+◦ ◦Descamação:
+CAPÍTULO 8. EF ESPECIAL 32
+8.1.7 Seios da face e Mastóide
+◦ Palpação:
+◦ Percussão:
+8.1.8 Boca
+◦ Hálito:
+{ cetônico; amoniacal; alcoólico; pútrido; urêmico }
+Lábios
+◦ Cor:
+◦ Forma:
+◦ Rima bucal:
+◦ ◦Lesões:
+Gengivas
+◦ Pigmentação:
+◦ ◦Lesões:
+◦ Sangramentos:
+◦ Tamanho:
+{ normal; hipertroĄa; retração }
+Dentes
+◦ Estado geral:
+◦ Cáries:
+◦ Próteses:
+Língua
+◦ Forma:
+◦ Coloração:
+◦ Papilas:
+◦ Saburra:
+◦ Desvio:
+◦ Tremores:
+◦ Impressões dentárias:
+Glândulas salivares
+I. Inspeção:
+◦ Assimetria:
+◦ Alterações dos orifícios de drenagem das glândulas salivares:
+◦ Tumoração:
+II. Palpação:
+◦ Tamanho:
+◦ Consistência:
+◦ Superfície:
+◦ Simetria:
+◦ Dor:
+CAPÍTULO 8. EF ESPECIAL 33
+Orofaringe
+◦ Mucosa:
+◦ ◦Cor:
+◦ ◦Sangramento:
+◦ Amígdalas:
+◦ ◦Forma:
+◦ ◦Volume:
+◦ ◦Posição:
+◦ ◦Coloração:
+◦ Úvula:
+◦ ◦Forma:
+◦ ◦Tamanho:
+◦ ◦Coloração:
+◦ ◦Desvio:
+◦ Lesões:
+◦ Exsudatos:
+◦ ◦Coloração:
+◦ ◦Viscosidade:
+◦ ◦Aderência:
+8.2 Pescoço
+◦ Forma:
+◦ Volume:
+◦ Relevos musculares:
+◦ Pulsações arteriais:
+◦ Pulsações venosas:
+◦ Turgência jugular:
+◦ ◦Bilateral:
+◦ ◦Pulsátil:
+Tireoide
+I. Inspeção:
+◦ Forma:
+◦ Tamanho:
+◦ Movimentação à deglutição:
+II. Palpação:
+◦ Forma:
+◦ Tamanho:
+◦ Mobilidade:
+◦ Consistência:
+◦ Superfície:
+◦ ◦Nodulações:
+◦ ◦Sulcos:
+CAPÍTULO 8. EF ESPECIAL 34
+◦ Sensibilidade:
+◦ Temperatura:
+◦ Frêmito:
+III. Ausculta:
+◦ Sopro:
+8.3 Exame Físico do Tórax
+I. Inspeção estática:
+◦ Forma:
+{ cifoescoliótico; enĄsematoso; cônico; piriforme; em Şpeito de pomboŤ ou quilha; raquítico; in-
+fundibuliforme }
+8.3.1 Exame Físico do Aparelho Respiratório
+I. Inspeção dinâmica :
+◦ Tipo respiratório:
+{ costal superior; costo-abdominal; abdominal }
+◦ Frequência:
+{ normopneia; bradipneia; taquipneia }
+◦ Ritmo:
+{ Cantani; Kussmaul; Cheyne-Stokes; Biot; dispneia suspirosa }
+◦ Expansibilidade:
+◦ ◦Crânio-caudal:
+◦ ◦Amplitude:
+◦ ◦Simetria:
+◦ Retrações e abaulamentos: (inspiratórios ou expiratórios)
+◦ ◦Retração intercostal normal:
+◦ ◦Sinal de Lemos Torres:
+◦ ◦Tiragem:
+II. Palpação:
+◦ Partes moles:
+◦ ◦Edema:
+◦ ◦EnĄsema subcutâneo:
+◦ ◦Contraturas musculares:
+◦ ◦Pontos dolorosos:
+◦ Elasticidade torácica:
+{ normal; diminuída }
+◦ Expansibilidade:
+{ normal; diminuída }
+◦ Frêmito tóraco-vocal:
+{ normal; aumentado; diminuído }
+◦ Frêmito brônquico:
+◦ Frêmito pleural:
+III. Percussão:
+(A estratégia pode ser: comparativa, para veriĄcar simetria, e / ou delimitativa, para determi-
+nar limites topográĄcos.)
+◦ Sons obtidos:
+{ claro-pulmonar; hipersonoro; submaciço; maciço }
+◦ Percussão da coluna:
+{ claro-pulmonar; Sinal de Signorelli }
+CAPÍTULO 8. EF ESPECIAL 35
+IV . Ausculta: a. Ausculta da respiração:
+◦ Murmúrio vesicular:
+◦ ◦Simetria:
+◦ ◦Intensidade:
+{ normal; diminuído; abolido }
+◦ Ruído tráqueobrônquico:
+◦ Ruído laringotraqueal:
+◦ Cornagem:
+b. Ausculta da voz (ressonância vocal):
+◦ Broncofonia:
+{ normal; aumentado; diminuído }
+◦ ◦Pectorilóquia:
+{ fônica; áfona }
+◦ ◦Egofonia:
+c. Ruídos adventícios (inspiratórios e expiratórios) :
+◦ Estertores:
+◦ ◦Crepitantes:
+◦ ◦Crepitantes Şem velcroŤ:
+◦ ◦Subcrepitantes:
+{ grossas bolhas; médias bolhas; Ąnas bolhas }
+◦ Sibilos:
+◦ Roncos:
+◦ Atrito pleural:
+◦ Sopros: (sempre expiratórios)
+{ brônquico; tubário; cavernoso; anfórico; sopro pleurítico }
+8.3.2 Exame Físico do Aparelho Cardiovascular
+Precórdio
+I. Inspeção:
+◦ Íctus:
+{ visível; não visível }
+◦ Levantamento sistólico:
+II. Percussão:
+Caiu em desuso pela diĄculdade técnica e falta de precisão. Serviria para delimitação topográĄca
+da área cardíaca. Área de macicez e submacicez que muda com a posição pode indicar derrame
+pericárdico. Submacicez do 3 º espaço na borda esternal esquerda pode estar associada a aumento
+do tronco da a.pulmonar .
+III. Palpação:
+◦ Íctus:
+◦ ◦Localização:
+◦ ◦Extensão: (em polpas digitais)
+◦ ◦Intensidade:
+{ normoimpulsivo; hiperimpulsivo; hipoimpulsivo }
+◦ ◦Forma:
+{ normal; cupuliforme; globoso }
+◦ ◦Ritmo:
+{ rítmico ou regular; arrítmico ou irregular }
+◦ ◦Mobilidade em decúbito médio-lateral esquerdo: (decúbito de Pachon)
+◦ Palpação dos focos cardíacos:
+◦ ◦Frêmito: (relacionar com a fase do ciclo cardíaco)
+CAPÍTULO 8. EF ESPECIAL 36
+IV . Ausculta:
+(Localizar e auscultar sempre os focos: Aórtico; Pulmonar; Aórtico Acessório; Mitral; Tricúspide.)
+◦ Ritmo:
+{ rítmico ou regular; arrítmico ou irregular }
+(Se arrítmico:)
+{ extrassístole; Ąbrilação atrial }
+◦ Frequência:
+◦ Bulhas: (B1 e B2)
+◦ ◦Fonese:
+{ normofonese; hiperfonese; hipofonese }
+◦ ◦Desdobramento:
+◦◦ ◦Localização: (focos)
+◦◦ ◦Variação conforme movimento respiratório:
+{ inspiratório; expiratório }
+{ constante ou Ąxo; paradoxal ou reverso }
+◦ ◦Galope:
+{ pressistólico (B4); protodiastólico (B3) }
+◦ Sopros:
+◦ ◦Localização:
+◦ ◦Relação com o ciclo:
+{ sistólico; diastólico }
+{ proto; meso; holo }
+◦ ◦Irradiação:
+◦ ◦Intensidade:
+◦ ◦Timbre:
+{ suave; rude; ruĆar; aspirativo }
+◦ ◦Recursos e manobras empregados na ausculta:
+◦◦ ◦Decúbito de Pachon: (decúbito médio-lateral)
+◦◦ ◦Manobra de Valsalva: (expiração forçada)
+◦◦ ◦Manobra de Rivero Carvallo: (inspiração forçada)
+◦ ◦ ◦ ◦ModiĄcação de Carvalhal: (fechamento da glote)
+◦◦ ◦Manobra de Muller: (Ćexão do tronco)
+◦ Atrito pericárdico:
+Sistema Arterial
+◦ Palpação de pulsos e artérias:
+◦ ◦Localização: (todos estes bilaterais, exceto o aórtico)
+{ T emporal; Carotídeos; Braquiais; Ulnares; Radiais; Aórtico abdominal ; Femurais; Poplí-
+teos; Tibiais posteriores; Pediosos }
+◦ ◦Palpação do pulso:
+◦◦ ◦Ritmo:
+{ rítmico ou regular; arrítmico ou irregular }
+(Se arrítmico:)
+{ extrassístole; Ąbrilação atrial }
+◦◦ ◦Frequência:
+◦◦ ◦Simetria:
+◦◦ ◦Amplitude: (A amplitude do pulso é proporcional à pressão de pulso, ou seja, à diferença
+entre pressão sistólica e diastólica.)
+{ normal; cheio; Ąno }
+◦◦ ◦Intensidade:
+{ normal; forte; fraco }
+◦ ◦Palpação das artérias:
+◦◦ ◦Elasticidade:
+{ normal; endurecida }
+◦◦ ◦Tortuosidade:
+◦ Perfusão ou tempo de enchimento capilar: (inspeção e palpação)
+CAPÍTULO 8. EF ESPECIAL 37
+Sistema Venoso
+I. Inspeção:
+◦ Turgência:
+◦ Tortuosidade:
+II. Palpação:
+◦ Endurecimento:
+◦ Irregularidade:
+◦ Dor à palpação:
+III. Sinais especíĄcos :
+◦ Sinal de Homans:
+◦ Sinal Şda bandeiraŤ:
+8.4 Exame Físico do Abdome
+8.4.1 Abdome
+I. Inspeção:
+◦ Forma:
+{ plano; globoso; pendular; em avental; batráquio; escavado }
+◦ Abaulamentos:
+◦ Depressões:
+◦ Circulação colateral:
+◦ Peristaltismo visível:
+{ normal; anormal }
+◦ Aortismo:
+{ normal; anormal }
+◦ Pulsações epigástricas:
+{ normal; anormal }
+◦ Cicatriz Umbilical:
+◦ ◦Posição:
+◦ ◦Forma:
+{ protrusão; retração }
+◦ Cicatrizes:
+II. Palpação superĄcial :
+◦ Tensão da parede:
+◦ Presença de nodulações:
+◦ Presença de massas:
+◦ Sensibilidade (dor):
+III. Palpação profunda:
+◦ Grande curvatura do estômago:
+◦ Ceco:
+◦ Cólon ascendente:
+◦ Cólon transverso:
+◦ Cólon descendente:
+◦ Sigmoide:
+◦ ◦Sinal de Krebs: (Crepitação que acontece ao descolar a mucosa do fecaloma.)
+◦ ◦Sinal de Gersuny: (Palpação moldável do fecaloma.)
+◦ Aorta abdominal: (Vide tópico especíĄco .)
+CAPÍTULO 8. EF ESPECIAL 38
+◦ Massas anormais: (caracterizar)
+◦ Descompressão brusca dolorosa:
+◦ ◦Localização:
+◦ ◦Sinal de Blumberg: (Descompressão brusca dolorosa na fossa ilíaca direita.)
+IV . Percussão:
+◦ Percussão sistemática da região abdomino-pélvica:
+◦ Pesquisa de sinais de ascite:
+◦ ◦Semicírculos de Skoda:
+◦ ◦Macicez móvel:
+◦ Sinal de Jobert: (Desaparecimento da macicez hepática.)
+V . Ausculta:
+◦ Ruídos hidroaéreos:
+◦ ◦Presença:
+{ presente; ausente }
+◦ ◦Intensidade:
+{ diminuido; aumentado }
+◦ ◦Timbre:
+{ normal; metálico }
+◦ Aorta: (Vide tópico especíĄco .)
+◦ Artéria renal: (Vide ausculta das artérias renais .)
+◦ Atritos: (Vide ausculta do fígado .)
+8.4.2 Fígado
+I. Inspeção:
+◦ Abaulamento do hipocôndrio direito:
+II. Percussão:
+◦ Delimitar borda superior:
+◦ Sinal de Torres-Homem: (Punho percussão dolorosa no hipocôndrio direito.)
+III. Palpação:
+◦ Técnicas de palpação:
+{ Mathieu; Lemos-Torres; manobra do rechaço }
+◦ Tamanho: (Relação com a borda costal nas linhas:)
+◦ ◦Linha axilar anterior direita:
+◦ ◦Linha hemi-clavicular direita:
+◦ ◦Apêndice xifóide:
+◦ Borda:
+{ Ąna; romba }
+◦ Consistência:
+{ normal; endurecida; amolecida }
+◦ Superfície:
+{ lisa; irregular }
+(Se irregular:)
+{ pequenos nódulos; grandes nódulos; sulcada }
+◦ Sensibilidade:
+◦ Pulso hepático:
+IV . Ausculta:
+◦ Atrito:
+CAPÍTULO 8. EF ESPECIAL 39
+8.4.3 Vesícula Biliar
+I. Inspeção:
+◦ Observação da transição entre hipocôndrio e Ćanco direitos:
+{ não visível; visível }
+II. Palpação:
+◦ Sinal de Murphy:
+◦ Vesícula palpável:
+◦ Sinal de Curvoisier-Terrier:
+8.4.4 Baço
+I. Percussão:
+◦ Percussão do hipocôndrio esquerdo: (Espaço semilunar de traube.)
+{ não percutível; percutível }
+II. Palpação:
+◦ Técnica:
+{ decúbito dorsal; posição de Schuster }
+(Se decúbido dorsal:)
+{ Mathieu; Lemos-Torres; manobra do rechaço }
+◦ Tamanho:
+◦ Consistência:
+{ normal; endurecido; amolecido }
+◦ Superfície:
+{ lisa; rugosa }
+◦ Borda:
+{ presença de chanfraduras }
+◦ Sensibilidade:
+8.4.5 Rins
+I. Palpação
+◦ Tamanho:
+◦ Superfície:
+◦ Consistência:
+◦ Sensibilidade:
+◦ Punho-percussão de Murphy:
+◦ ◦Sinal de Giordano:
+II. Ausculta das artérias renais
+◦ Sopro:
+8.4.6 Aorta
+I. Inspeção
+◦ Pulsatilidade:
+II. Palpação
+◦ Dilatações / Aneurismas:
+III. Ausculta
+◦ Sopros:
+CAPÍTULO 8. EF ESPECIAL 40
+8.5 Exame Neurológico
+8.5.1 Exame do estado mental e comunicação verbal
+◦ Consciência: (Resposta a estímulos externos.)
+◦ ◦Abertura ocular:
+{ espontânea; ao estímulo verbal; ao estímulo tátil; ao estímulo doloroso }
+◦ ◦Resposta motora:
+{ obedece (obedece a comandos) ; localiza (localiza estímulos dolorosos) ; retirada (ﬂexão ines-
+pecíﬁca, normal, ou reﬂexo de retirada a estímulos dolorosos); Ćexão (ﬂexão anormal a estímulos
+dolorosos, decorticação); extensão (extensão a estímulos dolorosos, descerebração); nenhuma
+(sem atividade motora) }
+◦ ◦Resposta verbal:
+{ orientado (orientado, conversa normalmente) ; confuso (desorientado); desconexo (pronuncia
+palavras desconexas); sons (emite sons incompreensíveis); mudo (emudecido) }
+◦ Orientação:
+◦ ◦Em tempo:
+◦ ◦Em espaço:
+◦ ◦Em relação à própria pessoa:
+◦ Atenção e memória:
+◦ ◦Grau de atenção:
+◦ ◦Memória para fatos recentes e antigos:
+◦ Avaliação da Fala e da Linguagem:
+◦ ◦Fala espontânea:
+◦◦ ◦Fluência:
+◦◦ ◦Articulação dos fonemas:
+◦ ◦Compreensão oral:
+◦ ◦Capacidade de repetição:
+◦ ◦Capacidade de nomeação:
+◦ ◦Capacidade de leitura e escrita:
+◦◦ ◦Leitura:
+◦◦ ◦Escrita de frases:
+8.5.2 Motricidade e reĆexos
+Motricidade voluntária
+◦ Tônus e troĄsmo muscular:
+◦ ◦Inspeção:
+◦ ◦Palpação:
+◦ ◦Movimentação passiva:
+◦ Força Muscular:
+◦ ◦Manobras de oposição de força:
+◦ ◦Manobras deĄcitárias de membros superiores:
+◦◦ ◦Manobra de Mingazzini:
+◦◦ ◦Manobra de Raimiste:
+◦ ◦Manobras deĄcitárias de membros inferiores:
+◦◦ ◦Manobra de Mingazzini:
+◦◦ ◦Manobra de Barrè:
+CAPÍTULO 8. EF ESPECIAL 41
+ReĆexos profundos ou tendinosos
+◦ Face:
+◦ ◦Orbicular dos olhos (glabelar):
+◦ ◦Orbicular dos lábios:
+◦ ◦Mentoniano:
+◦ MMSS:
+◦ ◦Bicipital:
+◦ ◦Tricipital:
+◦ ◦Estilo-radial:
+◦ ◦Cúbito-pronador:
+◦ ◦Flexor dos dedos:
+◦ MMII:
+◦ ◦Patelar:
+◦ ◦Aquileu: (tendão do calcâneo)
+ReĆexos superĄciais ou cutâneos
+◦ Córneo-palpebral:
+◦ Cutâneo-plantar:
+◦ ◦Sinal de Babinski:
+◦ Cremastérico:
+◦ Cutâneo-abdominal:
+◦ Palmo-mentual:
+Motricidade involuntária
+◦ Distúrbios do movimento:
+◦ ◦Hipocinesias:
+◦ ◦Hipercinesias:
+8.5.3 Equilíbrio, Marcha, Coordenação
+◦ Equilíbrio:
+◦ ◦Estático:
+◦◦ ◦Manobra de Romberg:
+◦ ◦Dinâmico: (observar a marcha)
+◦ Marcha:
+◦ Coordenação Motora:
+◦ ◦Membros superiores:
+◦◦ ◦Prova índex-nariz:
+◦◦ ◦Prova índex-nariz-índex:
+◦◦ ◦Diadococinesia:
+◦ ◦Membros inferiores:
+◦◦ ◦Prova calcanhar-joelho:
+◦◦ ◦Diadococinesia:
+CAPÍTULO 8. EF ESPECIAL 42
+8.5.4 Sensibilidade
+◦ SuperĄcial:
+◦ ◦Tátil:
+◦ ◦Térmica:
+◦ ◦Dolorosa:
+◦ Profunda:
+◦ ◦Cinético postural / posição segmentar:
+◦ ◦Barestésica:
+◦ ◦Vibratória:
+◦ ◦Táctil discriminatória:
+◦◦ ◦Grafestesia:
+8.5.5 Nervos cranianos
+◦ 1º = Olfatório:
+◦ 2º = Óptico:
+◦ ◦Acuidade visual:
+◦ ◦Campo visual:
+◦ ◦Fundo de olho:
+◦ ◦Exame pupilar:
+◦◦ ◦Forma e simetria:
+{ isocoria; anisocoria; discoria }
+◦◦ ◦Tamanho:
+{ midríase; miose / puntiforme; média }
+◦◦ ◦ReĆexos: (Estes reĆexos avaliam o 2 º e o 3 º par .)
+◦ ◦ ◦ ◦ReĆexo fotomotor:
+◦ ◦ ◦ ◦ ◦Direto:
+◦ ◦ ◦ ◦ ◦Consensual:
+◦ ◦ ◦ ◦ReĆexo de acomodação ou convergência:
+◦ Motricidade ocular extrínseca:
+◦ ◦3º = Oculomotor:
+◦ ◦4º = Troclear:
+◦ ◦6º = Abducente:
+◦ 5º = Trigêmio:
+◦ ◦Motricidade:
+◦ ◦Sensibilidade:
+◦◦ ◦Dor:
+◦ 7º = Facial:
+◦ ◦Motricidade da face / Mímica facial:
+◦ ◦Sensibilidade gustativa:
+◦ 8º = Vestíbulo-coclear:
+◦ ◦Audição / Avaliação da acuidade auditiva:
+◦◦ ◦Voz alta:
+◦◦ ◦Voz cochichada:
+◦◦ ◦Estalar de dedos:
+◦◦ ◦Prova de Weber:
+◦◦ ◦Prova de Rinne:
+CAPÍTULO 8. EF ESPECIAL 43
+◦ ◦Equilíbrio: (Vide avalição acima.)
+◦ ◦Nistagmo:
+{ horizontal; vertical }
+◦◦ ◦Fase rápida:
+◦◦ ◦Fase lenta:
+◦ ◦ReĆexo óculo-cefálico: (Na ausência do reĆexo se observa o aspecto de Şolhos de bonecaŤ; este
+reĆexo avalia 8 º par e núcleos óculo-motores.)
+◦ ◦ReĆexo vestíbulo-coclear: (Prova calórica.)
+◦ 9º = Glossofaríngeo e 10 º = Vago:
+◦ ◦Desvios do pálato e da úvula:
+◦ ◦Sensibilidade da faringe:
+◦ ◦ReĆexo do vômito:
+◦ ◦Gustação terço posterior da língua:
+◦ ◦Movimento das cordas vocais:
+◦ 11º = Acessório:
+◦ ◦Elevação dos ombros:
+◦ ◦Rotação da cabeça:
+◦ 12º = Hipoglosso:
+◦ ◦Motricidade da língua:
+8.5.6 Sinais meníngeos e radiculares
+◦ Rigidez da nuca:
+◦ Sinal de Kernig:
+◦ Sinal de Brudzinski:
+◦ Sinal de Lasègue:
+8.6 Aparelho Locomotor
+8.6.1 Exame articular
+Pesquisar em todas as articulações:
+◦ Sinais inĆamatórios: (vide sinais gerais)
+◦ Sinais degenerativos:
+◦ Limitação do movimento:
+◦ Crepitação:
+◦ AtroĄas ou hipertroĄas musculares:
+◦ Retrações tendíneas:
+8.6.2 Esqueleto axial
+Coluna vertebral
+◦ Curvaturas normais:
+◦ Curvaturas anormais:
+◦ Digito-pressão e punho percussão dos espaços intervertebrais e interapoĄsários:
+◦ Movimentos da coluna vertebral:
+◦ ◦Cervical:
+◦ ◦Torácica:
+◦ ◦Lombar:
+CAPÍTULO 8. EF ESPECIAL 44
+Sacro-ilíacas
+◦ Digito-pressão:
+ATM (articulação têmporo-mandibular)
+◦ Movimentos:
+◦ Crepitação:
+◦ Simetria:
+8.6.3 Esqueleto apendicular
+Membros superiores
+◦ Ombros:
+◦ ◦Digito-pressão:
+◦◦ ◦Tendões bicipitais:
+◦◦ ◦Tendões deltoideos:
+◦◦ ◦Bolsas teno-sinoviais:
+◦◦ ◦Bolsas subacromiais:
+◦◦ ◦Bolsas subdeltoídeias:
+◦◦ ◦Bolsas subcoracoides:
+◦ ◦Movimentos do ombro:
+◦◦ ◦Flexão:
+◦◦ ◦Extensão:
+◦◦ ◦Adução:
+◦◦ ◦Abdução:
+◦◦ ◦Rotação interna:
+◦◦ ◦Rotação externa:
+◦◦ ◦Circundução:
+◦ Cotovelos:
+◦ ◦Digito-pressão:
+◦◦ ◦Tendões epicondilianos:
+◦◦ ◦Tendões epitrocleares:
+◦ ◦Movimentos:
+◦◦ ◦Flexão:
+◦◦ ◦Extensão:
+◦ Punhos :
+◦ ◦Forma do punho:
+{ forma normal; quadratura do punho }
+◦ ◦Movimentos:
+◦◦ ◦Flexão:
+◦◦ ◦Extensão:
+◦◦ ◦Pronação:
+◦◦ ◦Supinação:
+◦◦ ◦Circundução:
+◦ Mãos / dedos:
+◦ ◦Deformidades:
+{ atroĄa dos interósseos; desvio cubital dos dedos; mão suculenta; mão em garra }
+◦ ◦Articulações metacarpo-falangeanas:
+{ nódulos de Heberden; nódulos de Bouchard; dedo de cisne; dedo em botoeira; corcova de
+camelo }
+◦ ◦Movimentos:
+◦◦ ◦Flexão:
+◦◦ ◦Extensão:
+CAPÍTULO 8. EF ESPECIAL 45
+Membros inferiores
+◦ Coxo-femurais:
+◦ ◦Limitação:
+◦ ◦Movimentos:
+◦◦ ◦Adução:
+◦◦ ◦Abdução:
+◦◦ ◦Flexão:
+◦◦ ◦Rotação:
+◦ Joelho:
+◦ ◦Volume articular:
+◦ ◦Palpação da patela:
+◦◦ ◦Manobra do rechaço da patela:
+◦ ◦ ◦ ◦Sinal da tecla:
+◦ ◦Crepitação:
+◦ ◦Movimentos:
+◦◦ ◦Flexão:
+◦◦ ◦Extensão:
+◦◦ ◦Rotação interna:
+◦◦ ◦Rotação externa:
+◦ Tornozelos:
+◦ ◦Aumento do volume:
+◦ ◦Movimentos:
+◦◦ ◦Flexão:
+◦◦ ◦Extensão:
+◦◦ ◦Inversão:
+◦◦ ◦Eversão:
+◦◦ ◦Adução:
+◦◦ ◦Abdução:
+◦ ◦Deformidades:
+◦ Pé / Antepé:
+◦ ◦Dígito-pressão:
+◦◦ ◦Do arco plantar:
+◦◦ ◦Dos artelhos:
+◦ ◦Movimentos:
+◦◦ ◦Flexão dos artelhos:
+◦◦ ◦Extensão dos artelhos:
+◦ ◦Deformidades:
+Parte III
+Hipóteses Diagnósticas ( ❍❉ )
+46
+47
+◦ Diagnósticos anátomo-patológicos:
+Alterações morfológicas macro e microscópicas.
+◦ Diagnósticos sindrômicos:
+Conjunto de sinais e / ou sintomas que em geral representam um processos Ąsio-patológico.
+◦ Diagnósticos funcionais:
+Alterações em funções orgânicas, muitas vezes chamadas de insuĄciências.
+◦ Diagnósticos etiológicos:
+Agente causador da doença.
+◦ Diagnósticos nosológicos:
+O nome da doença (Şentidade nosológicaŤ), ou seu apelido, mesmo que seja popular .
+Parte IV
+Exames complementares ( ❊①s )
+48
+49
+Resultados de exames relevantes e / ou recentes. Organizados por tema, sistema e / ou problema; e
+dentro de cada assunto em ordem cronológica.
+◦ Exames de laboratório (análises clínicas):
+◦ Exames de imagem:
+◦ Métodos gráĄcos:
+◦ Provas funcionais e outras provas especíĄcas:
+◦ Biópsias:
+Parte V
+Plano terapêutico
+50
+51
+Planejamento da investigação subsequente e do cuidado, elaborado a partir das hipóteses diagnósti-
+cas até o momento. Também chamado de ŞcondutaŤ.
+◦ Investigação adicional:
+◦ Dieta:
+◦ Prescrição medicamentosa:
+◦ Orientações para o paciente:
+◦ Encaminhamentos a outros proĄssionais:
+Parte VI
+Prognóstico
+52
+53
+As considerações prognósticas, conforme o caso, podem ser apresentadas antes ou depois do plano
+terapêutico.
+◦ Prognóstico de cura:
+◦ Prognóstico de sobrevida:
+◦ Prognóstico de funcionalidade:
+Expediente
+54
+55
+Este é um roteiro de Semiologia adaptado para o aprendizado prático de Habilidades Clínicas básicas
+(2º e 3º períodos) e de Práticas Clínicas integradas (4 º e 5º períodos), conforme o programa da Faculdade
+de Medicina São Leopoldo Mandic de Campinas. O conteúdo enfatiza os temas gerais da Medicina
+Interna, e não é completo na cobertura das especialidades. Serve também ao internato, embora o aluno
+de 5º e 6º anos deva completar com outras fontes.
+Equipe de revisão técnica (Disciplina de Semiologia, Faculdade de Medicina São Leopoldo Mandic
+Campinas):
+• profª Fabiana Vilarinho de Souza
+• profª Jiviane Beatriz Cunha Barretto da Silva
+• profº José Augusto Vasconcellos Neto
+• profª Karla de Almeida Lins Ronconi
+• profº Marcos Aurélio Teixeira
+• profª Maria Aparecida Barone Teixeira ( Cidinha)
+• profº Pompeu Tomé Ribeiro de Campos
+• profº Sidney Aparecido Brandão
+• profª Valéria Correia de Almeida
+Coordenação:
+• profª Maria Aparecida Barone Teixeira ( Cidinha)
+Relatoria e programação:
+• Profº José Augusto Vasconcellos Neto
+Revisão realizada entre março/2022 e novembro/2023. Esta nova versão substitui a versão publi-
+cada em 2018 em formato PDF . Esta nova versão está sendo disponibilizada oĄcialmente em formato
+PDF . É possivel que outros formatos (HTML e talvez EPUB) sejam distribuídos em breve (consulte seu
+professor).
+CopyLeft 2023-2024. Todos os direitos reservados pelos autores. Pode ser citado e reproduzido,
+desde que citada a fonte original. Não pode ser utilizado com Ąnalidades comerciais. Licença con-
+forme Creative Commons CC BY-NC-SA 4.0 DEED ; vide
+❤tt♣s✿✴✴❝r❡❛t✐✈❡❝♦♠♠♦♥s✳♦r❣✴❧✐❝❡♥s❡s✴
+❜②✲♥❝✲s❛✴✹✳✵✴❞❡❡❞✳♣t✲❜r para detalhes da licença.
+

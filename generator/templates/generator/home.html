@@ -1,0 +1,329 @@
+{% extends 'generator/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="form-wrapper">
+    <h2 class="form-title" style="color: green">Preenchimento de dados:</h2>
+
+    <form method="post" action="{% url 'generate_txt' %}" class="anamnese-form">
+        {% csrf_token %}
+
+        <div
+            style="display: flex; justify-content: center; width: 100%; border-bottom: 2px solid var(--border-color); margin-bottom: 2rem; padding-bottom: 0.5rem;">
+            <div class="tabs"
+                style="display: flex; justify-content: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0; border-bottom: none; padding-bottom: 0; overflow: hidden;">
+                <button type="button" class="tab-link active"
+                    onclick="openTab(event, 'tab-identificacao')">Identificação</button>
+                <button type="button" class="tab-link" onclick="openTab(event, 'tab-qd')">QD & HPMA</button>
+                <button type="button" class="tab-link" onclick="openTab(event, 'tab-isda')">ISDA</button>
+                <button type="button" class="tab-link"
+                    onclick="openTab(event, 'tab-antecedentes')">Antecedentes</button>
+                <button type="button" class="tab-link" onclick="openTab(event, 'tab-examefisico')">Exame Físico</button>
+                <button type="button" class="tab-link" onclick="openTab(event, 'tab-conclusao')">Conclusões</button>
+            </div>
+        </div>
+
+        <div class="tab-content active" id="tab-identificacao">
+            <h3 style="color: green">I. Identificação</h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="{{ form.nome.id_for_label }}">{{ form.nome.label }}</label>
+                    {{ form.nome }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.idade.id_for_label }}">{{ form.idade.label }}</label>
+                    {{ form.idade }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.sexo_biologico.id_for_label }}">{{ form.sexo_biologico.label }}</label>
+                    {{ form.sexo_biologico }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.identidade_genero.id_for_label }}">{{ form.identidade_genero.label }}</label>
+                    {{ form.identidade_genero }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.raca_cor.id_for_label }}">{{ form.raca_cor.label }}</label>
+                    {{ form.raca_cor }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.naturalidade.id_for_label }}">{{ form.naturalidade.label }}</label>
+                    {{ form.naturalidade }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.nacionalidade.id_for_label }}">{{ form.nacionalidade.label }}</label>
+                    {{ form.nacionalidade }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.procedencia_proxima.id_for_label }}">{{ form.procedencia_proxima.label
+                        }}</label>
+                    {{ form.procedencia_proxima }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.procedencia_remota.id_for_label }}">{{ form.procedencia_remota.label }}</label>
+                    {{ form.procedencia_remota }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.religiao.id_for_label }}">{{ form.religiao.label }}</label>
+                    {{ form.religiao }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.profissao.id_for_label }}">{{ form.profissao.label }}</label>
+                    {{ form.profissao }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.estado_civil.id_for_label }}">{{ form.estado_civil.label }}</label>
+                    {{ form.estado_civil }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.escolaridade.id_for_label }}">{{ form.escolaridade.label }}</label>
+                    {{ form.escolaridade }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.face_atendimento.id_for_label }}">{{ form.face_atendimento.label }}</label>
+                    {{ form.face_atendimento }}
+                </div>
+            </div>
+            <div class="tab-footer">
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-qd')">Próximo
+                    &raquo;</button>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-qd" style="display: none;">
+            <h3 style="color: green">II. Queixa Principal (QD)</h3>
+            <div class="form-group">
+                <label for="{{ form.queixa_principal.id_for_label }}">{{ form.queixa_principal.label }}</label>
+                {{ form.queixa_principal }}
+            </div>
+            <br>
+            <h3 style="color: green">III. História Pregressa da Moléstia Atual (HPMA)</h3>
+            <div class="form-group">
+                <label for="{{ form.hpma.id_for_label }}">{{ form.hpma.label }}</label>
+                {{ form.hpma }}
+            </div>
+            <div class="tab-footer">
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-identificacao')">&laquo;
+                    Anterior</button>
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-isda')">Próximo
+                    &raquo;</button>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-isda" style="display: none;">
+            <h3 style="color: green">IV. ISDA (Interrogatório Sobre os Sintomas dos Demais Aparelhos)</h3>
+            <div class="form-grid-2">
+                <div class="form-group">
+                    <label for="{{ form.isda_gerais.id_for_label }}">{{ form.isda_gerais.label }}</label>
+                    {{ form.isda_gerais }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_pele.id_for_label }}">{{ form.isda_pele.label }}</label>
+                    {{ form.isda_pele }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_cabeca.id_for_label }}">{{ form.isda_cabeca.label }}</label>
+                    {{ form.isda_cabeca }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_pescoco.id_for_label }}">{{ form.isda_pescoco.label }}</label>
+                    {{ form.isda_pescoco }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_torax.id_for_label }}">{{ form.isda_torax.label }}</label>
+                    {{ form.isda_torax }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_abdome.id_for_label }}">{{ form.isda_abdome.label }}</label>
+                    {{ form.isda_abdome }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_genito_urinario.id_for_label }}">{{ form.isda_genito_urinario.label
+                        }}</label>
+                    {{ form.isda_genito_urinario }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_neurologico.id_for_label }}">{{ form.isda_neurologico.label }}</label>
+                    {{ form.isda_neurologico }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_saude_mental.id_for_label }}">{{ form.isda_saude_mental.label }}</label>
+                    {{ form.isda_saude_mental }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_locomotor.id_for_label }}">{{ form.isda_locomotor.label }}</label>
+                    {{ form.isda_locomotor }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_endocrino.id_for_label }}">{{ form.isda_endocrino.label }}</label>
+                    {{ form.isda_endocrino }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_imunologico.id_for_label }}">{{ form.isda_imunologico.label }}</label>
+                    {{ form.isda_imunologico }}
+                </div>
+            </div>
+            <div class="tab-footer">
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-qd')">&laquo;
+                    Anterior</button>
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-antecedentes')">Próximo
+                    &raquo;</button>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-antecedentes" style="display: none;">
+            <h3 style="color: green">V. Antecedentes</h3>
+            <div class="form-grid-2">
+                <div class="form-group">
+                    <label for="{{ form.antecedentes_morbidos.id_for_label }}">{{ form.antecedentes_morbidos.label
+                        }}</label>
+                    {{ form.antecedentes_morbidos }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.habitos_vida.id_for_label }}">{{ form.habitos_vida.label }}</label>
+                    {{ form.habitos_vida }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.condicoes_vida.id_for_label }}">{{ form.condicoes_vida.label }}</label>
+                    {{ form.condicoes_vida }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.epidemiologia.id_for_label }}">{{ form.epidemiologia.label }}</label>
+                    {{ form.epidemiologia }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.vacinacao.id_for_label }}">{{ form.vacinacao.label }}</label>
+                    {{ form.vacinacao }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.medicamentos_uso.id_for_label }}">{{ form.medicamentos_uso.label }}</label>
+                    {{ form.medicamentos_uso }}
+                </div>
+                <div class="form-group full-width">
+                    <label for="{{ form.antecedentes_familiares.id_for_label }}">{{
+                        form.antecedentes_familiares.label
+                        }}</label>
+                    {{ form.antecedentes_familiares }}
+                </div>
+            </div>
+            <div class="tab-footer">
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-isda')">&laquo;
+                    Anterior</button>
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-examefisico')">Próximo
+                    &raquo;</button>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-examefisico" style="display: none;">
+            <h3 style="color: green">VI. Exame Físico</h3>
+            <div class="form-grid-2">
+                <div class="form-group">
+                    <label for="{{ form.ef_geral.id_for_label }}">{{ form.ef_geral.label }}</label>
+                    {{ form.ef_geral }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_cabeca_pescoco.id_for_label }}">{{ form.ef_cabeca_pescoco.label }}</label>
+                    {{ form.ef_cabeca_pescoco }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_torax.id_for_label }}">{{ form.ef_torax.label }}</label>
+                    {{ form.ef_torax }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_abdome.id_for_label }}">{{ form.ef_abdome.label }}</label>
+                    {{ form.ef_abdome }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_neurologico.id_for_label }}">{{ form.ef_neurologico.label }}</label>
+                    {{ form.ef_neurologico }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_locomotor.id_for_label }}">{{ form.ef_locomotor.label }}</label>
+                    {{ form.ef_locomotor }}
+                </div>
+            </div>
+            <div class="tab-footer">
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-antecedentes')">&laquo;
+                    Anterior</button>
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-conclusao')">Próximo
+                    &raquo;</button>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-conclusao" style="display: none;">
+            <h3 style="color: green">VII - X. Conclusões e Planejamento</h3>
+            <div class="form-grid-2">
+                <div class="form-group full-width">
+                    <label for="{{ form.hipoteses.id_for_label }}">{{ form.hipoteses.label }}</label>
+                    {{ form.hipoteses }}
+                </div>
+                <div class="form-group full-width">
+                    <label for="{{ form.exames.id_for_label }}">{{ form.exames.label }}</label>
+                    {{ form.exames }}
+                </div>
+                <div class="form-group full-width">
+                    <label for="{{ form.plano_terapeutico.id_for_label }}">{{ form.plano_terapeutico.label }}</label>
+                    {{ form.plano_terapeutico }}
+                </div>
+                <div class="form-group full-width">
+                    <label for="{{ form.prognostico.id_for_label }}">{{ form.prognostico.label }}</label>
+                    {{ form.prognostico }}
+                </div>
+            </div>
+            <div class="tab-footer" style="justify-content: space-between;">
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-examefisico')">&laquo;
+                    Anterior</button>
+                <button type="submit" class="btn btn-primary">Gerar Anamnese (.TXT)</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+
+        // Esconde todos os elementos com a class="tab-content"
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+            tabcontent[i].classList.remove("active");
+        }
+
+        // Remove a classe "active" de todos os botões que carregam as tabs
+        tablinks = document.getElementsByClassName("tab-link");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active");
+        }
+
+        // Mostra a tab atual, e adiciona class="active" ao botão que a abriu
+        var currentTab = document.getElementById(tabName);
+        currentTab.style.display = "block";
+        currentTab.classList.add("active");
+
+        // Find the button and add active class (handle cases where event is null e.g. next/prev buttons)
+        if (evt) {
+            if (evt.currentTarget.classList.contains('tab-link')) {
+                evt.currentTarget.classList.add("active");
+            } else {
+                // If next/prev, find the correct tab button top
+                var buttons = document.getElementsByClassName("tab-link");
+                for (let btn of buttons) {
+                    if (btn.getAttribute("onclick").includes(tabName)) {
+                        btn.classList.add("active");
+                    }
+                }
+            }
+        }
+    }
+
+    // Initialize first tab manually
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("tab-identificacao").style.display = "block";
+    });
+</script>
+{% endblock %}
