@@ -1,0 +1,1 @@
+web: gunicorn anamnese_project.wsgi 
