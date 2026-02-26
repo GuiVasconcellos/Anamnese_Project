@@ -28,6 +28,13 @@ body {
     flex-direction: column;
 }
 
+input,
+select,
+textarea,
+button {
+    font-family: var(--font-family);
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -167,14 +174,14 @@ body {
 /* Form Grid */
 .form-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
 }
 
 .form-grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -190,40 +197,40 @@ body {
 /* Form Fields */
 .form-group {
     display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    /* space between label and input */
-    margin-bottom: 1.5rem;
-    /* larger vertical spacing */
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+    justify-content: flex-end;
+    /* Helps with alignment when inputs vary in height */
 }
 
 .form-group label {
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-    color: #444;
-    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .form-control {
-    padding: 0.8rem 1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
     font-size: 1rem;
-    font-family: var(--font-family);
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    background-color: #fafafa;
+    transition: all 0.3s ease;
+    background-color: var(--white);
+    width: 100%;
 }
 
 .form-control:focus {
     outline: none;
-    border-color: var(--secondary-color);
-    box-shadow: 0 0 0 3px rgba(64, 145, 108, 0.2);
-    background-color: var(--white);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 4px rgba(116, 198, 157, 0.15);
 }
 
 textarea.form-control {
     resize: vertical;
-    min-height: 80px;
+    min-height: 100px;
 }
 
 /* Buttons */
