@@ -28,7 +28,7 @@ def generate_txt_view(request):
                 f"Raça / Cor / Etnia: {data.get('raca_cor', '')}",
                 f"Naturalidade: {data.get('naturalidade', '')}",
                 f"Nacionalidade: {data.get('nacionalidade', '')}",
-                f"Procedência (Próxima): {data.get('procedencia_proxima', '')}",
+                f"Procedência Próxima: {data.get('procedencia_proxima', '')}",
                 f"Procedência (Remota): {data.get('procedencia_remota', '')}",
                 f"Religião: {data.get('religiao', '')}",
                 f"Profissão: {data.get('profissao', '')}",
