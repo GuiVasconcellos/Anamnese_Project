@@ -11,8 +11,8 @@ class AnamneseForm(forms.Form):
     raca_cor = forms.CharField(label="Raça / Cor / Etnia", max_length=100, required=False)
     naturalidade = forms.CharField(label="Naturalidade", max_length=100, required=False)
     nacionalidade = forms.CharField(label="Nacionalidade", max_length=100, required=False)
-    procedencia_proxima = forms.CharField(label="Procedência (Próxima)", max_length=100, required=False)
-    procedencia_remota = forms.CharField(label="Procedência (Remota)", max_length=100, required=False)
+    procedencia_proxima = forms.CharField(label="Procedência Próxima", max_length=100, required=False)
+    procedencia_remota = forms.CharField(label="Procedência Remota", max_length=100, required=False)
     religiao = forms.CharField(label="Religião", max_length=100, required=False)
     profissao = forms.CharField(label="Profissão", max_length=100, required=False)
     estado_civil = forms.CharField(label="Estado Civil", max_length=100, required=False)
@@ -34,7 +34,7 @@ class AnamneseForm(forms.Form):
     # ==========================
     isda_gerais = forms.CharField(label="Sintomas gerais (Febre, Dor, Edema, etc.)", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_pele = forms.CharField(label="Pele e fâneros", widget=forms.Textarea(attrs={"rows": 2}), required=False)
-    isda_cabeca = forms.CharField(label="Cabeça (Olhos, Nariz, Ouvidos, Boca, Garganta)", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    isda_cabeca = forms.CharField(label="Cabeça", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_pescoco = forms.CharField(label="Pescoço", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_torax = forms.CharField(label="Tórax e Aparelhos Cardio e Respiratório", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_abdome = forms.CharField(label="Abdome e Aparelho Digestório", widget=forms.Textarea(attrs={"rows": 3}), required=False)
@@ -61,7 +61,7 @@ class AnamneseForm(forms.Form):
     # ==========================
     ef_geral = forms.CharField(label="Exame Físico Geral", widget=forms.Textarea(attrs={"rows": 4}), required=False)
     ef_cabeca_pescoco = forms.CharField(label="Cabeça e Pescoço", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    ef_torax = forms.CharField(label="Exame Físico do Tórax (Resp/Cardio)", widget=forms.Textarea(attrs={"rows": 4}), required=False)
+    ef_torax = forms.CharField(label="Exame Físico do Tórax", widget=forms.Textarea(attrs={"rows": 4}), required=False)
     ef_abdome = forms.CharField(label="Exame Físico do Abdome", widget=forms.Textarea(attrs={"rows": 4}), required=False)
     ef_neurologico = forms.CharField(label="Exame Neurológico", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     ef_locomotor = forms.CharField(label="Aparelho Locomotor", widget=forms.Textarea(attrs={"rows": 3}), required=False)

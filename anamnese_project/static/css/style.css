@@ -208,7 +208,6 @@ button {
     margin-bottom: 0.6rem;
     color: var(--primary-color);
     font-size: 0.9rem;
-    text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
