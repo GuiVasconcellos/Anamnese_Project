@@ -2,21 +2,33 @@ from django import forms
 
 class AnamneseForm(forms.Form):
     # ==========================
+    # CABEÇALHO (NOVO)
+    # ==========================
+    hospital_name = forms.CharField(label="Nome do Hospital", max_length=200, initial="Hospital Ouro Verde")
+    data_atendimento = forms.CharField(label="Data do Atendimento (ex: 04/02)", max_length=50)
+    aluno_names = forms.CharField(label="Alunos (ex: Antonio Junior e João Paulo Barros)", max_length=300)
+
+    # ==========================
     # I. IDENTIFICAÇÃO
     # ==========================
-    nome = forms.CharField(label="Nome / Nome social", max_length=200)
-    idade = forms.CharField(label="Idade / Data de nascimento", max_length=100)
+    nome = forms.CharField(label="Nome / Iniciais", max_length=200)
+    idade = forms.CharField(label="Idade", max_length=100)
     sexo_biologico = forms.CharField(label="Sexo biológico", max_length=100, required=False)
-    identidade_genero = forms.CharField(label="Identidade de gênero", max_length=100, required=False)
     raca_cor = forms.CharField(label="Raça / Cor / Etnia", max_length=100, required=False)
+    estado_civil = forms.CharField(label="Estado Civil", max_length=100, required=False)
+    religiao = forms.CharField(label="Religião", max_length=100, required=False)
+    escolaridade = forms.CharField(label="Escolaridade", max_length=100, required=False)
+    profissao = forms.CharField(label="Profissão / Ocupação", max_length=100, required=False)
+    tempo_aposentadoria = forms.CharField(label="Tempo de aposentadoria", max_length=100, required=False)
     naturalidade = forms.CharField(label="Naturalidade", max_length=100, required=False)
+    residencia_atual = forms.CharField(label="Residência atual (Cidade/Bairro)", max_length=200, required=False)
+    tempo_residencia = forms.CharField(label="Tempo em que reside no local", max_length=100, required=False)
+
+    # Campos legados (mantidos para compatibilidade se necessário, mas podem ser ocultados ou removidos se não estiverem no PDF)
+    identidade_genero = forms.CharField(label="Identidade de gênero", max_length=100, required=False)
     nacionalidade = forms.CharField(label="Nacionalidade", max_length=100, required=False)
     procedencia_proxima = forms.CharField(label="Procedência Próxima", max_length=100, required=False)
     procedencia_remota = forms.CharField(label="Procedência Remota", max_length=100, required=False)
-    religiao = forms.CharField(label="Religião", max_length=100, required=False)
-    profissao = forms.CharField(label="Profissão", max_length=100, required=False)
-    estado_civil = forms.CharField(label="Estado Civil", max_length=100, required=False)
-    escolaridade = forms.CharField(label="Escolaridade", max_length=100, required=False)
     face_atendimento = forms.CharField(label="Identificação do responsável pelo atendimento", max_length=200, required=False)
 
     # ==========================
@@ -32,18 +44,24 @@ class AnamneseForm(forms.Form):
     # ==========================
     # IV. INTERROGATÓRIO SOBRE OS SINTOMAS DOS DEMAIS APARELHOS (ISDA)
     # ==========================
-    isda_gerais = forms.CharField(label="Sintomas gerais (Febre, Dor, Edema, etc.)", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    isda_pele = forms.CharField(label="Pele e fâneros", widget=forms.Textarea(attrs={"rows": 2}), required=False)
-    isda_cabeca = forms.CharField(label="Cabeça", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    isda_gerais = forms.CharField(label="Sintomas gerais (Febre, sudorese, etc.)", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    isda_pele = forms.CharField(label="Pelos e fâneros", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    isda_cabeca = forms.CharField(label="Cabeça", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    isda_olhos = forms.CharField(label="Olhos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    isda_nariz = forms.CharField(label="Nariz", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    isda_ouvidos = forms.CharField(label="Ouvidos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    isda_boca = forms.CharField(label="Boca", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    isda_garganta = forms.CharField(label="Garganta", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_pescoco = forms.CharField(label="Pescoço", widget=forms.Textarea(attrs={"rows": 2}), required=False)
-    isda_torax = forms.CharField(label="Tórax e Aparelhos Cardio e Respiratório", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    isda_torax = forms.CharField(label="Tórax e Aparelhos Cardiorrespiratórios", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_abdome = forms.CharField(label="Abdome e Aparelho Digestório", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_genito_urinario = forms.CharField(label="Aparelho Gênito-Urinário", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    isda_neurologico = forms.CharField(label="Sistema Nervoso", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    isda_mamas = forms.CharField(label="Mamas", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    isda_neurologico = forms.CharField(label="Sistema Nervoso / Neurológico", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_saude_mental = forms.CharField(label="Saúde mental / psiquismo", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    isda_locomotor = forms.CharField(label="Sistema Osteo-Articular e Muscular", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    isda_endocrino = forms.CharField(label="Sistema Endócrino", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    isda_imunologico = forms.CharField(label="Sistemas Imunológico e Linfohematopoético", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    isda_locomotor = forms.CharField(label="Aparelho Locomotor", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    isda_endocrino = forms.CharField(label="Sistema Endócrino", widget=forms.Textarea(attrs={"rows": 2}), required=False, initial="NÃO CONSTA NO MODELO")
+    isda_imunologico = forms.CharField(label="Sistemas Imunológico e Linfohematopoético", widget=forms.Textarea(attrs={"rows": 2}), required=False, initial="NÃO CONSTA NO MODELO")
 
     # ==========================
     # V. ANTECEDENTES
@@ -57,14 +75,41 @@ class AnamneseForm(forms.Form):
     antecedentes_familiares = forms.CharField(label="Antecedentes Familiares", widget=forms.Textarea(attrs={"rows": 3}), required=False)
 
     # ==========================
-    # VI. EXAME FÍSICO
+    # VI. EXAME FÍSICO (DETALHADO)
     # ==========================
-    ef_geral = forms.CharField(label="Exame Físico Geral", widget=forms.Textarea(attrs={"rows": 4}), required=False)
-    ef_cabeca_pescoco = forms.CharField(label="Cabeça e Pescoço", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    ef_torax = forms.CharField(label="Exame Físico do Tórax", widget=forms.Textarea(attrs={"rows": 4}), required=False)
-    ef_abdome = forms.CharField(label="Exame Físico do Abdome", widget=forms.Textarea(attrs={"rows": 4}), required=False)
-    ef_neurologico = forms.CharField(label="Exame Neurológico", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    ef_locomotor = forms.CharField(label="Aparelho Locomotor", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    # VII - Exame Físico Geral
+    ef_estado_geral = forms.CharField(label="Avaliação do estado geral", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_pa = forms.CharField(label="PA (ex: 130x80 mmHg)", max_length=100, required=False)
+    ef_fc = forms.CharField(label="FC (ex: 77 bpm)", max_length=100, required=False)
+    ef_t = forms.CharField(label="T (ex: 36,2 C)", max_length=100, required=False)
+    ef_fr = forms.CharField(label="FR (ex: 15 irpm)", max_length=100, required=False)
+    ef_peso = forms.CharField(label="Peso (ex: 68 Kg)", max_length=100, required=False)
+    ef_altura = forms.CharField(label="Altura (ex: 1,66 m)", max_length=100, required=False)
+    ef_imc = forms.CharField(label="IMC (ex: 24,98 Kg/m2)", max_length=100, required=False)
+    ef_consciencia = forms.CharField(label="Avaliação do nível de consciência", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_hidratacao = forms.CharField(label="Avaliação do estado de hidratação", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_nutricao = forms.CharField(label="Avaliação do estado de nutrição", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_mucosas = forms.CharField(label="Mucosas", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_facies = forms.CharField(label="Fácies", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_atitude = forms.CharField(label="Atitude", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_anexos_pelos = forms.CharField(label="Pelos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_anexos_unhas = forms.CharField(label="Unhas", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_pele = forms.CharField(label="Pele", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_linfonodos = forms.CharField(label="Linfonodos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+
+    # Exame físico do aparelho respiratório
+    ef_resp_inspecao_estatica = forms.CharField(label="Inspeção Estática", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_resp_inspecao_dinamica = forms.CharField(label="Inspeção Dinâmica", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_resp_percussao = forms.CharField(label="Percussão", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_resp_palpacao = forms.CharField(label="Palpação", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_resp_ausculta = forms.CharField(label="Ausculta", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+
+    # Exame físico do aparelho circulatório
+    ef_circ_inspecao = forms.CharField(label="Inspeção", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_circ_palpacao = forms.CharField(label="Palpação", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_circ_ausculta = forms.CharField(label="Ausculta", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_circ_arterias = forms.CharField(label="Artérias", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_circ_pulsos = forms.CharField(label="Pulsos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
 
     # ==========================
     # VII. HIPÓTESES DIAGNÓSTICAS, EXAMES, PLANO TERAPÊUTICO, PROGNÓSTICO

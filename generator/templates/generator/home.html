@@ -24,8 +24,26 @@
         </div>
 
         <div class="tab-content active" id="tab-identificacao">
-            <h3 style="color: green">I. Identificação</h3>
+            <h3 style="color: green">Cabeçalho e Identificação</h3>
             <div class="form-grid">
+                <!-- Cabeçalho -->
+                <div class="form-group">
+                    <label for="{{ form.hospital_name.id_for_label }}">{{ form.hospital_name.label }}</label>
+                    {{ form.hospital_name }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.data_atendimento.id_for_label }}">{{ form.data_atendimento.label }}</label>
+                    {{ form.data_atendimento }}
+                </div>
+                <div class="form-group full-width">
+                    <label for="{{ form.aluno_names.id_for_label }}">{{ form.aluno_names.label }}</label>
+                    {{ form.aluno_names }}
+                </div>
+
+                <hr
+                    style="grid-column: 1 / -1; width: 100%; border: 0; border-top: 1px solid var(--border-color); margin: 1rem 0;">
+
+                <!-- Identificação -->
                 <div class="form-group">
                     <label for="{{ form.nome.id_for_label }}">{{ form.nome.label }}</label>
                     {{ form.nome }}
@@ -39,49 +57,41 @@
                     {{ form.sexo_biologico }}
                 </div>
                 <div class="form-group">
-                    <label for="{{ form.identidade_genero.id_for_label }}">{{ form.identidade_genero.label }}</label>
-                    {{ form.identidade_genero }}
-                </div>
-                <div class="form-group">
                     <label for="{{ form.raca_cor.id_for_label }}">{{ form.raca_cor.label }}</label>
                     {{ form.raca_cor }}
-                </div>
-                <div class="form-group">
-                    <label for="{{ form.naturalidade.id_for_label }}">{{ form.naturalidade.label }}</label>
-                    {{ form.naturalidade }}
-                </div>
-                <div class="form-group">
-                    <label for="{{ form.nacionalidade.id_for_label }}">{{ form.nacionalidade.label }}</label>
-                    {{ form.nacionalidade }}
-                </div>
-                <div class="form-group">
-                    <label for="{{ form.procedencia_proxima.id_for_label }}">{{ form.procedencia_proxima.label
-                        }}</label>
-                    {{ form.procedencia_proxima }}
-                </div>
-                <div class="form-group">
-                    <label for="{{ form.procedencia_remota.id_for_label }}">{{ form.procedencia_remota.label }}</label>
-                    {{ form.procedencia_remota }}
-                </div>
-                <div class="form-group">
-                    <label for="{{ form.religiao.id_for_label }}">{{ form.religiao.label }}</label>
-                    {{ form.religiao }}
-                </div>
-                <div class="form-group">
-                    <label for="{{ form.profissao.id_for_label }}">{{ form.profissao.label }}</label>
-                    {{ form.profissao }}
                 </div>
                 <div class="form-group">
                     <label for="{{ form.estado_civil.id_for_label }}">{{ form.estado_civil.label }}</label>
                     {{ form.estado_civil }}
                 </div>
                 <div class="form-group">
+                    <label for="{{ form.religiao.id_for_label }}">{{ form.religiao.label }}</label>
+                    {{ form.religiao }}
+                </div>
+                <div class="form-group">
                     <label for="{{ form.escolaridade.id_for_label }}">{{ form.escolaridade.label }}</label>
                     {{ form.escolaridade }}
                 </div>
                 <div class="form-group">
-                    <label for="{{ form.face_atendimento.id_for_label }}">{{ form.face_atendimento.label }}</label>
-                    {{ form.face_atendimento }}
+                    <label for="{{ form.profissao.id_for_label }}">{{ form.profissao.label }}</label>
+                    {{ form.profissao }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.tempo_aposentadoria.id_for_label }}">{{ form.tempo_aposentadoria.label
+                        }}</label>
+                    {{ form.tempo_aposentadoria }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.naturalidade.id_for_label }}">{{ form.naturalidade.label }}</label>
+                    {{ form.naturalidade }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.residencia_atual.id_for_label }}">{{ form.residencia_atual.label }}</label>
+                    {{ form.residencia_atual }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.tempo_residencia.id_for_label }}">{{ form.tempo_residencia.label }}</label>
+                    {{ form.tempo_residencia }}
                 </div>
             </div>
             <div class="tab-footer">
@@ -111,7 +121,7 @@
         </div>
 
         <div class="tab-content" id="tab-isda" style="display: none;">
-            <h3 style="color: green">IV. ISDA (Interrogatório Sobre os Sintomas dos Demais Aparelhos)</h3>
+            <h3 style="color: green">IV. ISDA</h3>
             <div class="form-grid-2">
                 <div class="form-group">
                     <label for="{{ form.isda_gerais.id_for_label }}">{{ form.isda_gerais.label }}</label>
@@ -124,6 +134,26 @@
                 <div class="form-group">
                     <label for="{{ form.isda_cabeca.id_for_label }}">{{ form.isda_cabeca.label }}</label>
                     {{ form.isda_cabeca }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_olhos.id_for_label }}">{{ form.isda_olhos.label }}</label>
+                    {{ form.isda_olhos }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_nariz.id_for_label }}">{{ form.isda_nariz.label }}</label>
+                    {{ form.isda_nariz }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_ouvidos.id_for_label }}">{{ form.isda_ouvidos.label }}</label>
+                    {{ form.isda_ouvidos }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_boca.id_for_label }}">{{ form.isda_boca.label }}</label>
+                    {{ form.isda_boca }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_garganta.id_for_label }}">{{ form.isda_garganta.label }}</label>
+                    {{ form.isda_garganta }}
                 </div>
                 <div class="form-group">
                     <label for="{{ form.isda_pescoco.id_for_label }}">{{ form.isda_pescoco.label }}</label>
@@ -141,6 +171,10 @@
                     <label for="{{ form.isda_genito_urinario.id_for_label }}">{{ form.isda_genito_urinario.label
                         }}</label>
                     {{ form.isda_genito_urinario }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_mamas.id_for_label }}">{{ form.isda_mamas.label }}</label>
+                    {{ form.isda_mamas }}
                 </div>
                 <div class="form-group">
                     <label for="{{ form.isda_neurologico.id_for_label }}">{{ form.isda_neurologico.label }}</label>
@@ -214,31 +248,131 @@
         </div>
 
         <div class="tab-content" id="tab-examefisico" style="display: none;">
-            <h3 style="color: green">VI. Exame Físico</h3>
+            <h3 style="color: green">VII. Exame Físico</h3>
+
+            <h4 style="color: green; margin-top: 1rem;">Exame Físico Geral</h4>
+            <div class="form-grid-2">
+                <div class="form-group full-width">
+                    <label for="{{ form.ef_estado_geral.id_for_label }}">{{ form.ef_estado_geral.label }}</label>
+                    {{ form.ef_estado_geral }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_pa.id_for_label }}">{{ form.ef_pa.label }}</label>
+                    {{ form.ef_pa }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_fc.id_for_label }}">{{ form.ef_fc.label }}</label>
+                    {{ form.ef_fc }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_t.id_for_label }}">{{ form.ef_t.label }}</label>
+                    {{ form.ef_t }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_fr.id_for_label }}">{{ form.ef_fr.label }}</label>
+                    {{ form.ef_fr }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_peso.id_for_label }}">{{ form.ef_peso.label }}</label>
+                    {{ form.ef_peso }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_altura.id_for_label }}">{{ form.ef_altura.label }}</label>
+                    {{ form.ef_altura }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_imc.id_for_label }}">{{ form.ef_imc.label }}</label>
+                    {{ form.ef_imc }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_consciencia.id_for_label }}">{{ form.ef_consciencia.label }}</label>
+                    {{ form.ef_consciencia }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_hidratacao.id_for_label }}">{{ form.ef_hidratacao.label }}</label>
+                    {{ form.ef_hidratacao }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_nutricao.id_for_label }}">{{ form.ef_nutricao.label }}</label>
+                    {{ form.ef_nutricao }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_mucosas.id_for_label }}">{{ form.ef_mucosas.label }}</label>
+                    {{ form.ef_mucosas }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_facies.id_for_label }}">{{ form.ef_facies.label }}</label>
+                    {{ form.ef_facies }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_atitude.id_for_label }}">{{ form.ef_atitude.label }}</label>
+                    {{ form.ef_atitude }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_anexos_pelos.id_for_label }}">{{ form.ef_anexos_pelos.label }}</label>
+                    {{ form.ef_anexos_pelos }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_anexos_unhas.id_for_label }}">{{ form.ef_anexos_unhas.label }}</label>
+                    {{ form.ef_anexos_unhas }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_pele.id_for_label }}">{{ form.ef_pele.label }}</label>
+                    {{ form.ef_pele }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_linfonodos.id_for_label }}">{{ form.ef_linfonodos.label }}</label>
+                    {{ form.ef_linfonodos }}
+                </div>
+            </div>
+
+            <h4 style="color: green; margin-top: 1.5rem;">Aparelho Respiratório</h4>
             <div class="form-grid-2">
                 <div class="form-group">
-                    <label for="{{ form.ef_geral.id_for_label }}">{{ form.ef_geral.label }}</label>
-                    {{ form.ef_geral }}
+                    <label for="{{ form.ef_resp_inspecao_estatica.id_for_label }}">{{
+                        form.ef_resp_inspecao_estatica.label }}</label>
+                    {{ form.ef_resp_inspecao_estatica }}
                 </div>
                 <div class="form-group">
-                    <label for="{{ form.ef_cabeca_pescoco.id_for_label }}">{{ form.ef_cabeca_pescoco.label }}</label>
-                    {{ form.ef_cabeca_pescoco }}
+                    <label for="{{ form.ef_resp_inspecao_dinamica.id_for_label }}">{{
+                        form.ef_resp_inspecao_dinamica.label }}</label>
+                    {{ form.ef_resp_inspecao_dinamica }}
                 </div>
                 <div class="form-group">
-                    <label for="{{ form.ef_torax.id_for_label }}">{{ form.ef_torax.label }}</label>
-                    {{ form.ef_torax }}
+                    <label for="{{ form.ef_resp_percussao.id_for_label }}">{{ form.ef_resp_percussao.label }}</label>
+                    {{ form.ef_resp_percussao }}
                 </div>
                 <div class="form-group">
-                    <label for="{{ form.ef_abdome.id_for_label }}">{{ form.ef_abdome.label }}</label>
-                    {{ form.ef_abdome }}
+                    <label for="{{ form.ef_resp_palpacao.id_for_label }}">{{ form.ef_resp_palpacao.label }}</label>
+                    {{ form.ef_resp_palpacao }}
+                </div>
+                <div class="form-group full-width">
+                    <label for="{{ form.ef_resp_ausculta.id_for_label }}">{{ form.ef_resp_ausculta.label }}</label>
+                    {{ form.ef_resp_ausculta }}
+                </div>
+            </div>
+
+            <h4 style="color: green; margin-top: 1.5rem;">Aparelho Circulatório</h4>
+            <div class="form-grid-2">
+                <div class="form-group">
+                    <label for="{{ form.ef_circ_inspecao.id_for_label }}">{{ form.ef_circ_inspecao.label }}</label>
+                    {{ form.ef_circ_inspecao }}
                 </div>
                 <div class="form-group">
-                    <label for="{{ form.ef_neurologico.id_for_label }}">{{ form.ef_neurologico.label }}</label>
-                    {{ form.ef_neurologico }}
+                    <label for="{{ form.ef_circ_palpacao.id_for_label }}">{{ form.ef_circ_palpacao.label }}</label>
+                    {{ form.ef_circ_palpacao }}
                 </div>
                 <div class="form-group">
-                    <label for="{{ form.ef_locomotor.id_for_label }}">{{ form.ef_locomotor.label }}</label>
-                    {{ form.ef_locomotor }}
+                    <label for="{{ form.ef_circ_ausculta.id_for_label }}">{{ form.ef_circ_ausculta.label }}</label>
+                    {{ form.ef_circ_ausculta }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.ef_circ_arterias.id_for_label }}">{{ form.ef_circ_arterias.label }}</label>
+                    {{ form.ef_circ_arterias }}
+                </div>
+                <div class="form-group full-width">
+                    <label for="{{ form.ef_circ_pulsos.id_for_label }}">{{ form.ef_circ_pulsos.label }}</label>
+                    {{ form.ef_circ_pulsos }}
                 </div>
             </div>
             <div class="tab-footer">
