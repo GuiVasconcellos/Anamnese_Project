@@ -4,9 +4,9 @@ class AnamneseForm(forms.Form):
     # ==========================
     # CABEÇALHO (NOVO)
     # ==========================
-    hospital_name = forms.CharField(label="Nome do Hospital", max_length=200, initial="Hospital Ouro Verde")
-    data_atendimento = forms.CharField(label="Data do Atendimento (ex: 04/02)", max_length=50)
-    aluno_names = forms.CharField(label="Alunos (ex: Antonio Junior e João Paulo Barros)", max_length=300)
+    hospital_name = forms.CharField(label="Nome do Hospital", max_length=200)
+    data_atendimento = forms.CharField(label="Data do Atendimento", max_length=50)
+    aluno_names = forms.CharField(label="Alunos", max_length=300)
 
     # ==========================
     # I. IDENTIFICAÇÃO
@@ -44,7 +44,7 @@ class AnamneseForm(forms.Form):
     # ==========================
     # IV. INTERROGATÓRIO SOBRE OS SINTOMAS DOS DEMAIS APARELHOS (ISDA)
     # ==========================
-    isda_gerais = forms.CharField(label="Sintomas gerais (Febre, sudorese, etc.)", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    isda_gerais = forms.CharField(label="Sintomas gerais", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_pele = forms.CharField(label="Pelos e fâneros", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_cabeca = forms.CharField(label="Cabeça", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_olhos = forms.CharField(label="Olhos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
@@ -60,8 +60,8 @@ class AnamneseForm(forms.Form):
     isda_neurologico = forms.CharField(label="Sistema Nervoso / Neurológico", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_saude_mental = forms.CharField(label="Saúde mental / psiquismo", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_locomotor = forms.CharField(label="Aparelho Locomotor", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    isda_endocrino = forms.CharField(label="Sistema Endócrino", widget=forms.Textarea(attrs={"rows": 2}), required=False, initial="NÃO CONSTA NO MODELO")
-    isda_imunologico = forms.CharField(label="Sistemas Imunológico e Linfohematopoético", widget=forms.Textarea(attrs={"rows": 2}), required=False, initial="NÃO CONSTA NO MODELO")
+    isda_endocrino = forms.CharField(label="Sistema Endócrino", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    isda_imunologico = forms.CharField(label="Sistemas Imunológico e Linfohematopoético", widget=forms.Textarea(attrs={"rows": 2}), required=False)
 
     # ==========================
     # V. ANTECEDENTES
@@ -79,13 +79,13 @@ class AnamneseForm(forms.Form):
     # ==========================
     # VII - Exame Físico Geral
     ef_estado_geral = forms.CharField(label="Avaliação do estado geral", widget=forms.Textarea(attrs={"rows": 2}), required=False)
-    ef_pa = forms.CharField(label="PA (ex: 130x80 mmHg)", max_length=100, required=False)
-    ef_fc = forms.CharField(label="FC (ex: 77 bpm)", max_length=100, required=False)
-    ef_t = forms.CharField(label="T (ex: 36,2 C)", max_length=100, required=False)
-    ef_fr = forms.CharField(label="FR (ex: 15 irpm)", max_length=100, required=False)
-    ef_peso = forms.CharField(label="Peso (ex: 68 Kg)", max_length=100, required=False)
-    ef_altura = forms.CharField(label="Altura (ex: 1,66 m)", max_length=100, required=False)
-    ef_imc = forms.CharField(label="IMC (ex: 24,98 Kg/m2)", max_length=100, required=False)
+    ef_pa = forms.CharField(label="PA", max_length=100, required=False)
+    ef_fc = forms.CharField(label="FC", max_length=100, required=False)
+    ef_t = forms.CharField(label="T", max_length=100, required=False)
+    ef_fr = forms.CharField(label="FR", max_length=100, required=False)
+    ef_peso = forms.CharField(label="Peso", max_length=100, required=False)
+    ef_altura = forms.CharField(label="Altura", max_length=100, required=False)
+    ef_imc = forms.CharField(label="IMC", max_length=100, required=False)
     ef_consciencia = forms.CharField(label="Avaliação do nível de consciência", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_hidratacao = forms.CharField(label="Avaliação do estado de hidratação", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_nutricao = forms.CharField(label="Avaliação do estado de nutrição", widget=forms.Textarea(attrs={"rows": 2}), required=False)

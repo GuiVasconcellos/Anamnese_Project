@@ -4,6 +4,9 @@
 
 <div class="form-wrapper">
     <h2 class="form-title" style="color: green">Preenchimento de dados:</h2>
+    <p style="text-align: center; color: #666; margin-bottom: 1rem; font-size: 0.9rem;">
+        * Caso não seja necessário utilizar algum dado, digite apenas um "-" no campo correspondente.
+    </p>
 
     <form method="post" action="{% url 'generate_txt' %}" class="anamnese-form">
         {% csrf_token %}
