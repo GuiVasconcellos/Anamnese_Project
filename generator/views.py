@@ -125,5 +125,6 @@ def generate_txt_view(request):
             response['Content-Disposition'] = f'attachment; filename="{filename}"'
             return response
     
-    # Se não for POST ou form inválido, redireciona pro home
-    return render(request, 'generator/home.html', {'form': AnamneseForm()})
+    # Se o form for inválido (no POST), ele renderiza com os erros. 
+    # Se não for POST, renderiza um form vazio.
+    return render(request, 'generator/home.html', {'form': form if request.method == 'POST' else AnamneseForm()})

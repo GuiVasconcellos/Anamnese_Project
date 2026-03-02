@@ -4,8 +4,8 @@
 
 <div class="form-wrapper">
     <h2 class="form-title" style="color: green">Preenchimento de dados:</h2>
-    <p style="text-align: center; color: #666; margin-bottom: 1rem; font-size: 0.9rem;">
-        * Caso não seja necessário utilizar algum dado, digite apenas um "-" no campo correspondente.
+    <p style="text-align: center; color: green; margin-bottom: 1rem; font-size: 0.9rem;">
+        * Caso não seja necessário utilizar algum dado, mantenha o campo vazio.
     </p>
 
     <form method="post" action="{% url 'generate_txt' %}" class="anamnese-form">
@@ -16,6 +16,8 @@
             <div class="tabs"
                 style="display: flex; justify-content: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0; border-bottom: none; padding-bottom: 0; overflow: hidden;">
                 <button type="button" class="tab-link active"
+                    onclick="openTab(event, 'tab-cabecalho')">Cabeçalho</button>
+                <button type="button" class="tab-link"
                     onclick="openTab(event, 'tab-identificacao')">Identificação</button>
                 <button type="button" class="tab-link" onclick="openTab(event, 'tab-qd')">QD & HPMA</button>
                 <button type="button" class="tab-link" onclick="openTab(event, 'tab-isda')">ISDA</button>
@@ -26,27 +28,43 @@
             </div>
         </div>
 
-        <div class="tab-content active" id="tab-identificacao">
-            <h3 style="color: green">Cabeçalho e Identificação</h3>
+        <div class="tab-content active" id="tab-cabecalho">
+            <h3 style="color: green">I. Cabeçalho (Obrigatório)</h3>
             <div class="form-grid">
-                <!-- Cabeçalho -->
                 <div class="form-group">
-                    <label for="{{ form.hospital_name.id_for_label }}">{{ form.hospital_name.label }}</label>
+                    <label for="{{ form.hospital_name.id_for_label }}">{{ form.hospital_name.label }}*</label>
                     {{ form.hospital_name }}
+                    {% if form.hospital_name.errors %}
+                    <div class="error-message" style="color: red; font-size: 0.8rem;">{{ form.hospital_name.errors.0 }}
+                    </div>
+                    {% endif %}
                 </div>
                 <div class="form-group">
-                    <label for="{{ form.data_atendimento.id_for_label }}">{{ form.data_atendimento.label }}</label>
+                    <label for="{{ form.data_atendimento.id_for_label }}">{{ form.data_atendimento.label }}*</label>
                     {{ form.data_atendimento }}
+                    {% if form.data_atendimento.errors %}
+                    <div class="error-message" style="color: red; font-size: 0.8rem;">{{ form.data_atendimento.errors.0
+                        }}</div>
+                    {% endif %}
                 </div>
                 <div class="form-group full-width">
-                    <label for="{{ form.aluno_names.id_for_label }}">{{ form.aluno_names.label }}</label>
+                    <label for="{{ form.aluno_names.id_for_label }}">{{ form.aluno_names.label }}*</label>
                     {{ form.aluno_names }}
+                    {% if form.aluno_names.errors %}
+                    <div class="error-message" style="color: red; font-size: 0.8rem;">{{ form.aluno_names.errors.0 }}
+                    </div>
+                    {% endif %}
                 </div>
+            </div>
+            <div class="tab-footer">
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-identificacao')">Próximo
+                    &raquo;</button>
+            </div>
+        </div>
 
-                <hr
-                    style="grid-column: 1 / -1; width: 100%; border: 0; border-top: 1px solid var(--border-color); margin: 1rem 0;">
-
-                <!-- Identificação -->
+        <div class="tab-content" id="tab-identificacao" style="display: none;">
+            <h3 style="color: green">II. Identificação</h3>
+            <div class="form-grid">
                 <div class="form-group">
                     <label for="{{ form.nome.id_for_label }}">{{ form.nome.label }}</label>
                     {{ form.nome }}
@@ -98,6 +116,8 @@
                 </div>
             </div>
             <div class="tab-footer">
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-cabecalho')">&laquo;
+                    Anterior</button>
                 <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-qd')">Próximo
                     &raquo;</button>
             </div>
@@ -459,7 +479,8 @@
 
     // Initialize first tab manually
     document.addEventListener("DOMContentLoaded", function () {
-        document.getElementById("tab-identificacao").style.display = "block";
+        // If there are errors, show the first tab (cabecalho)
+        document.getElementById("tab-cabecalho").style.display = "block";
     });
 </script>
 {% endblock %}
