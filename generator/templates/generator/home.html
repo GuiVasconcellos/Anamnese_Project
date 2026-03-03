@@ -4,9 +4,6 @@
 
 <div class="form-wrapper">
     <h2 class="form-title" style="color: green">Preenchimento de dados:</h2>
-    <p style="text-align: center; color: green; margin-bottom: 1rem; font-size: 0.9rem;">
-        * Caso não seja necessário utilizar algum dado, mantenha o campo vazio.
-    </p>
 
     <form method="post" action="{% url 'generate_txt' %}" class="anamnese-form" novalidate>
         {% csrf_token %}
