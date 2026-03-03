@@ -132,6 +132,8 @@ button {
 .tab-link:hover {
     color: var(--primary-color);
     background: rgba(116, 198, 157, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .tab-link.active {
@@ -285,12 +287,12 @@ textarea.form-control {
 }
 
 .btn-conclusoes {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: white !important;
     font-weight: 600;
     border: none;
-    border-radius: var(--border-radius) var(--border-radius) 0 0;
-    padding: 0.8rem 1.5rem;
+    border-radius: var(--border-radius);
+    padding: 0.8rem 2.5rem;
     box-shadow: 0 4px 10px rgba(45, 106, 79, 0.2);
     transition: all 0.3s ease;
 }
@@ -302,7 +304,7 @@ textarea.form-control {
 }
 
 .btn-conclusoes.active {
-    background-color: #2D6A4F;
-    /* primary-color/deep green */
-    border-bottom: 3px solid #1B4332;
+    background-color: #1B4332;
+    /* Even darker green for active */
+    border: 2px solid var(--accent-color);
 }

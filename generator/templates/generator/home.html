@@ -12,9 +12,9 @@
         {% csrf_token %}
 
         <div
-            style="display: flex; justify-content: center; width: 100%; border-bottom: 2px solid var(--border-color); margin-bottom: 2rem; padding-bottom: 0.5rem;">
+            style="display: flex; flex-direction: column; align-items: center; width: 100%; border-bottom: 2px solid var(--border-color); margin-bottom: 2rem; padding-bottom: 1rem;">
             <div class="tabs"
-                style="display: flex; justify-content: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0; border-bottom: none; padding-bottom: 0; overflow: hidden;">
+                style="display: flex; justify-content: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem; border-bottom: none; padding-bottom: 0; overflow: hidden;">
                 <button type="button" class="tab-link active"
                     onclick="openTab(event, 'tab-cabecalho')">Cabeçalho</button>
                 <button type="button" class="tab-link"
@@ -24,6 +24,8 @@
                 <button type="button" class="tab-link"
                     onclick="openTab(event, 'tab-antecedentes')">Antecedentes</button>
                 <button type="button" class="tab-link" onclick="openTab(event, 'tab-examefisico')">Exame Físico</button>
+            </div>
+            <div class="tabs-secondary" style="display: flex; justify-content: center; width: 100%;">
                 <button type="button" class="tab-link btn-conclusoes"
                     onclick="openTab(event, 'tab-conclusao')">Conclusões</button>
             </div>
