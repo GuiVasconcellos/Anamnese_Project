@@ -283,3 +283,8 @@ textarea.form-control {
     font-size: 0.9rem;
     margin-top: auto;
 }
+
+#btn-conclusoes {
+    background-color: green;
+    color: white;
+}
