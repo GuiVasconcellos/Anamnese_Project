@@ -8,7 +8,7 @@
         * Caso não seja necessário utilizar algum dado, mantenha o campo vazio.
     </p>
 
-    <form method="post" action="{% url 'generate_txt' %}" class="anamnese-form">
+    <form method="post" action="{% url 'generate_txt' %}" class="anamnese-form" novalidate>
         {% csrf_token %}
 
         <div
