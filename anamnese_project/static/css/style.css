@@ -284,7 +284,7 @@ textarea.form-control {
     margin-top: auto;
 }
 
-#btn-conclusoes {
+.btn-conclusoes {
     background-color: green;
     color: white;
     font-weight: 600;
@@ -295,12 +295,12 @@ textarea.form-control {
     transition: all 0.3s ease;
 }
 
-#btn-conclusoes:hover {
+.btn-conclusoes:hover {
     background-color: #27ae60;
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 128, 0, 0.35);
 }
 
-#btn-conclusoes:active {
+.btn-conclusoes:active {
     background-color: #1e8449;
 }
