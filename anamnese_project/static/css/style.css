@@ -1,15 +1,15 @@
 :root {
-    --primary-color: #2D6A4F;
-    /* Deep green */
-    --secondary-color: #40916C;
-    --accent-color: #74C69D;
-    --bg-color: #F0F4F2;
-    --text-color: #1B4332;
-    --border-color: #D8E2DC;
+    --primary-color: #27ae60;
+    /* Vibrant green matching 'green' */
+    --secondary-color: #2ecc71;
+    --accent-color: #a2d149;
+    --bg-color: #f4f7f6;
+    --text-color: #2c3e50;
+    --border-color: #dcdde1;
     --white: #fff;
     --font-family: 'Inter', sans-serif;
     --border-radius: 12px;
-    --shadow: 0 8px 32px rgba(45, 106, 79, 0.1);
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 * {
@@ -131,7 +131,7 @@ button {
 
 .tab-link:hover {
     color: var(--primary-color);
-    background: rgba(116, 198, 157, 0.1);
+    background: rgba(46, 204, 113, 0.1);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -256,16 +256,18 @@ textarea.form-control {
     justify-content: center;
 }
 
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
 .btn-primary {
     background-color: var(--primary-color);
     color: var(--white);
-    box-shadow: 0 4px 6px rgba(45, 106, 79, 0.2);
 }
 
 .btn-primary:hover {
     background-color: var(--secondary-color);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(45, 106, 79, 0.3);
 }
 
 .btn-secondary {
@@ -293,18 +295,18 @@ textarea.form-control {
     border: none;
     border-radius: var(--border-radius);
     padding: 0.8rem 2.5rem;
-    box-shadow: 0 4px 10px rgba(45, 106, 79, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
 .btn-conclusoes:hover {
     background-color: var(--secondary-color);
     transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(45, 106, 79, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .btn-conclusoes.active {
-    background-color: #1B4332;
-    /* Even darker green for active */
+    background-color: #1b5e20;
+    /* Darker vibrant green */
     border: 2px solid var(--accent-color);
 }
