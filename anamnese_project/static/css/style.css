@@ -206,7 +206,7 @@ button {
 .form-group label {
     font-weight: 600;
     margin-bottom: 0.6rem;
-    color: var(--primary-color);
+    color: #666;
     font-size: 0.9rem;
     letter-spacing: 0.5px;
 }
