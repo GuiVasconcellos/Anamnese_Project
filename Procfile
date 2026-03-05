@@ -1,1 +1,1 @@
-web: gunicorn anamnese_project.wsgi 
+web: gunicorn anamnese_project.wsgi --timeout 120
