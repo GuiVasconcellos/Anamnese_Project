@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Anamnese - {{ data.nome|default:"Paciente" }}</title>
+    <style>
+        @page {
+            size: a4;
+            margin: 2.5cm;
+
+            @frame footer_frame {
+                -pdf-frame-content: footer_content;
+                left: 50pt;
+                width: 512pt;
+                top: 772pt;
+                height: 20pt;
+            }
+        }
+
+        body {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #2c3e50;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #27ae60;
+            padding-bottom: 1rem;
+        }
+
+        .header h1 {
+            color: #27ae60;
+            font-size: 18pt;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .header h2 {
+            font-size: 12pt;
+            margin: 0.5rem 0;
+            color: #7f8c8d;
+        }
+
+        .info-pill {
+            background-color: #f8f9fa;
+            padding: 0.5rem;
+            font-size: 10pt;
+            margin-bottom: 1rem;
+            border-left: 4px solid #27ae60;
+        }
+
+        .section {
+            margin-bottom: 1.5rem;
+            page-break-inside: avoid;
+        }
+
+        .section-title {
+            color: #27ae60;
+            font-size: 13pt;
+            font-weight: bold;
+            border-bottom: 1px solid #ecf0f1;
+            margin-bottom: 0.5rem;
+            padding-bottom: 2pt;
+        }
+
+        .sub-section {
+            margin-left: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .sub-subtitle {
+            font-weight: bold;
+            color: #34495e;
+            margin-right: 5pt;
+        }
+
+        .content-text {
+            color: #2c3e50;
+        }
+
+        .narrative {
+            font-style: italic;
+            background-color: #fdfdfd;
+            padding: 5pt;
+        }
+
+        #footer_content {
+            text-align: center;
+            color: #95a5a6;
+            font-size: 9pt;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>ROTEIRO DE HISTÓRIA CLÍNICA</h1>
+        <h2>{{ data.hospital_name }} - {{ data.data_aten }}</h2>
+    </div>
+
+    <div class="info-pill">
+        <strong>Profissional(ais) / Aluno(s):</strong> {{ data.aluno_names }}
+    </div>
+
+    <!-- I. IDENTIFICAÇÃO -->
+    <div class="section">
+        <div class="section-title">I – Identificação</div>
+        <div class="narrative">
+            {% if data.nome %}<strong>Nome:</strong> {{ data.nome }}. {% endif %}
+            {% if data.nome_social %}<strong>Nome Social:</strong> {{ data.nome_social }}. {% endif %}
+            {% if data.idade %}<strong>Idade:</strong> {{ data.idade }}. {% endif %}
+            {% if data.data_nascimento %}<strong>Nascimento:</strong> {{ data.data_nascimento }}. {% endif %}
+            {% if data.sexo_biologico %}<strong>Sexo:</strong> {{ data.sexo_biologico }}. {% endif %}
+            {% if data.identidade_genero %}<strong>Gênero:</strong> {{ data.identidade_genero }}. {% endif %}
+            {% if data.raca_cor %}<strong>Raça/Cor:</strong> {{ data.raca_cor }}. {% endif %}
+            {% if data.naturalidade %}<strong>Naturalidade:</strong> {{ data.naturalidade }}. {% endif %}
+            {% if data.nacionalidade %}<strong>Nacionalidade:</strong> {{ data.nacionalidade }}. {% endif %}
+            {% if data.procedencia_prox %}<strong>Procedência Próxima:</strong> {{ data.procedencia_prox }}. {% endif %}
+            {% if data.procedencia_rem %}<strong>Procedência Remota:</strong> {{ data.procedencia_rem }}. {% endif %}
+            {% if data.estado_civil %}<strong>Estado Civil:</strong> {{ data.estado_civil }}. {% endif %}
+            {% if data.religiao %}<strong>Religião:</strong> {{ data.religiao }}. {% endif %}
+            {% if data.escolaridade %}<strong>Escolaridade:</strong> {{ data.escolaridade }}. {% endif %}
+            {% if data.profissao %}<strong>Profissão:</strong> {{ data.profissao }}. {% endif %}
+            {% if data.residencia_atual %}<strong>Residência:</strong> {{ data.residencia_atual }} ({{
+            data.tempo_residencia }}).{% endif %}
+        </div>
+    </div>
+
+    <!-- II. QUEIXA PRINCIPAL -->
+    {% if data.queixa_principal %}
+    <div class="section">
+        <div class="section-title">II – Queixa Principal e sua duração (QD)</div>
+        <div class="content-text">"{{ data.queixa_principal }}"</div>
+    </div>
+    {% endif %}
+
+    <!-- III. HPMA -->
+    {% if data.hpma %}
+    <div class="section">
+        <div class="section-title">III – História Pregressa da Moléstia Atual (HPMA)</div>
+        <div class="content-text">{{ data.hpma|linebreaksbr }}</div>
+    </div>
+    {% endif %}
+
+    <!-- IV. ISDA -->
+    <div class="section">
+        <div class="section-title">IV – Interrogatório sobre Sintomas dos Demais Aparelhos (ISDA)</div>
+        {% if data.isda_gerais %}<div class="sub-section"><span class="sub-subtitle">Sintomas Gerais:</span> {{
+            data.isda_gerais }}</div>{% endif %}
+        {% if data.isda_pele %}<div class="sub-section"><span class="sub-subtitle">Pelos e fâneros:</span> {{
+            data.isda_pele }}</div>{% endif %}
+        {% if data.isda_cabeca %}<div class="sub-section"><span class="sub-subtitle">Cabeça:</span> {{ data.isda_cabeca
+            }}</div>{% endif %}
+        {% if data.isda_olhos %}<div class="sub-section"><span class="sub-subtitle">Olhos:</span> {{ data.isda_olhos }}
+        </div>{% endif %}
+        {% if data.isda_nariz %}<div class="sub-section"><span class="sub-subtitle">Nariz:</span> {{ data.isda_nariz }}
+        </div>{% endif %}
+        {% if data.isda_ouvidos %}<div class="sub-section"><span class="sub-subtitle">Ouvidos:</span> {{
+            data.isda_ouvidos }}</div>{% endif %}
+        {% if data.isda_boca %}<div class="sub-section"><span class="sub-subtitle">Boca:</span> {{ data.isda_boca }}
+        </div>{% endif %}
+        {% if data.isda_garganta %}<div class="sub-section"><span class="sub-subtitle">Garganta:</span> {{
+            data.isda_garganta }}</div>{% endif %}
+        {% if data.isda_pescoco %}<div class="sub-section"><span class="sub-subtitle">Pescoço:</span> {{
+            data.isda_pescoco }}</div>{% endif %}
+        {% if data.isda_torax %}<div class="sub-section"><span class="sub-subtitle">Tórax/Cardiorrespiratório:</span> {{
+            data.isda_torax }}</div>{% endif %}
+        {% if data.isda_abdome %}<div class="sub-section"><span class="sub-subtitle">Abdome/Digestório:</span> {{
+            data.isda_abdome }}</div>{% endif %}
+        {% if data.isda_urinario %}<div class="sub-section"><span class="sub-subtitle">Urinário:</span> {{
+            data.isda_urinario }}</div>{% endif %}
+        {% if data.isda_repro_fem %}<div class="sub-section"><span class="sub-subtitle">Reprodutor Feminino:</span> {{
+            data.isda_repro_fem }}</div>{% endif %}
+        {% if data.isda_repro_masc %}<div class="sub-section"><span class="sub-subtitle">Reprodutor Masculino:</span> {{
+            data.isda_repro_masc }}</div>{% endif %}
+        {% if data.isda_mamas %}<div class="sub-section"><span class="sub-subtitle">Mamas:</span> {{ data.isda_mamas }}
+        </div>{% endif %}
+        {% if data.isda_neurologico %}<div class="sub-section"><span class="sub-subtitle">Neurológico:</span> {{
+            data.isda_neurologico }}</div>{% endif %}
+        {% if data.isda_saude_mental %}<div class="sub-section"><span class="sub-subtitle">Saúde Mental:</span> {{
+            data.isda_saude_mental }}</div>{% endif %}
+        {% if data.isda_locomotor %}<div class="sub-section"><span class="sub-subtitle">Locomotor:</span> {{
+            data.isda_locomotor }}</div>{% endif %}
+        {% if data.isda_endocrino %}<div class="sub-section"><span class="sub-subtitle">Endócrino:</span> {{
+            data.isda_endocrino }}</div>{% endif %}
+        {% if data.isda_imunologico %}<div class="sub-section"><span class="sub-subtitle">Imunológico:</span> {{
+            data.isda_imunologico }}</div>{% endif %}
+    </div>
+
+    <!-- V. ANTECEDENTES -->
+    <div class="section">
+        <div class="section-title">V – Antecedentes</div>
+        {% if data.ant_morbidos %}<div class="sub-section"><span class="sub-subtitle">Pessoais:</span> {{
+            data.ant_morbidos }}</div>{% endif %}
+        {% if data.habitos_vida %}<div class="sub-section"><span class="sub-subtitle">Hábitos:</span> {{
+            data.habitos_vida }}</div>{% endif %}
+        {% if data.condicoes_vida %}<div class="sub-section"><span class="sub-subtitle">Condições:</span> {{
+            data.condicoes_vida }}</div>{% endif %}
+        {% if data.ant_familiares %}<div class="sub-section"><span class="sub-subtitle">Familiares:</span> {{
+            data.ant_familiares }}</div>{% endif %}
+    </div>
+
+    <!-- VII. EXAME FÍSICO GERAL -->
+    <div class="section">
+        <div class="section-title">VII – Exame Físico Geral</div>
+        {% if data.ef_estado_geral %}<div class="sub-section"><span class="sub-subtitle">Estado Geral:</span> {{
+            data.ef_estado_geral }}</div>{% endif %}
+        <div class="sub-section">
+            <span class="sub-subtitle">Sinais Vitais:</span>
+            PA: {{ data.ef_pa|default:"-" }} / FC: {{ data.ef_fc|default:"-" }} / T: {{ data.ef_t|default:"-" }} / FR:
+            {{ data.ef_fr|default:"-" }}
+        </div>
+        <div class="sub-section">
+            <span class="sub-subtitle">Antropometria:</span>
+            Peso: {{ data.ef_peso|default:"-" }} / Altura: {{ data.ef_altura|default:"-" }} / IMC: {{
+            data.ef_imc|default:"-" }}
+        </div>
+        {% if data.ef_consciencia %}<div class="sub-section"><span class="sub-subtitle">Consciência:</span> {{
+            data.ef_consciencia }}</div>{% endif %}
+        {% if data.ef_hidratacao %}<div class="sub-section"><span class="sub-subtitle">Hidratação:</span> {{
+            data.ef_hidratacao }}</div>{% endif %}
+        {% if data.ef_nutricao %}<div class="sub-section"><span class="sub-subtitle">Nutrição:</span> {{
+            data.ef_nutricao }}</div>{% endif %}
+        {% if data.ef_pele %}<div class="sub-section"><span class="sub-subtitle">Pele:</span> {{ data.ef_pele }}</div>{%
+        endif %}
+    </div>
+
+    <!-- VIII. EXAME FISICO ESPECIAL -->
+    <div class="section">
+        <div class="section-title">VIII – Exame Físico Especial</div>
+        {% if data.ef_cabeca_detalhe %}<div class="sub-section"><span class="sub-subtitle">Cabeça:</span> {{
+            data.ef_cabeca_detalhe }}</div>{% endif %}
+        {% if data.ef_pescoco_detalhe %}<div class="sub-section"><span class="sub-subtitle">Pescoço:</span> {{
+            data.ef_pescoco_detalhe }}</div>{% endif %}
+        {% if data.ef_abdome_especial %}<div class="sub-section"><span class="sub-subtitle">Abdome:</span> {{
+            data.ef_abdome_especial }}</div>{% endif %}
+        {% if data.ef_neuro_detalhe %}<div class="sub-section"><span class="sub-subtitle">Neurológico:</span> {{
+            data.ef_neuro_detalhe }}</div>{% endif %}
+        {% if data.ef_locomotor_detalhe %}<div class="sub-section"><span class="sub-subtitle">Locomotor:</span> {{
+            data.ef_locomotor_detalhe }}</div>{% endif %}
+    </div>
+
+    <!-- IX. CONCLUSÕES -->
+    <div class="section">
+        <div class="section-title">IX – Conclusões e Planejamento</div>
+        {% if data.hipoteses %}<div class="sub-section"><span class="sub-subtitle">Hipóteses:</span> {{ data.hipoteses
+            }}</div>{% endif %}
+        {% if data.exames %}<div class="sub-section"><span class="sub-subtitle">Exames:</span> {{ data.exames }}</div>{%
+        endif %}
+        {% if data.plano_terapeutico %}<div class="sub-section"><span class="sub-subtitle">Plano:</span> {{
+            data.plano_terapeutico }}</div>{% endif %}
+        {% if data.prognostico %}<div class="sub-section"><span class="sub-subtitle">Prognóstico:</span> {{
+            data.prognostico }}</div>{% endif %}
+    </div>
+
+    <div id="footer_content">
+        Gerado pelo Sistema de Anamnese - Mandic 2024
+    </div>
+</body>
+
+</html>

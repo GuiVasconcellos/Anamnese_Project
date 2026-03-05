@@ -5,7 +5,7 @@
 <div class="form-wrapper">
     <h2 class="form-title" style="color: green">Preenchimento de dados:</h2>
 
-    <form method="post" action="{% url 'generate_txt' %}" class="anamnese-form" novalidate>
+    <form method="post" action="{% url 'generate_pdf' %}" class="anamnese-form" novalidate>
         {% csrf_token %}
 
         <div
@@ -484,7 +484,7 @@
             <div class="tab-footer" style="justify-content: space-between;">
                 <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-ef-especial')">&laquo;
                     Anterior</button>
-                <button type="submit" class="btn btn-primary">Gerar Anamnese (.TXT)</button>
+                <button type="submit" class="btn btn-primary">Gerar Anamnese (.PDF)</button>
             </div>
         </div>
 
