@@ -11,8 +11,8 @@ class AnamneseForm(forms.Form):
     # ==========================
     # I. IDENTIFICAÇÃO
     # ==========================
-    nome = forms.CharField(label="Nome / Iniciais", max_length=200)
-    idade = forms.CharField(label="Idade", max_length=100)
+    nome = forms.CharField(label="Nome / Iniciais", max_length=200, required=False)
+    idade = forms.CharField(label="Idade", max_length=100, required=False)
     sexo_biologico = forms.CharField(label="Sexo biológico", max_length=100, required=False)
     raca_cor = forms.CharField(label="Raça / Cor / Etnia", max_length=100, required=False)
     estado_civil = forms.CharField(label="Estado Civil", max_length=100, required=False)

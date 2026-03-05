@@ -9,6 +9,7 @@ SECRET_KEY = 'django-insecure-test-key-for-local-development'
 DEBUG = False
 
 ALLOWED_HOSTS = ['anamnese-project.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://anamnese-project.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',

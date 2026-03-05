@@ -479,7 +479,21 @@
 
     // Initialize first tab manually
     document.addEventListener("DOMContentLoaded", function () {
-        // If there are errors, show the first tab (cabecalho)
+        // Encontrar o primeiro erro se houver
+        var firstError = document.querySelector(".error-message");
+
+        if (firstError) {
+            // Encontrar em qual aba o erro está
+            var parentTab = firstError.closest(".tab-content");
+            if (parentTab) {
+                var tabId = parentTab.id;
+                // Abre a aba que contém o erro
+                openTab(null, tabId);
+                return;
+            }
+        }
+
+        // Se não houver erro, mostra o cabeçalho normalmente
         document.getElementById("tab-cabecalho").style.display = "block";
     });
 </script>
