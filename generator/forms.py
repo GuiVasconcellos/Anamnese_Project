@@ -6,7 +6,7 @@ class AnamneseForm(forms.Form):
     # ==========================
     hospital_name = forms.CharField(label="Nome do Hospital", max_length=200, required=True)
     data_aten = forms.CharField(label="Data do Atendimento", max_length=50, required=True)
-    aluno_names = forms.CharField(label="Alunos", max_length=300, required=True)
+    aluno_names = forms.CharField(label="Profissional(ais) / Aluno(s)", max_length=300, required=True)
 
     # ==========================
     # I. IDENTIFICAÇÃO
