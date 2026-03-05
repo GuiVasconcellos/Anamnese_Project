@@ -8,14 +8,6 @@
         @page {
             size: a4;
             margin: 2.5cm;
-
-            @frame footer_frame {
-                -pdf-frame-content: footer_content;
-                left: 50pt;
-                width: 512pt;
-                top: 772pt;
-                height: 20pt;
-            }
         }
 
         body {
@@ -259,10 +251,6 @@
         {% if data.prognostico %}
         <div class="sub-section"><span class="sub-subtitle">Prognóstico:</span> {{ data.prognostico }}</div>
         {% endif %}
-    </div>
-
-    <div id="footer_content">
-        Gerado pelo Sistema de Anamnese - Mandic 2024
     </div>
 </body>
 
