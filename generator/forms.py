@@ -55,7 +55,7 @@ class AnamneseForm(forms.Form):
     isda_pescoco = forms.CharField(label="Pescoço", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_torax = forms.CharField(label="Tórax e Aparelhos Cardiorrespiratórios", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_abdome = forms.CharField(label="Abdome e Aparelho Digestório", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    isda_genito_urinario = forms.CharField(label="Aparelho Gênito-Urinário", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    isda_g_urinario = forms.CharField(label="Aparelho Gênito-Urinário", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_mamas = forms.CharField(label="Mamas", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_neurologico = forms.CharField(label="Sistema Nervoso / Neurológico", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_saude_mental = forms.CharField(label="Saúde mental / psiquismo", widget=forms.Textarea(attrs={"rows": 3}), required=False)
@@ -66,13 +66,13 @@ class AnamneseForm(forms.Form):
     # ==========================
     # V. ANTECEDENTES
     # ==========================
-    antecedentes_morbidos = forms.CharField(label="Antecedentes mórbidos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ant_morbidos = forms.CharField(label="Antecedentes mórbidos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     habitos_vida = forms.CharField(label="Hábitos de vida", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     condicoes_vida = forms.CharField(label="Condições de vida", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     epidemiologia = forms.CharField(label="Antecedentes epidemiológicos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     vacinacao = forms.CharField(label="Vacinação", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     medicamentos_uso = forms.CharField(label="Medicamentos de uso contínuo", widget=forms.Textarea(attrs={"rows": 2}), required=False)
-    antecedentes_familiares = forms.CharField(label="Antecedentes Familiares", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    ant_familiares = forms.CharField(label="Antecedentes Familiares", widget=forms.Textarea(attrs={"rows": 3}), required=False)
 
     # ==========================
     # VI. EXAME FÍSICO (DETALHADO)
@@ -98,8 +98,8 @@ class AnamneseForm(forms.Form):
     ef_linfonodos = forms.CharField(label="Linfonodos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
 
     # Exame físico do aparelho respiratório
-    ef_resp_inspecao_estatica = forms.CharField(label="Inspeção Estática", widget=forms.Textarea(attrs={"rows": 2}), required=False)
-    ef_resp_inspecao_dinamica = forms.CharField(label="Inspeção Dinâmica", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_resp_insp_est = forms.CharField(label="Inspeção Estática", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    ef_resp_insp_din = forms.CharField(label="Inspeção Dinâmica", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_resp_percussao = forms.CharField(label="Percussão", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_resp_palpacao = forms.CharField(label="Palpação", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_resp_ausculta = forms.CharField(label="Ausculta", widget=forms.Textarea(attrs={"rows": 2}), required=False)
