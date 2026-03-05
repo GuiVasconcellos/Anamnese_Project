@@ -7,3 +7,4 @@ Pillow
 gunicorn
 python-bidi==0.4.2
 psycopg2-binary
+urllib3<2.0.0
