@@ -6,3 +6,4 @@ reportlab==4.0.9
 Pillow
 gunicorn
 python-bidi==0.4.2
+psycopg2-binary
