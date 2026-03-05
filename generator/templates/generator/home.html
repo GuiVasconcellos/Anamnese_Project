@@ -9,9 +9,9 @@
         {% csrf_token %}
 
         <div
-            style="display: flex; flex-direction: column; align-items: center; width: 100%; border-bottom: 2px solid var(--border-color); margin-bottom: 2rem; padding-bottom: 1rem;">
+            style="display: flex; flex-direction: column; align-items: center; width: 100%; border-bottom: 2px solid var(--border-color); margin-bottom: 1.5rem; padding-bottom: 0.5rem; margin-top: 0.5rem;">
             <div class="tabs"
-                style="overflow-x: hidden; display: flex; justify-content: center; flex-wrap: nowrap; gap: 0.3rem; margin-bottom: 1rem; border-bottom: none; padding-bottom: 0; width: 100%;">
+                style="overflow-x: hidden; display: flex; justify-content: center; flex-wrap: nowrap; gap: 0.3rem; margin-bottom: 0.5rem; border-bottom: none; padding-bottom: 0; width: 100%;">
                 <button type="button" class="tab-link active"
                     onclick="openTab(event, 'tab-cabecalho')">Cabeçalho</button>
                 <button type="button" class="tab-link"
@@ -137,10 +137,6 @@
                 <div class="form-group">
                     <label for="{{ form.tempo_residencia.id_for_label }}">{{ form.tempo_residencia.label }}</label>
                     {{ form.tempo_residencia }}
-                </div>
-                <div class="form-group full-width">
-                    <label for="{{ form.face_atendimento.id_for_label }}">{{ form.face_atendimento.label }}</label>
-                    {{ form.face_atendimento }}
                 </div>
             </div>
             <div class="tab-footer">

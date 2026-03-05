@@ -38,7 +38,6 @@ def generate_txt_view(request):
                     f"Procedência Remota: {data.get('procedencia_rem', '')}" if data.get('procedencia_rem') else None,
                     f"residente em {data.get('residencia_atual', '')}" if data.get('residencia_atual') else None,
                     f"desde os {data.get('tempo_residencia', '')}" if data.get('tempo_residencia') else None,
-                    f"Responsável: {data.get('face_atendimento', '')}" if data.get('face_atendimento') else None,
                 ])) + ".\n",
 
                 "II – Queixa Principal e sua duração (QD)",

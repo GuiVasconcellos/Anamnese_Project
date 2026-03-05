@@ -31,7 +31,6 @@ class AnamneseForm(forms.Form):
 
     # Campos que existiam no bloco legado mas agora seguem o PDF:
     identidade_genero = forms.CharField(label="Identidade de gênero", max_length=100, required=False)
-    face_atendimento = forms.CharField(label="Identificação do responsável pelo atendimento", max_length=200, required=False)
 
     # ==========================
     # II. QUEIXA PRINCIPAL E DURAÇÃO (QD)
