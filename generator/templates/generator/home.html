@@ -20,7 +20,8 @@
                 <button type="button" class="tab-link" onclick="openTab(event, 'tab-isda')">ISDA</button>
                 <button type="button" class="tab-link"
                     onclick="openTab(event, 'tab-antecedentes')">Antecedentes</button>
-                <button type="button" class="tab-link" onclick="openTab(event, 'tab-examefisico')">Exame Físico</button>
+                <button type="button" class="tab-link" onclick="openTab(event, 'tab-ef-geral')">EF Geral</button>
+                <button type="button" class="tab-link" onclick="openTab(event, 'tab-ef-especial')">EF Especial</button>
             </div>
             <div class="tabs-conclusao" style="display: flex; justify-content: center; width: 100%;">
                 <button type="button" class="tab-link btn-conclusoes"
@@ -70,12 +71,24 @@
                     {{ form.nome }}
                 </div>
                 <div class="form-group">
+                    <label for="{{ form.nome_social.id_for_label }}">{{ form.nome_social.label }}</label>
+                    {{ form.nome_social }}
+                </div>
+                <div class="form-group">
                     <label for="{{ form.idade.id_for_label }}">{{ form.idade.label }}</label>
                     {{ form.idade }}
                 </div>
                 <div class="form-group">
+                    <label for="{{ form.data_nascimento.id_for_label }}">{{ form.data_nascimento.label }}</label>
+                    {{ form.data_nascimento }}
+                </div>
+                <div class="form-group">
                     <label for="{{ form.sexo_biologico.id_for_label }}">{{ form.sexo_biologico.label }}</label>
                     {{ form.sexo_biologico }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.identidade_genero.id_for_label }}">{{ form.identidade_genero.label }}</label>
+                    {{ form.identidade_genero }}
                 </div>
                 <div class="form-group">
                     <label for="{{ form.raca_cor.id_for_label }}">{{ form.raca_cor.label }}</label>
@@ -106,12 +119,28 @@
                     {{ form.naturalidade }}
                 </div>
                 <div class="form-group">
+                    <label for="{{ form.nacionalidade.id_for_label }}">{{ form.nacionalidade.label }}</label>
+                    {{ form.nacionalidade }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.procedencia_prox.id_for_label }}">{{ form.procedencia_prox.label }}</label>
+                    {{ form.procedencia_prox }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.procedencia_rem.id_for_label }}">{{ form.procedencia_rem.label }}</label>
+                    {{ form.procedencia_rem }}
+                </div>
+                <div class="form-group">
                     <label for="{{ form.residencia_atual.id_for_label }}">{{ form.residencia_atual.label }}</label>
                     {{ form.residencia_atual }}
                 </div>
                 <div class="form-group">
                     <label for="{{ form.tempo_residencia.id_for_label }}">{{ form.tempo_residencia.label }}</label>
                     {{ form.tempo_residencia }}
+                </div>
+                <div class="form-group full-width">
+                    <label for="{{ form.face_atendimento.id_for_label }}">{{ form.face_atendimento.label }}</label>
+                    {{ form.face_atendimento }}
                 </div>
             </div>
             <div class="tab-footer">
@@ -190,8 +219,16 @@
                     {{ form.isda_abdome }}
                 </div>
                 <div class="form-group">
-                    <label for="{{ form.isda_g_urinario.id_for_label }}">{{ form.isda_g_urinario.label }}</label>
-                    {{ form.isda_g_urinario }}
+                    <label for="{{ form.isda_urinario.id_for_label }}">{{ form.isda_urinario.label }}</label>
+                    {{ form.isda_urinario }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_repro_fem.id_for_label }}">{{ form.isda_repro_fem.label }}</label>
+                    {{ form.isda_repro_fem }}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.isda_repro_masc.id_for_label }}">{{ form.isda_repro_masc.label }}</label>
+                    {{ form.isda_repro_masc }}
                 </div>
                 <div class="form-group">
                     <label for="{{ form.isda_mamas.id_for_label }}">{{ form.isda_mamas.label }}</label>
@@ -261,15 +298,13 @@
             <div class="tab-footer">
                 <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-isda')">&laquo;
                     Anterior</button>
-                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-examefisico')">Próximo
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-ef-geral')">Próximo
                     &raquo;</button>
             </div>
         </div>
 
-        <div class="tab-content" id="tab-examefisico" style="display: none;">
-            <h3 style="color: green">VII. Exame Físico</h3>
-
-            <h4 style="color: green; margin-top: 1rem;">Exame Físico Geral</h4>
+        <div class="tab-content" id="tab-ef-geral" style="display: none;">
+            <h3 style="color: green">VII. Exame Físico Geral</h3>
             <div class="form-grid-2">
                 <div class="form-group full-width">
                     <label for="{{ form.ef_estado_geral.id_for_label }}">{{ form.ef_estado_geral.label }}</label>
@@ -395,6 +430,36 @@
             <div class="tab-footer">
                 <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-antecedentes')">&laquo;
                     Anterior</button>
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-ef-especial')">Próximo
+                    &raquo;</button>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-ef-especial" style="display: none;">
+            <h3 style="color: green">VIII. Exame Físico Especial (Detalhado)</h3>
+            <div class="form-group">
+                <label for="{{ form.ef_cabeca_detalhe.id_for_label }}">{{ form.ef_cabeca_detalhe.label }}</label>
+                {{ form.ef_cabeca_detalhe }}
+            </div>
+            <div class="form-group" style="margin-top: 1rem;">
+                <label for="{{ form.ef_pescoco_detalhe.id_for_label }}">{{ form.ef_pescoco_detalhe.label }}</label>
+                {{ form.ef_pescoco_detalhe }}
+            </div>
+            <div class="form-group" style="margin-top: 1rem;">
+                <label for="{{ form.ef_abdome_especial.id_for_label }}">{{ form.ef_abdome_especial.label }}</label>
+                {{ form.ef_abdome_especial }}
+            </div>
+            <div class="form-group" style="margin-top: 1rem;">
+                <label for="{{ form.ef_neuro_detalhe.id_for_label }}">{{ form.ef_neuro_detalhe.label }}</label>
+                {{ form.ef_neuro_detalhe }}
+            </div>
+            <div class="form-group" style="margin-top: 1rem;">
+                <label for="{{ form.ef_locomotor_detalhe.id_for_label }}">{{ form.ef_locomotor_detalhe.label }}</label>
+                {{ form.ef_locomotor_detalhe }}
+            </div>
+            <div class="tab-footer">
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-ef-geral')">&laquo;
+                    Anterior</button>
                 <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-conclusao')">Próximo
                     &raquo;</button>
             </div>
@@ -421,7 +486,7 @@
                 </div>
             </div>
             <div class="tab-footer" style="justify-content: space-between;">
-                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-examefisico')">&laquo;
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-ef-especial')">&laquo;
                     Anterior</button>
                 <button type="submit" class="btn btn-primary">Gerar Anamnese (.TXT)</button>
             </div>

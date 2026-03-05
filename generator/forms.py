@@ -12,7 +12,9 @@ class AnamneseForm(forms.Form):
     # I. IDENTIFICAÇÃO
     # ==========================
     nome = forms.CharField(label="Nome / Iniciais", max_length=200, required=False)
+    nome_social = forms.CharField(label="Nome Social", max_length=200, required=False)
     idade = forms.CharField(label="Idade", max_length=100, required=False)
+    data_nascimento = forms.CharField(label="Data de Nascimento", max_length=100, required=False)
     sexo_biologico = forms.CharField(label="Sexo biológico", max_length=100, required=False)
     raca_cor = forms.CharField(label="Raça / Cor / Etnia", max_length=100, required=False)
     estado_civil = forms.CharField(label="Estado Civil", max_length=100, required=False)
@@ -21,14 +23,14 @@ class AnamneseForm(forms.Form):
     profissao = forms.CharField(label="Profissão / Ocupação", max_length=100, required=False)
     aposentadoria = forms.CharField(label="Tempo de aposentadoria", max_length=100, required=False)
     naturalidade = forms.CharField(label="Naturalidade", max_length=100, required=False)
+    nacionalidade = forms.CharField(label="Nacionalidade", max_length=100, required=False)
+    procedencia_prox = forms.CharField(label="Procedência Próxima", max_length=100, required=False)
+    procedencia_rem = forms.CharField(label="Procedência Remota", max_length=100, required=False)
     residencia_atual = forms.CharField(label="Residência atual (Cidade/Bairro)", max_length=200, required=False)
     tempo_residencia = forms.CharField(label="Tempo em que reside no local", max_length=100, required=False)
 
-    # Campos legados (mantidos para compatibilidade se necessário, mas podem ser ocultados ou removidos se não estiverem no PDF)
+    # Campos que existiam no bloco legado mas agora seguem o PDF:
     identidade_genero = forms.CharField(label="Identidade de gênero", max_length=100, required=False)
-    nacionalidade = forms.CharField(label="Nacionalidade", max_length=100, required=False)
-    procedencia_proxima = forms.CharField(label="Procedência Próxima", max_length=100, required=False)
-    procedencia_remota = forms.CharField(label="Procedência Remota", max_length=100, required=False)
     face_atendimento = forms.CharField(label="Identificação do responsável pelo atendimento", max_length=200, required=False)
 
     # ==========================
@@ -55,7 +57,9 @@ class AnamneseForm(forms.Form):
     isda_pescoco = forms.CharField(label="Pescoço", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_torax = forms.CharField(label="Tórax e Aparelhos Cardiorrespiratórios", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_abdome = forms.CharField(label="Abdome e Aparelho Digestório", widget=forms.Textarea(attrs={"rows": 3}), required=False)
-    isda_g_urinario = forms.CharField(label="Aparelho Gênito-Urinário", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    isda_urinario = forms.CharField(label="Sintomas Urinários", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    isda_repro_fem = forms.CharField(label="Aparelho Reprodutor Feminino", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+    isda_repro_masc = forms.CharField(label="Aparelho Reprodutor Masculino", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_mamas = forms.CharField(label="Mamas", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_neurologico = forms.CharField(label="Sistema Nervoso / Neurológico", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_saude_mental = forms.CharField(label="Saúde mental / psiquismo", widget=forms.Textarea(attrs={"rows": 3}), required=False)
@@ -110,6 +114,13 @@ class AnamneseForm(forms.Form):
     ef_circ_ausculta = forms.CharField(label="Ausculta", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_circ_arterias = forms.CharField(label="Artérias", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_circ_pulsos = forms.CharField(label="Pulsos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
+
+    # VIII - Exame Físico Especial (DETALHADO)
+    ef_cabeca_detalhe = forms.CharField(label="Cabeça (Crânio, Olhos, Nariz, Ouvidos, Boca)", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    ef_pescoco_detalhe = forms.CharField(label="Pescoço e Tireoide", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    ef_abdome_especial = forms.CharField(label="Abdome (Fígado, Baço, Rins, Aorta)", widget=forms.Textarea(attrs={"rows": 3}), required=False)
+    ef_neuro_detalhe = forms.CharField(label="Exame Neurológico", widget=forms.Textarea(attrs={"rows": 4}), required=False)
+    ef_locomotor_detalhe = forms.CharField(label="Aparelho Locomotor", widget=forms.Textarea(attrs={"rows": 4}), required=False)
 
     # ==========================
     # VII. HIPÓTESES DIAGNÓSTICAS, EXAMES, PLANO TERAPÊUTICO, PROGNÓSTICO
