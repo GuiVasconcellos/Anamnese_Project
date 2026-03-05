@@ -247,14 +247,18 @@
     <!-- IX. CONCLUSÕES -->
     <div class="section">
         <div class="section-title">IX – Conclusões e Planejamento</div>
-        {% if data.hipoteses %}<div class="sub-section"><span class="sub-subtitle">Hipóteses:</span> {{ data.hipoteses
-            }}</div>{% endif %}
-        {% if data.exames %}<div class="sub-section"><span class="sub-subtitle">Exames:</span> {{ data.exames }}</div>{%
-        endif %}
-        {% if data.plano_terapeutico %}<div class="sub-section"><span class="sub-subtitle">Plano:</span> {{
-            data.plano_terapeutico }}</div>{% endif %}
-        {% if data.prognostico %}<div class="sub-section"><span class="sub-subtitle">Prognóstico:</span> {{
-            data.prognostico }}</div>{% endif %}
+        {% if data.hipoteses %}
+        <div class="sub-section"><span class="sub-subtitle">Hipóteses:</span> {{ data.hipoteses }}</div>
+        {% endif %}
+        {% if data.exames %}
+        <div class="sub-section"><span class="sub-subtitle">Exames:</span> {{ data.exames }}</div>
+        {% endif %}
+        {% if data.plano_terapeutico %}
+        <div class="sub-section"><span class="sub-subtitle">Plano:</span> {{ data.plano_terapeutico }}</div>
+        {% endif %}
+        {% if data.prognostico %}
+        <div class="sub-section"><span class="sub-subtitle">Prognóstico:</span> {{ data.prognostico }}</div>
+        {% endif %}
     </div>
 
     <div id="footer_content">
