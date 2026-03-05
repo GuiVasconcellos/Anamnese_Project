@@ -13,24 +13,23 @@
             <div class="tabs"
                 style="overflow-x: hidden; display: flex; justify-content: center; flex-wrap: nowrap; gap: 0.3rem; margin-bottom: 1rem; border-bottom: none; padding-bottom: 0; width: 100%;">
                 <button type="button" class="tab-link active"
-                    onclick="openTab(event, 'tab-cabecalho')">CabeÃ§alho</button>
+                    onclick="openTab(event, 'tab-cabecalho')">Cabeçalho</button>
                 <button type="button" class="tab-link"
-                    onclick="openTab(event, 'tab-identificacao')">IdentificaÃ§Ã£o</button>
+                    onclick="openTab(event, 'tab-identificacao')">Identificação</button>
                 <button type="button" class="tab-link" onclick="openTab(event, 'tab-qd')">QD & HPMA</button>
                 <button type="button" class="tab-link" onclick="openTab(event, 'tab-isda')">ISDA</button>
                 <button type="button" class="tab-link"
                     onclick="openTab(event, 'tab-antecedentes')">Antecedentes</button>
-                <button type="button" class="tab-link" onclick="openTab(event, 'tab-examefisico')">Exame
-                    FÃ­sico</button>
+                <button type="button" class="tab-link" onclick="openTab(event, 'tab-examefisico')">Exame Físico</button>
             </div>
             <div class="tabs-conclusao" style="display: flex; justify-content: center; width: 100%;">
                 <button type="button" class="tab-link btn-conclusoes"
-                    onclick="openTab(event, 'tab-conclusao')">ConclusÃµes</button>
+                    onclick="openTab(event, 'tab-conclusao')">Conclusões</button>
             </div>
         </div>
 
         <div class="tab-content active" id="tab-cabecalho">
-            <h3 style="color: green">I. CabeÃ§alho (ObrigatÃ³rio)</h3>
+            <h3 style="color: green">I. Cabeçalho (Obrigatório)</h3>
             <div class="form-grid">
                 <div class="form-group">
                     <label for="{{ form.hospital_name.id_for_label }}">{{ form.hospital_name.label }}*</label>
@@ -58,13 +57,13 @@
                 </div>
             </div>
             <div class="tab-footer">
-                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-identificacao')">PrÃ³ximo
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-identificacao')">Próximo
                     &raquo;</button>
             </div>
         </div>
 
         <div class="tab-content" id="tab-identificacao" style="display: none;">
-            <h3 style="color: green">II. IdentificaÃ§Ã£o</h3>
+            <h3 style="color: green">II. Identificação</h3>
             <div class="form-grid">
                 <div class="form-group">
                     <label for="{{ form.nome.id_for_label }}">{{ form.nome.label }}</label>
@@ -119,7 +118,7 @@
             <div class="tab-footer">
                 <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-cabecalho')">&laquo;
                     Anterior</button>
-                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-qd')">PrÃ³ximo
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-qd')">Próximo
                     &raquo;</button>
             </div>
         </div>
@@ -131,7 +130,7 @@
                 {{ form.queixa_principal }}
             </div>
             <br>
-            <h3 style="color: green">III. HistÃ³ria Pregressa da MolÃ©stia Atual (HPMA)</h3>
+            <h3 style="color: green">III. História Pregressa da Moléstia Atual (HPMA)</h3>
             <div class="form-group">
                 <label for="{{ form.hpma.id_for_label }}">{{ form.hpma.label }}</label>
                 {{ form.hpma }}
@@ -139,7 +138,7 @@
             <div class="tab-footer">
                 <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-identificacao')">&laquo;
                     Anterior</button>
-                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-isda')">PrÃ³ximo
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-isda')">Próximo
                     &raquo;</button>
             </div>
         </div>
@@ -224,7 +223,7 @@
             <div class="tab-footer">
                 <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-qd')">&laquo;
                     Anterior</button>
-                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-antecedentes')">PrÃ³ximo
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-antecedentes')">Próximo
                     &raquo;</button>
             </div>
         </div>
@@ -266,15 +265,15 @@
             <div class="tab-footer">
                 <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-isda')">&laquo;
                     Anterior</button>
-                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-examefisico')">PrÃ³ximo
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-examefisico')">Próximo
                     &raquo;</button>
             </div>
         </div>
 
         <div class="tab-content" id="tab-examefisico" style="display: none;">
-            <h3 style="color: green">VII. Exame FÃ­sico</h3>
+            <h3 style="color: green">VII. Exame Físico</h3>
 
-            <h4 style="color: green; margin-top: 1rem;">Exame FÃ­sico Geral</h4>
+            <h4 style="color: green; margin-top: 1rem;">Exame Físico Geral</h4>
             <div class="form-grid-2">
                 <div class="form-group full-width">
                     <label for="{{ form.ef_estado_geral.id_for_label }}">{{ form.ef_estado_geral.label }}</label>
@@ -350,7 +349,7 @@
                 </div>
             </div>
 
-            <h4 style="color: green; margin-top: 1.5rem;">Aparelho RespiratÃ³rio</h4>
+            <h4 style="color: green; margin-top: 1.5rem;">Aparelho Respiratório</h4>
             <div class="form-grid-2">
                 <div class="form-group">
                     <label for="{{ form.ef_resp_inspecao_estatica.id_for_label }}">{{
@@ -376,7 +375,7 @@
                 </div>
             </div>
 
-            <h4 style="color: green; margin-top: 1.5rem;">Aparelho CirculatÃ³rio</h4>
+            <h4 style="color: green; margin-top: 1.5rem;">Aparelho Circulatório</h4>
             <div class="form-grid-2">
                 <div class="form-group">
                     <label for="{{ form.ef_circ_inspecao.id_for_label }}">{{ form.ef_circ_inspecao.label }}</label>
@@ -402,13 +401,13 @@
             <div class="tab-footer">
                 <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-antecedentes')">&laquo;
                     Anterior</button>
-                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-conclusao')">PrÃ³ximo
+                <button type="button" class="btn btn-secondary" onclick="openTab(event, 'tab-conclusao')">Próximo
                     &raquo;</button>
             </div>
         </div>
 
         <div class="tab-content" id="tab-conclusao" style="display: none;">
-            <h3 style="color: green">VII - X. ConclusÃµes e Planejamento</h3>
+            <h3 style="color: green">VII - X. Conclusões e Planejamento</h3>
             <div class="form-grid-2">
                 <div class="form-group full-width">
                     <label for="{{ form.hipoteses.id_for_label }}">{{ form.hipoteses.label }}</label>
@@ -451,13 +450,13 @@
             tabcontent[i].classList.remove("active");
         }
 
-        // Remove a classe "active" de todos os botÃµes que carregam as tabs
+        // Remove a classe "active" de todos os botões que carregam as tabs
         tablinks = document.getElementsByClassName("tab-link");
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].classList.remove("active");
         }
 
-        // Mostra a tab atual, e adiciona class="active" ao botÃ£o que a abriu
+        // Mostra a tab atual, e adiciona class="active" ao botão que a abriu
         var currentTab = document.getElementById(tabName);
         currentTab.style.display = "block";
         currentTab.classList.add("active");
@@ -484,17 +483,17 @@
         var firstError = document.querySelector(".error-message");
 
         if (firstError) {
-            // Encontrar em qual aba o erro estÃ¡
+            // Encontrar em qual aba o erro está
             var parentTab = firstError.closest(".tab-content");
             if (parentTab) {
                 var tabId = parentTab.id;
-                // Abre a aba que contÃ©m o erro
+                // Abre a aba que contém o erro
                 openTab(null, tabId);
                 return;
             }
         }
 
-        // Se nÃ£o houver erro, mostra o cabeÃ§alho normalmente
+        // Se não houver erro, mostra o cabeçalho normalmente
         document.getElementById("tab-cabecalho").style.display = "block";
     });
 </script>
