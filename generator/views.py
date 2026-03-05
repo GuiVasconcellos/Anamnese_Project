@@ -16,7 +16,7 @@ def generate_txt_view(request):
             
             # 1. Cabeçalho
             conteudo = [
-                f"Anamnese {data.get('hospital_name', 'Hospital')} - Dia {data.get('data_atendimento', '')}" if data.get('hospital_name') or data.get('data_atendimento') else None,
+                f"Anamnese {data.get('hospital_name', 'Hospital')} - Dia {data.get('data_aten', '')}" if data.get('hospital_name') or data.get('data_aten') else None,
                 f"Alunos: {data.get('aluno_names', '')}\n" if data.get('aluno_names') else None,
                 
                 # 2. Identificação (Formato Narrativo conforme PDF)
