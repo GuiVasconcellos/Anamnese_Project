@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #27ae60;
+    --primary-color: green;
     /* Vibrant green matching 'green' */
     --secondary-color: #2ecc71;
     --accent-color: #a2d149;
@@ -304,7 +304,7 @@ textarea.form-control {
 }
 
 .btn-conclusoes.active {
-    background-color: rgb(0, 128, 0);
+    background-color: #27ae60;
     /* Darker vibrant green */
     border: 2px solid var(--accent-color);
 }
