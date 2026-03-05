@@ -19,7 +19,7 @@ class AnamneseForm(forms.Form):
     religiao = forms.CharField(label="Religião", max_length=100, required=False)
     escolaridade = forms.CharField(label="Escolaridade", max_length=100, required=False)
     profissao = forms.CharField(label="Profissão / Ocupação", max_length=100, required=False)
-    tempo_aposentadoria = forms.CharField(label="Tempo de aposentadoria", max_length=100, required=False)
+    aposentadoria = forms.CharField(label="Tempo de aposentadoria", max_length=100, required=False)
     naturalidade = forms.CharField(label="Naturalidade", max_length=100, required=False)
     residencia_atual = forms.CharField(label="Residência atual (Cidade/Bairro)", max_length=200, required=False)
     tempo_residencia = forms.CharField(label="Tempo em que reside no local", max_length=100, required=False)

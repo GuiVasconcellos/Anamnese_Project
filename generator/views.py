@@ -28,7 +28,7 @@ def generate_txt_view(request):
                     data.get('estado_civil', ''),
                     data.get('religiao', ''),
                     data.get('escolaridade', ''),
-                    f"aposentada há {data.get('tempo_aposentadoria', '')}" if data.get('tempo_aposentadoria') else None,
+                    f"aposentada há {data.get('aposentadoria', '')}" if data.get('aposentadoria') else None,
                     f"Natural de {data.get('naturalidade', '')}" if data.get('naturalidade') else None,
                     f"residente em {data.get('residencia_atual', '')}" if data.get('residencia_atual') else None,
                     f"desde os {data.get('tempo_residencia', '')}" if data.get('tempo_residencia') else None,
