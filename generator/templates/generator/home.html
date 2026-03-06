@@ -12,9 +12,8 @@
             style="display: flex; flex-direction: column; align-items: center; width: 100%; border-bottom: 2px solid var(--border-color); margin-bottom: 1.5rem; padding-bottom: 0.5rem; margin-top: 0.5rem;">
             <div class="tabs"
                 style="overflow-x: hidden; display: flex; justify-content: center; flex-wrap: nowrap; gap: 0.3rem; margin-bottom: 0.5rem; border-bottom: none; padding-bottom: 0; width: 100%;">
-                <button type="button" class="tab-link active" onclick="openTab(event, 'tab-ia-workspace')"
-                    style="background-color: #e8f5e9; border: 1px dashed green;">✨ Workspace IA</button>
-                <button type="button" class="tab-link" onclick="openTab(event, 'tab-cabecalho')">Cabeçalho</button>
+                <button type="button" class="tab-link active"
+                    onclick="openTab(event, 'tab-cabecalho')">Cabeçalho</button>
                 <button type="button" class="tab-link"
                     onclick="openTab(event, 'tab-identificacao')">Identificação</button>
                 <button type="button" class="tab-link" onclick="openTab(event, 'tab-qd')">QD & HPMA</button>
@@ -24,14 +23,16 @@
                 <button type="button" class="tab-link" onclick="openTab(event, 'tab-ef-geral')">EF Geral</button>
                 <button type="button" class="tab-link" onclick="openTab(event, 'tab-ef-especial')">EF Especial</button>
             </div>
-            <div class="tabs-conclusao" style="display: flex; justify-content: center; width: 100%;">
+            <div class="tabs-conclusao" style="display: flex; justify-content: center; width: 100%; gap: 10px;">
+                <button type="button" class="tab-link btn-conclusoes"
+                    onclick="openTab(event, 'tab-ia-workspace')">Workspace IA</button>
                 <button type="button" class="tab-link btn-conclusoes"
                     onclick="openTab(event, 'tab-conclusao')">Conclusões</button>
             </div>
         </div>
 
-        <div class="tab-content active" id="tab-ia-workspace">
-            <h3 style="color: green"> ✨ Área de Trabalho Inteligente (IA) </h3>
+        <div class="tab-content" id="tab-ia-workspace" style="display: none;">
+            <h3 style="color: green"> Workspace (IA) </h3>
             <p style="font-size: 0.9rem; color: #666; margin-bottom: 1rem;">
                 Cole aqui o relato bruto, anotações ou a transcrição da consulta. A IA irá identificar as informações e
                 preencher as abas do formulário automaticamente.
@@ -45,12 +46,12 @@
                 Processando dados com IA...
             </div>
             <div class="tab-footer" style="margin-top: 1.5rem;">
-                <button type="button" class="btn btn-primary" id="btn-ai-parse" onclick="processAI()">✨ Extrair e
+                <button type="button" class="btn btn-primary" id="btn-ai-parse" onclick="processAI()">Extrair e
                     Preencher Formulário</button>
             </div>
         </div>
 
-        <div class="tab-content" id="tab-cabecalho" style="display: none;">
+        <div class="tab-content active" id="tab-cabecalho">
             <h3 style="color: green"> Cabeçalho </h3>
             <div class="form-grid">
                 <div class="form-group">
@@ -569,8 +570,8 @@
             }
         }
 
-        // Se não houver erro, mostra a aba da IA primeiro
-        document.getElementById("tab-ia-workspace").style.display = "block";
+        // Se não houver erro, mostra a aba Cabeçalho primeiro
+        document.getElementById("tab-cabecalho").style.display = "block";
     });
 
     async function processAI() {

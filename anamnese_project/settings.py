@@ -6,13 +6,21 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-test-key-for-local-development'
 
-DEBUG = False
+DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = ['anamnese-project.onrender.com']
-CSRF_TRUSTED_ORIGINS = ['https://anamnese-project.onrender.com']
+RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+if RENDER_EXTERNAL_HOSTNAME:
+    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+else:
+    # Quando rodando localmente
+    ALLOWED_HOSTS.extend(['localhost', '127.0.0.1', '0.0.0.0'])
 
-INSTALLED_APPS = [
-    'django.contrib.admin',
+CSRF_TRUSTED_ORIGINS = ['https://anamnese-project.onrender.com']
+if not RENDER_EXTERNAL_HOSTNAME:
+     CSRF_TRUSTED_ORIGINS.extend(['http://localhost', 'http://127.0.0.1'])
+
+INSTALLED_APPS = [    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',

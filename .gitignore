@@ -1,0 +1,28 @@
+# Enivronment Variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+
+# Django
+db.sqlite3
+*.log
+
+# Outros
+.DS_Store
+.vscode/
+.idea/
+
+# Ambientes Virtuais (Virtual environments)
+venv/
+env/
+ENV/
+.venv/
+
+# Arquivos Estáticos e Mídia do Django
+staticfiles/
+media/
