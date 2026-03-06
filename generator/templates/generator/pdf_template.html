@@ -34,15 +34,7 @@
         .header h2 {
             font-size: 12pt;
             margin: 0.5rem 0;
-            color: #7f8c8d;
-        }
-
-        .info-pill {
-            background-color: #f8f9fa;
-            padding: 0.5rem;
-            font-size: 10pt;
-            margin-bottom: 1rem;
-            border-left: 4px solid #27ae60;
+            color: black;
         }
 
         .section {
@@ -84,12 +76,9 @@
 
 <body>
     <div class="header">
-        <h1>ROTEIRO DE HISTÓRIA CLÍNICA</h1>
-        <h2>{{ data.hospital_name }} - {{ data.data_aten }}</h2>
-    </div>
-
-    <div class="info-pill">
-        <strong>Profissional(ais) / Aluno(s):</strong> {{ data.aluno_names }}
+        <h1>Anamnese {{ data.hospital_name }}</h1>
+        <h2 class="header"><strong>Profissional(ais) / Aluno(s):</strong> {{ data.aluno_names }} - {{ data.data_aten }}
+        </h2>
     </div>
 
     <!-- I. IDENTIFICAÇÃO -->

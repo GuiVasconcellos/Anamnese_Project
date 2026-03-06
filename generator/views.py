@@ -32,27 +32,22 @@ def generate_pdf_view(request):
             
             response['Content-Disposition'] = f'attachment; filename="{filename}"'
             
-            try:
-                # Encontrar o template e renderizá-lo
-                template = get_template(template_path)
-                html = template.render(context)
+            # Encontrar o template e renderizá-lo
+            template = get_template(template_path)
+            html = template.render(context)
 
-                # Criar o PDF
-                pisa_status = pisa.CreatePDF(
-                    io.BytesIO(html.encode("utf-8")), 
-                    dest=response,
-                    encoding='utf-8'
-                )
-                
-                # Se houver erro, retornar um erro amigável
-                if pisa_status.err:
-                   return HttpResponse('Erro no pisa.CreatePDF <pre>' + html + '</pre>')
-                
-                return response
-            except Exception as e:
-                import traceback
-                error_msg = f"Erro na geração do PDF: {str(e)}\n\n{traceback.format_exc()}"
-                return HttpResponse(error_msg, content_type="text/plain", status=500)
+            # Criar o PDF
+            pisa_status = pisa.CreatePDF(
+                io.BytesIO(html.encode("utf-8")), 
+                dest=response,
+                encoding='utf-8'
+            )
+            
+            # Se houver erro, retornar um erro amigável
+            if pisa_status.err:
+               return HttpResponse('Erro no pisa.CreatePDF <pre>' + html + '</pre>')
+            
+            return response
     
     # Se o form for inválido ou não for POST
     form = AnamneseForm(request.POST) if request.method == 'POST' else AnamneseForm()
