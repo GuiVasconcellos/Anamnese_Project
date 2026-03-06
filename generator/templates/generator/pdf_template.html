@@ -108,13 +108,13 @@
     <!-- II. QUEIXA PRINCIPAL -->
     <div class="section">
         <div class="section-title">II – Queixa Principal e sua duração (QD)</div>
-        <div class="content-text">"{{ data.queixa_principal|default:"-" }}"</div>
+        <div class="content-text">{% if data.queixa_principal %}"{{ data.queixa_principal }}"{% endif %}</div>
     </div>
 
     <!-- III. HPMA -->
     <div class="section">
         <div class="section-title">III – História Pregressa da Moléstia Atual (HPMA)</div>
-        <div class="content-text">{{ data.hpma|default:"-"|linebreaksbr }}</div>
+        <div class="content-text">{% if data.hpma %}{{ data.hpma|linebreaksbr }}{% endif %}</div>
     </div>
 
     <!-- IV. ISDA -->
@@ -180,16 +180,23 @@
         <div class="section-title">VII – Exame Físico Geral</div>
         {% if data.ef_estado_geral %}<div class="sub-section"><span class="sub-subtitle">Estado Geral:</span>
             {{ data.ef_estado_geral }}</div>{% endif %}
+        {% if data.ef_pa or data.ef_fc or data.ef_t or data.ef_fr %}
         <div class="sub-section">
             <span class="sub-subtitle">Sinais Vitais:</span>
-            PA: {{ data.ef_pa|default:"-" }} / FC: {{ data.ef_fc|default:"-" }} / T: {{ data.ef_t|default:"-" }} / FR:
-            {{ data.ef_fr|default:"-" }}
+            {% if data.ef_pa %}PA: {{ data.ef_pa }} / {% endif %}
+            {% if data.ef_fc %}FC: {{ data.ef_fc }} / {% endif %}
+            {% if data.ef_t %}T: {{ data.ef_t }} / {% endif %}
+            {% if data.ef_fr %}FR: {{ data.ef_fr }}{% endif %}
         </div>
+        {% endif %}
+        {% if data.ef_peso or data.ef_altura or data.ef_imc %}
         <div class="sub-section">
             <span class="sub-subtitle">Antropometria:</span>
-            Peso: {{ data.ef_peso|default:"-" }} / Altura: {{ data.ef_altura|default:"-" }} / IMC:
-            {{ data.ef_imc|default:"-" }}
+            {% if data.ef_peso %}Peso: {{ data.ef_peso }} / {% endif %}
+            {% if data.ef_altura %}Altura: {{ data.ef_altura }} / {% endif %}
+            {% if data.ef_imc %}IMC: {{ data.ef_imc }}{% endif %}
         </div>
+        {% endif %}
         {% if data.ef_consciencia %}<div class="sub-section"><span class="sub-subtitle">Consciência:</span>
             {{ data.ef_consciencia }}</div>{% endif %}
         {% if data.ef_hidratacao %}<div class="sub-section"><span class="sub-subtitle">Hidratação:</span>
