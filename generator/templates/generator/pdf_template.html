@@ -17,24 +17,29 @@
             color: #2c3e50;
         }
 
+        /* CABEÇALHO PROFISSIONAL */
         .header {
-            text-align: center;
-            margin-bottom: 2rem;
-            border-bottom: 2px solid #27ae60;
-            padding-bottom: 1rem;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
+            padding: 10px;
+            margin-bottom: 20px;
         }
 
         .header h1 {
-            color: #27ae60;
+            text-align: center;
             font-size: 18pt;
-            margin: 0;
+            margin: 5px 0;
             text-transform: uppercase;
         }
 
-        .header h2 {
-            font-size: 12pt;
-            margin: 0.5rem 0;
-            color: black;
+        .linha-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11pt;
+        }
+
+        .linha-info span {
+            margin-right: 10px;
         }
 
         .section {
@@ -75,10 +80,20 @@
 </head>
 
 <body>
+
     <div class="header">
-        <h1>Anamnese {{ data.hospital_name }}</h1>
-        <h2 class="header"><strong>Profissional(ais) / Aluno(s):</strong> {{ data.aluno_names }} - {{ data.data_aten }}
-        </h2>
+
+        <h1>ANAMNESE</h1>
+
+        <div class="linha-info">
+            <span><strong>Instituição:</strong> {{ data.hospital_name }}</span>
+            <span><strong>Data:</strong> {{ data.data_aten }}</span>
+        </div>
+
+        <div class="linha-info">
+            <span><strong>Profissional(ais) / Aluno(s):</strong> {{ data.aluno_names }}</span>
+        </div>
+
     </div>
 
     <!-- I. IDENTIFICAÇÃO -->
