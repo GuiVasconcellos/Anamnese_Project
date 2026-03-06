@@ -11,7 +11,7 @@
         }
 
         body {
-            font-family: 'Helvetica', 'Arial', sans-serif;
+            font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
             font-size: 11pt;
             line-height: 1.5;
             color: black;
@@ -106,20 +106,16 @@
     </div>
 
     <!-- II. QUEIXA PRINCIPAL -->
-    {% if data.queixa_principal %}
     <div class="section">
         <div class="section-title">II – Queixa Principal e sua duração (QD)</div>
-        <div class="content-text">"{{ data.queixa_principal }}"</div>
+        <div class="content-text">"{{ data.queixa_principal|default:"-" }}"</div>
     </div>
-    {% endif %}
 
     <!-- III. HPMA -->
-    {% if data.hpma %}
     <div class="section">
         <div class="section-title">III – História Pregressa da Moléstia Atual (HPMA)</div>
-        <div class="content-text">{{ data.hpma|linebreaksbr }}</div>
+        <div class="content-text">{{ data.hpma|default:"-"|linebreaksbr }}</div>
     </div>
-    {% endif %}
 
     <!-- IV. ISDA -->
     <div class="section">

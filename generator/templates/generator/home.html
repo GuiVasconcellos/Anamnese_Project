@@ -9,7 +9,7 @@
         {% csrf_token %}
 
         <div
-            style="display: flex; flex-direction: column; align-items: center; width: 100%; border-bottom: 2px solid var(--border-color); margin-bottom: 1.5rem; padding-bottom: 0.5rem; margin-top: 0.5rem;">
+            style="display: flex; flex-direction: column; align-items: center; width: 100%; border-bottom: 2px solid var(--border-color); margin-bottom: 1rem; padding-bottom: 0.3rem; margin-top: 0;">
             <div class="tabs"
                 style="overflow-x: hidden; display: flex; justify-content: center; flex-wrap: nowrap; gap: 0.3rem; margin-bottom: 0.5rem; border-bottom: none; padding-bottom: 0; width: 100%;">
                 <button type="button" class="tab-link active"
@@ -30,7 +30,7 @@
         </div>
 
         <div class="tab-content active" id="tab-cabecalho">
-            <h3 style="color: green">I. Cabeçalho (Obrigatório)</h3>
+            <h3 style="color: green"> Cabeçalho (Obrigatório)</h3>
             <div class="form-grid">
                 <div class="form-group">
                     <label for="{{ form.hospital_name.id_for_label }}">{{ form.hospital_name.label }}*</label>
@@ -64,7 +64,7 @@
         </div>
 
         <div class="tab-content" id="tab-identificacao" style="display: none;">
-            <h3 style="color: green">II. Identificação</h3>
+            <h3 style="color: green">I. Identificação</h3>
             <div class="form-grid">
                 <div class="form-group">
                     <label for="{{ form.nome.id_for_label }}">{{ form.nome.label }}</label>
