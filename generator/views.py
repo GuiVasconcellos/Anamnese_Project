@@ -5,6 +5,10 @@ from .forms import AnamneseForm
 from xhtml2pdf import pisa
 import datetime
 import io
+import json
+from django.views.decorators.csrf import csrf_exempt
+from django.http import JsonResponse
+from .ai_service import extract_anamnese_data
 
 def home_view(request):
     form = AnamneseForm()
@@ -52,3 +56,18 @@ def generate_pdf_view(request):
     # Se o form for inválido ou não for POST
     form = AnamneseForm(request.POST) if request.method == 'POST' else AnamneseForm()
     return render(request, 'generator/home.html', {'form': form})
+
+@csrf_exempt
+def api_parse_anamnese(request):
+    if request.method == 'POST':
+        try:
+            body = json.loads(request.body)
+            text = body.get('text', '')
+            if not text:
+                return JsonResponse({'error': 'Nenhum texto fornecido'}, status=400)
+            
+            extracted_data = extract_anamnese_data(text)
+            return JsonResponse(extracted_data)
+        except Exception as e:
+            return JsonResponse({'error': str(e)}, status=500)
+    return JsonResponse({'error': 'Método não permitido'}, status=405)

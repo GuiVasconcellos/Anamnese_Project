@@ -12,8 +12,9 @@
             style="display: flex; flex-direction: column; align-items: center; width: 100%; border-bottom: 2px solid var(--border-color); margin-bottom: 1.5rem; padding-bottom: 0.5rem; margin-top: 0.5rem;">
             <div class="tabs"
                 style="overflow-x: hidden; display: flex; justify-content: center; flex-wrap: nowrap; gap: 0.3rem; margin-bottom: 0.5rem; border-bottom: none; padding-bottom: 0; width: 100%;">
-                <button type="button" class="tab-link active"
-                    onclick="openTab(event, 'tab-cabecalho')">Cabeçalho</button>
+                <button type="button" class="tab-link active" onclick="openTab(event, 'tab-ia-workspace')"
+                    style="background-color: #e8f5e9; border: 1px dashed green;">✨ Workspace IA</button>
+                <button type="button" class="tab-link" onclick="openTab(event, 'tab-cabecalho')">Cabeçalho</button>
                 <button type="button" class="tab-link"
                     onclick="openTab(event, 'tab-identificacao')">Identificação</button>
                 <button type="button" class="tab-link" onclick="openTab(event, 'tab-qd')">QD & HPMA</button>
@@ -29,7 +30,27 @@
             </div>
         </div>
 
-        <div class="tab-content active" id="tab-cabecalho">
+        <div class="tab-content active" id="tab-ia-workspace">
+            <h3 style="color: green"> ✨ Área de Trabalho Inteligente (IA) </h3>
+            <p style="font-size: 0.9rem; color: #666; margin-bottom: 1rem;">
+                Cole aqui o relato bruto, anotações ou a transcrição da consulta. A IA irá identificar as informações e
+                preencher as abas do formulário automaticamente.
+            </p>
+            <div class="form-group">
+                <textarea id="ai-raw-text" class="form-control" rows="12"
+                    placeholder="Ex: Paciente João da Silva, 45 anos, relata dor no peito há 2 dias..."></textarea>
+            </div>
+            <div id="ai-status" style="margin-top: 1rem; font-weight: bold; color: green; display: none;">
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Processando dados com IA...
+            </div>
+            <div class="tab-footer" style="margin-top: 1.5rem;">
+                <button type="button" class="btn btn-primary" id="btn-ai-parse" onclick="processAI()">✨ Extrair e
+                    Preencher Formulário</button>
+            </div>
+        </div>
+
+        <div class="tab-content" id="tab-cabecalho" style="display: none;">
             <h3 style="color: green"> Cabeçalho </h3>
             <div class="form-grid">
                 <div class="form-group">
@@ -548,8 +569,58 @@
             }
         }
 
-        // Se não houver erro, mostra o cabeçalho normalmente
-        document.getElementById("tab-cabecalho").style.display = "block";
+        // Se não houver erro, mostra a aba da IA primeiro
+        document.getElementById("tab-ia-workspace").style.display = "block";
     });
+
+    async function processAI() {
+        const text = document.getElementById('ai-raw-text').value;
+        const btn = document.getElementById('btn-ai-parse');
+        const status = document.getElementById('ai-status');
+
+        if (!text.trim()) {
+            alert('Por favor, insira algum texto para a IA processar.');
+            return;
+        }
+
+        btn.disabled = true;
+        status.style.display = 'block';
+
+        try {
+            const response = await fetch('/api/ai-parse/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ text: text })
+            });
+
+            const data = await response.json();
+
+            if (data.error) {
+                alert('Erro na IA: ' + data.error);
+            } else {
+                // Preencher os campos do formulário
+                for (const [key, value] of Object.entries(data)) {
+                    const input = document.getElementsByName(key)[0];
+                    if (input) {
+                        input.value = value;
+                        // Adicionar um feedback visual nos campos preenchidos
+                        input.style.borderColor = 'green';
+                        input.style.backgroundColor = '#f1fff1';
+                    }
+                }
+                alert('Informações extraídas com sucesso! Verifique as abas do formulário.');
+                // Opcional: ir para a aba de cabeçalho após preencher
+                openTab(null, 'tab-cabecalho');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            alert('Ocorreu um erro ao processar a IA.');
+        } finally {
+            btn.disabled = false;
+            status.style.display = 'none';
+        }
+    }
 </script>
 {% endblock %}
