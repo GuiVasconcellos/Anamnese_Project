@@ -519,30 +519,25 @@
     function openTab(evt, tabName) {
         var i, tabcontent, tablinks;
 
-        // Esconde todos os elementos com a class="tab-content"
         tabcontent = document.getElementsByClassName("tab-content");
         for (i = 0; i < tabcontent.length; i++) {
             tabcontent[i].style.display = "none";
             tabcontent[i].classList.remove("active");
         }
 
-        // Remove a classe "active" de todos os botões que carregam as tabs
         tablinks = document.getElementsByClassName("tab-link");
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].classList.remove("active");
         }
 
-        // Mostra a tab atual, e adiciona class="active" ao botão que a abriu
         var currentTab = document.getElementById(tabName);
         currentTab.style.display = "block";
         currentTab.classList.add("active");
 
-        // Find the button and add active class (handle cases where event is null e.g. next/prev buttons)
         if (evt) {
             if (evt.currentTarget.classList.contains('tab-link')) {
                 evt.currentTarget.classList.add("active");
             } else {
-                // If next/prev, find the correct tab button top
                 var buttons = document.getElementsByClassName("tab-link");
                 for (let btn of buttons) {
                     if (btn.getAttribute("onclick").includes(tabName)) {
@@ -553,23 +548,18 @@
         }
     }
 
-    // Initialize first tab manually
     document.addEventListener("DOMContentLoaded", function () {
-        // Encontrar o primeiro erro se houver
         var firstError = document.querySelector(".error-message");
 
         if (firstError) {
-            // Encontrar em qual aba o erro está
             var parentTab = firstError.closest(".tab-content");
             if (parentTab) {
                 var tabId = parentTab.id;
-                // Abre a aba que contém o erro
                 openTab(null, tabId);
                 return;
             }
         }
 
-        // Se não houver erro, mostra a aba Cabeçalho primeiro
         document.getElementById("tab-cabecalho").style.display = "block";
     });
 
@@ -600,18 +590,15 @@
             if (data.error) {
                 alert('Erro na IA: ' + data.error);
             } else {
-                // Preencher os campos do formulário
                 for (const [key, value] of Object.entries(data)) {
                     const input = document.getElementsByName(key)[0];
                     if (input) {
                         input.value = value;
-                        // Adicionar um feedback visual nos campos preenchidos
                         input.style.borderColor = 'green';
                         input.style.backgroundColor = '#f1fff1';
                     }
                 }
                 alert('Informações extraídas com sucesso! Verifique as abas do formulário.');
-                // Opcional: ir para a aba de cabeçalho após preencher
                 openTab(null, 'tab-cabecalho');
             }
         } catch (error) {

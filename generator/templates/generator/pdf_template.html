@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>Anamnese - {{ data.nome|default:"Paciente" }}</title>
@@ -9,39 +8,33 @@
             size: a4;
             margin: 2.5cm;
         }
-
         body {
             font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
             font-size: 11pt;
             line-height: 1.5;
             color: black;
         }
-
         .header {
             text-align: center;
             margin-bottom: 2rem;
             border-bottom: 2px solid black;
             padding-bottom: 1rem;
         }
-
         .header h1 {
             color: black;
             font-size: 18pt;
             margin: 0;
             text-transform: uppercase;
         }
-
         .header h2 {
             font-size: 12pt;
             margin: 0.5rem 0;
             color: black;
         }
-
         .section {
             margin-bottom: 1.5rem;
             page-break-inside: avoid;
         }
-
         .section-title {
             color: black;
             font-size: 13pt;
@@ -50,22 +43,18 @@
             margin-bottom: 0.5rem;
             padding-bottom: 2pt;
         }
-
         .sub-section {
             margin-left: 1rem;
             margin-bottom: 0.5rem;
         }
-
         .sub-subtitle {
             font-weight: bold;
             color: black;
             margin-right: 5pt;
         }
-
         .content-text {
             color: black;
         }
-
         .narrative {
             font-style: italic;
             background-color: #fdfdfd;
@@ -73,14 +62,12 @@
         }
     </style>
 </head>
-
 <body>
     <div style="text-align: center; color: black">
         <h1>Anamnese {{ data.hospital_name }}</h1>
         <h2><strong>Médico(s) / Aluno(s):</strong> {{ data.aluno_names }} - {{ data.data_aten }}
         </h2>
     </div>
-
     <div class="section">
         <div class="section-title">I – Identificação</div>
         <div class="narrative">
@@ -103,20 +90,14 @@
             ({{ data.tempo_residencia }}).{% endif %}
         </div>
     </div>
-
-    <!-- II. QUEIXA PRINCIPAL -->
     <div class="section">
         <div class="section-title">II – Queixa Principal e sua duração (QD)</div>
         <div class="content-text">{% if data.queixa_principal %}"{{ data.queixa_principal }}"{% endif %}</div>
     </div>
-
-    <!-- III. HPMA -->
     <div class="section">
         <div class="section-title">III – História Pregressa da Moléstia Atual (HPMA)</div>
         <div class="content-text">{% if data.hpma %}{{ data.hpma|linebreaksbr }}{% endif %}</div>
     </div>
-
-    <!-- IV. ISDA -->
     <div class="section">
         <div class="section-title">IV – Interrogatório sobre Sintomas dos Demais Aparelhos (ISDA)</div>
         {% if data.isda_gerais %}<div class="sub-section"><span class="sub-subtitle">Sintomas Gerais:</span>
@@ -160,8 +141,6 @@
         {% if data.isda_imunologico %}<div class="sub-section"><span class="sub-subtitle">Imunológico:</span>
             {{ data.isda_imunologico }}</div>{% endif %}
     </div>
-
-    <!-- V. ANTECEDENTES -->
     <div class="section">
         <div class="section-title">V – Antecedentes</div>
         {% if data.ant_morbidos %}<div class="sub-section"><span class="sub-subtitle">Pessoais:</span>
@@ -173,8 +152,6 @@
         {% if data.ant_familiares %}<div class="sub-section"><span class="sub-subtitle">Familiares:</span>
             {{ data.ant_familiares }}</div>{% endif %}
     </div>
-
-    <!-- VII. EXAME FÍSICO GERAL -->
     <div class="section">
         <div class="section-title">VII – Exame Físico Geral</div>
         {% if data.ef_estado_geral %}<div class="sub-section"><span class="sub-subtitle">Estado Geral:</span>
@@ -205,8 +182,6 @@
         {% if data.ef_pele %}<div class="sub-section"><span class="sub-subtitle">Pele:</span> {{ data.ef_pele }}</div>
         {% endif %}
     </div>
-
-    <!-- VIII. EXAME FISICO ESPECIAL -->
     <div class="section">
         <div class="section-title">VIII – Exame Físico Especial</div>
         {% if data.ef_cabeca_detalhe %}<div class="sub-section"><span class="sub-subtitle">Cabeça:</span>
@@ -220,8 +195,6 @@
         {% if data.ef_locomotor_detalhe %}<div class="sub-section"><span class="sub-subtitle">Locomotor:</span>
             {{ data.ef_locomotor_detalhe }}</div>{% endif %}
     </div>
-
-    <!-- IX. CONCLUSÕES -->
     <div class="section">
         <div class="section-title">IX – Conclusões e Planejamento</div>
         {% if data.hipoteses %}
@@ -238,5 +211,4 @@
         {% endif %}
     </div>
 </body>
-
 </html>

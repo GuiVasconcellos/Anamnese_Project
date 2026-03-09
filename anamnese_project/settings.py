@@ -13,7 +13,7 @@ RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 else:
-    # Quando rodando localmente
+    
     ALLOWED_HOSTS.extend(['localhost', '127.0.0.1', '0.0.0.0'])
 
 CSRF_TRUSTED_ORIGINS = ['https://anamnese-project.onrender.com']
@@ -62,7 +62,6 @@ WSGI_APPLICATION = 'anamnese_project.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(default='sqlite:///db.sqlite3')
 }
-
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},

@@ -1,6 +1,5 @@
 :root {
     --primary-color: green;
-    /* Vibrant green matching 'green' */
     --secondary-color: #2ecc71;
     --accent-color: #a2d149;
     --bg-color: #f4f7f6;
@@ -11,13 +10,11 @@
     --border-radius: 12px;
     --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: var(--font-family);
     background-color: var(--bg-color);
@@ -27,22 +24,18 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 input,
 select,
 textarea,
 button {
     font-family: var(--font-family);
 }
-
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
-/* Header */
 .app-header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: var(--white);
@@ -54,7 +47,6 @@ button {
     text-align: center;
     width: 100%;
 }
-
 .app-header .container {
     display: flex;
     flex-direction: column;
@@ -62,7 +54,6 @@ button {
     justify-content: center;
     width: 100%;
 }
-
 .logo {
     font-size: 2.2rem;
     font-weight: 700;
@@ -70,21 +61,16 @@ button {
     letter-spacing: -0.5px;
     text-align: center;
 }
-
 .subtitle {
     font-size: 1.1rem;
     opacity: 0.9;
     font-weight: 300;
     text-align: center;
 }
-
-/* Main Content */
 .main-content {
     flex: 1;
     padding: 3rem 0;
 }
-
-/* Form Wrapper (Glassmorphism effect) */
 .form-wrapper {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -95,7 +81,6 @@ button {
     margin: 0 auto;
     max-width: 900px;
 }
-
 .form-title {
     font-size: 1.8rem;
     color: var(--primary-color);
@@ -103,27 +88,20 @@ button {
     text-align: center;
     font-weight: 600;
 }
-
-/* Tabs */
 .tabs {
     display: flex;
     justify-content: center;
-    /* Centraliza as abas de form */
     gap: 0.3rem;
-    /* Reduzi de 0.5rem para 0.3rem */
     margin-bottom: 2rem;
     border-bottom: 2px solid var(--border-color);
     overflow-x: auto;
     padding-bottom: 0.5rem;
 }
-
 .tab-link {
     background: transparent;
     border: none;
     padding: 0.8rem 0.8rem;
-    /* Reduzi de 1.5rem para 0.8rem para caber tudo */
     font-size: 0.9rem;
-    /* Reduzi de 1rem para 0.9rem */
     font-weight: 500;
     color: #666;
     cursor: pointer;
@@ -131,129 +109,102 @@ button {
     transition: all 0.3s ease;
     white-space: nowrap;
 }
-
 .tab-link:hover {
     color: var(--primary-color);
     background: rgba(46, 204, 113, 0.1);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 @media (max-width: 600px) {
     .tabs {
         justify-content: flex-start;
         padding-bottom: 8px;
     }
-
     .tab-link {
         padding: 0.6rem 0.6rem;
         font-size: 0.85rem;
     }
-
     .tabs::-webkit-scrollbar {
         height: 6px;
     }
-
     .tabs::-webkit-scrollbar-thumb {
         background-color: var(--secondary-color);
         border-radius: 4px;
     }
 }
-
 .tab-link.active {
     color: var(--primary-color);
     background: rgba(116, 198, 157, 0.2);
     border-bottom: 3px solid var(--primary-color);
     font-weight: 600;
 }
-
-/* Tab Content */
 .tab-content {
     display: none;
     animation: fadeIn 0.4s ease;
 }
-
 .tab-content.active {
     display: block;
 }
-
 @keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(10px);
     }
-
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
-
 .tab-content h3 {
     font-size: 1.4rem;
     color: var(--secondary-color);
     margin-bottom: 1.5rem;
 }
-
-/* Form Grid */
 .form-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
-
 .form-grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
-
 @media (max-width: 768px) {
     .form-grid-2 {
         grid-template-columns: 1fr;
     }
-
     .form-grid {
         grid-template-columns: 1fr;
     }
-
     .form-wrapper {
         padding: 1.5rem 1rem;
     }
-
     .tab-footer {
         flex-direction: column;
         gap: 1rem;
     }
-
     .btn {
         width: 100%;
     }
-
     .tabs-conclusao {
         flex-direction: column;
         align-items: center;
     }
-
     .btn-conclusoes {
         width: 100%;
         margin-bottom: 0.5rem;
     }
 }
-
 .full-width {
     grid-column: 1 / -1;
 }
-
-/* Form Fields */
 .form-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.25rem;
     justify-content: flex-end;
-    /* Helps with alignment when inputs vary in height */
 }
-
 .form-group label {
     font-weight: 600;
     margin-bottom: 0.6rem;
@@ -261,7 +212,6 @@ button {
     font-size: 0.9rem;
     letter-spacing: 0.5px;
 }
-
 .form-control {
     padding: 0.9rem 1.1rem;
     border: 2px solid var(--border-color);
@@ -271,19 +221,15 @@ button {
     background-color: var(--white);
     width: 100%;
 }
-
 .form-control:focus {
     outline: none;
     border-color: var(--accent-color);
     box-shadow: 0 0 0 4px rgba(116, 198, 157, 0.15);
 }
-
 textarea.form-control {
     resize: vertical;
     min-height: 100px;
 }
-
-/* Buttons */
 .tab-footer {
     display: flex;
     justify-content: space-between;
@@ -291,7 +237,6 @@ textarea.form-control {
     border-top: 1px solid var(--border-color);
     padding-top: 1.5rem;
 }
-
 .btn {
     padding: 0.8rem 1.8rem;
     font-size: 1rem;
@@ -304,31 +249,24 @@ textarea.form-control {
     align-items: center;
     justify-content: center;
 }
-
 .btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
-
 .btn-primary {
     background-color: var(--primary-color);
     color: var(--white);
 }
-
 .btn-primary:hover {
     background-color: var(--secondary-color);
 }
-
 .btn-secondary {
     background-color: #e9ecef;
     color: #495057;
 }
-
 .btn-secondary:hover {
     background-color: #dee2e6;
 }
-
-/* Footer */
 .app-footer {
     text-align: center;
     padding: 2rem 0;
@@ -336,7 +274,6 @@ textarea.form-control {
     font-size: 0.9rem;
     margin-top: auto;
 }
-
 .btn-conclusoes {
     background-color: var(--primary-color);
     color: white !important;
@@ -347,15 +284,12 @@ textarea.form-control {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
-
 .btn-conclusoes:hover {
     background-color: var(--secondary-color);
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
-
 .btn-conclusoes.active {
     background-color: #27ae60;
-    /* Darker vibrant green */
     border: 2px solid var(--accent-color);
 }

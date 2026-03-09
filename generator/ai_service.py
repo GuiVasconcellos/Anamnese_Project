@@ -43,7 +43,7 @@ def extract_anamnese_data(text):
     
     try:
         response = model.generate_content(prompt)
-        # O modelo já está configurado para retornar JSON
+        
         return json.loads(response.text)
     except Exception as e:
         print(f"Erro na IA: {e}")

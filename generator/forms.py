@@ -1,16 +1,11 @@
 from django import forms
 
 class AnamneseForm(forms.Form):
-    # ==========================
-    # CABEÇALHO (NOVO)
-    # ==========================
+    
     hospital_name = forms.CharField(label="Nome do Hospital", max_length=200, required=True)
     data_aten = forms.CharField(label="Data do Atendimento", max_length=50, required=True)
     aluno_names = forms.CharField(label="Médico(s) / Aluno(s)", max_length=300, required=True)
 
-    # ==========================
-    # I. IDENTIFICAÇÃO
-    # ==========================
     nome = forms.CharField(label="Nome / Iniciais", max_length=200, required=False)
     nome_social = forms.CharField(label="Nome Social", max_length=200, required=False)
     idade = forms.CharField(label="Idade", max_length=100, required=False)
@@ -29,22 +24,12 @@ class AnamneseForm(forms.Form):
     residencia_atual = forms.CharField(label="Residência atual (Cidade/Bairro)", max_length=200, required=False)
     tempo_residencia = forms.CharField(label="Tempo em que reside no local", max_length=100, required=False)
 
-    # Campos que existiam no bloco legado mas agora seguem o PDF:
     identidade_genero = forms.CharField(label="Identidade de gênero", max_length=100, required=False)
 
-    # ==========================
-    # II. QUEIXA PRINCIPAL E DURAÇÃO (QD)
-    # ==========================
     queixa_principal = forms.CharField(label="Queixa principal", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     
-    # ==========================
-    # III. HISTÓRIA PREGRESSA DA MOLÉSTIA ATUAL (HPMA)
-    # ==========================
     hpma = forms.CharField(label="História Pregressa da Moléstia Atual", widget=forms.Textarea(attrs={"rows": 5}), required=False)
 
-    # ==========================
-    # IV. INTERROGATÓRIO SOBRE OS SINTOMAS DOS DEMAIS APARELHOS (ISDA)
-    # ==========================
     isda_gerais = forms.CharField(label="Sintomas gerais", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     isda_pele = forms.CharField(label="Pelos e fâneros", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_cabeca = forms.CharField(label="Cabeça", widget=forms.Textarea(attrs={"rows": 2}), required=False)
@@ -66,9 +51,6 @@ class AnamneseForm(forms.Form):
     isda_endocrino = forms.CharField(label="Sistema Endócrino", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     isda_imunologico = forms.CharField(label="Sistemas Imunológico e Linfohematopoético", widget=forms.Textarea(attrs={"rows": 2}), required=False)
 
-    # ==========================
-    # V. ANTECEDENTES
-    # ==========================
     ant_morbidos = forms.CharField(label="Antecedentes mórbidos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     habitos_vida = forms.CharField(label="Hábitos de vida", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     condicoes_vida = forms.CharField(label="Condições de vida", widget=forms.Textarea(attrs={"rows": 2}), required=False)
@@ -77,10 +59,6 @@ class AnamneseForm(forms.Form):
     medicamentos_uso = forms.CharField(label="Medicamentos de uso contínuo", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ant_familiares = forms.CharField(label="Antecedentes Familiares", widget=forms.Textarea(attrs={"rows": 3}), required=False)
 
-    # ==========================
-    # VI. EXAME FÍSICO (DETALHADO)
-    # ==========================
-    # VII - Exame Físico Geral
     ef_estado_geral = forms.CharField(label="Avaliação do estado geral", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_pa = forms.CharField(label="PA", max_length=100, required=False)
     ef_fc = forms.CharField(label="FC", max_length=100, required=False)
@@ -100,30 +78,24 @@ class AnamneseForm(forms.Form):
     ef_pele = forms.CharField(label="Pele", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_linfonodos = forms.CharField(label="Linfonodos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
 
-    # Exame físico do aparelho respiratório
     ef_resp_insp_est = forms.CharField(label="Inspeção Estática", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_resp_insp_din = forms.CharField(label="Inspeção Dinâmica", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_resp_percussao = forms.CharField(label="Percussão", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_resp_palpacao = forms.CharField(label="Palpação", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_resp_ausculta = forms.CharField(label="Ausculta", widget=forms.Textarea(attrs={"rows": 2}), required=False)
 
-    # Exame físico do aparelho circulatório
     ef_circ_inspecao = forms.CharField(label="Inspeção", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_circ_palpacao = forms.CharField(label="Palpação", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_circ_ausculta = forms.CharField(label="Ausculta", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_circ_arterias = forms.CharField(label="Artérias", widget=forms.Textarea(attrs={"rows": 2}), required=False)
     ef_circ_pulsos = forms.CharField(label="Pulsos", widget=forms.Textarea(attrs={"rows": 2}), required=False)
 
-    # VIII - Exame Físico Especial (DETALHADO)
     ef_cabeca_detalhe = forms.CharField(label="Cabeça (Crânio, Olhos, Nariz, Ouvidos, Boca)", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     ef_pescoco_detalhe = forms.CharField(label="Pescoço e Tireoide", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     ef_abdome_especial = forms.CharField(label="Abdome (Fígado, Baço, Rins, Aorta)", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     ef_neuro_detalhe = forms.CharField(label="Exame Neurológico", widget=forms.Textarea(attrs={"rows": 4}), required=False)
     ef_locomotor_detalhe = forms.CharField(label="Aparelho Locomotor", widget=forms.Textarea(attrs={"rows": 4}), required=False)
 
-    # ==========================
-    # VII. HIPÓTESES DIAGNÓSTICAS, EXAMES, PLANO TERAPÊUTICO, PROGNÓSTICO
-    # ==========================
     hipoteses = forms.CharField(label="Hipóteses Diagnósticas", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     exames = forms.CharField(label="Exames complementares", widget=forms.Textarea(attrs={"rows": 3}), required=False)
     plano_terapeutico = forms.CharField(label="Plano terapêutico", widget=forms.Textarea(attrs={"rows": 3}), required=False)
